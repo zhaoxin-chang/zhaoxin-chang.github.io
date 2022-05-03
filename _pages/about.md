@@ -35,4 +35,4 @@ Awards
 ======
 
 - **2021** IPIN 2021, Indoor Positioning Competition Track 7, First Place
-- **2020** UbiComp 2020(IMWUT Vol. 4), Distinguished Paper Award
+- **2020** ACM UbiComp 2020(IMWUT Vol. 4), Distinguished Paper Award
