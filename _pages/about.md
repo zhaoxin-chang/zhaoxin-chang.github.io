@@ -28,7 +28,7 @@ Publications
   
 - Exploring LoRa for Long-range Through-wall Sensing.\
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
-  IMWUT/ACM UbiComp 2020. ({\color{red}{Distinguished Paper Award}})
+  IMWUT/ACM UbiComp 2020. <font color=red>(Distinguished Paper Award)</font>
   
 Awards
 ======
