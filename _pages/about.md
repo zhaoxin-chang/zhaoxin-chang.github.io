@@ -18,15 +18,15 @@ I am interested in wireless sensing and mobile computing. My recent research foc
 Publications
 ======
 
-- Sensor-free Soil Moisture Sensing Using LoRa Signals.\
+- <font color=#0099ff>Sensor-free Soil Moisture Sensing Using LoRa Signals.</font>\
   **Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.\
   IMWUT/ACM UbiComp 2022.
   
-- Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.\
+- <font color=#0099ff>Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.</font>\
   Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.\
   IMWUT/ACM UbiComp 2021.
   
-- Exploring LoRa for Long-range Through-wall Sensing.\
+- <font color=#0099ff>Exploring LoRa for Long-range Through-wall Sensing.</font>\
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   IMWUT/ACM UbiComp 2020. <font color=red>(Distinguished Paper Award)</font>
   
