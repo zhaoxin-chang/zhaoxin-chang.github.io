@@ -9,6 +9,8 @@ redirect_from:
   - /about.html
 ---
 
+About Me
+======
 I am a Ph.D. student at Institut Polytechnique de Paris, advised by Prof. Daqing Zhang. I received my B.S. in Computer Science from Peking University, China.
 
 
