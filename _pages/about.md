@@ -36,5 +36,5 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=bs5
 Awards
 ======
 
-- **2021** IPIN 2021, Indoor Positioning Competition Track 7, First Place
+- **2021** IPIN 2021 Indoor Positioning Competition, First Place
 - **2020** ACM UbiComp 2020 (IMWUT Vol. 4), Distinguished Paper Award
