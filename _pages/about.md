@@ -16,7 +16,7 @@ I am a Ph.D. student at Institut Polytechnique de Paris, advised by Prof. [Daqin
 
 Research Interests
 ======
-I am interested in wireless sensing and mobile computing. My recent research focuses on LoRa-based sensing, including human vital sensing and soil moisture sensing. 
+I am interested in wireless sensing and mobile computing. My recent research focuses on LoRa-based sensing, including human vital sign sensing and soil moisture sensing. 
 
 Selected Publications ([Full List](https://scholar.google.com/citations?user=bs5yeA0AAAAJ&hl=en))
 ======
