@@ -21,7 +21,7 @@ I am interested in wireless sensing and mobile computing. My recent research foc
 Selected Publications ([Full List](https://scholar.google.com/citations?user=bs5yeA0AAAAJ&hl=en))
 ======
 
-- [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://zhaoxin-chang.github.io/)\
+- [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://doi.org/10.1145/3534608)\
   **Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.\
   IMWUT Vol. 6/ACM UbiComp 2022.
   
