@@ -18,8 +18,9 @@ Research Interests
 ======
 I am interested in wireless sensing and mobile computing. My recent research focuses on LoRa-based sensing, including human vital sign sensing and soil moisture sensing. 
 
-Publications[comment]:<> ([Full List](https://scholar.google.com/citations?user=bs5yeA0AAAAJ&hl=en))
+Publications
 ======
+[comment]:<> ([Full List](https://scholar.google.com/citations?user=bs5yeA0AAAAJ&hl=en))
 
 - [Mobi2Sense: Enabling Contactless Sensing with Mobility.](https://zhaoxin-chang.github.io/)\
   Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.\
