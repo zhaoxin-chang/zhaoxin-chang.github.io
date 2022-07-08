@@ -32,7 +32,7 @@ Publications
 
 - [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
   **Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.\
-  ACM IMWUT Vol. 6/UbiComp 2022 (to appear).
+  ACM IMWUT Vol. 6/UbiComp 2022.
   
 - [Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.](https://dl.acm.org/doi/abs/10.1145/3463526)\
   Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.\
