@@ -30,7 +30,7 @@ Publications
 [comment]:<>  Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.\
 [comment]:<>  ACM MobiCom 2022 (to appear).
 
-- [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://doi.org/10.1145/3534608)\
+- [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
   **Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.\
   ACM IMWUT Vol. 6/UbiComp 2022 (to appear).
   
