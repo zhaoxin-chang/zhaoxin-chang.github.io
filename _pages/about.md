@@ -20,7 +20,7 @@ I am interested in wireless sensing and mobile computing. My recent research foc
 
 Publications
 ======
-[comment]:<> ([Full List](https://scholar.google.com/citations?user=bs5yeA0AAAAJ&hl=en))
+[comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
 
 [comment]:<>- [Mobi2Sense: Enabling Contactless Sensing with Mobility.](https://zhaoxin-chang.github.io/)\
 [comment]:<>  Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.\
