@@ -45,5 +45,6 @@ Publications
 Awards
 ======
 
+- **2022** MobiCom 2022 Student Travel Grant
 - **2021** IPIN 2021 Indoor Positioning Competition, First Place
-- **2020** ACM IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
+- **2021** ACM IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
