@@ -48,3 +48,8 @@ Awards
 - **2022** MobiCom 2022 Student Travel Grant
 - **2021** IPIN 2021 Indoor Positioning Competition, First Place
 - **2021** ACM IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
+
+Teaching Assistant
+======
+
+- **2018** Introduction to Computer Systems, Peking University
