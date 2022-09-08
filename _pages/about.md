@@ -52,4 +52,4 @@ Awards
 Teaching Assistant
 ======
 
-- **2018** Introduction to Computer Systems, Peking University
+- **Fall 2018** Introduction to Computer Systems, Peking University
