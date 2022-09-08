@@ -9,9 +9,9 @@ redirect_from:
   - /about.html
 ---
 
-About Me
+Bio
 ======
-I am a Ph.D. student at Institut Polytechnique de Paris, advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate). I received my B.S. in Computer Science from Peking University in 2020.
+I am a Ph.D. student at Telecom SudParis, Institut Polytechnique de Paris, advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate). I received my B.S. in Computer Science from Peking University in 2020.
 
 
 Research Interests
