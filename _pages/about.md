@@ -16,7 +16,7 @@ I am a Ph.D. student at Telecom SudParis, Institut Polytechnique de Paris, advis
 
 Research Interests
 ======
-I am interested in wireless sensing and mobile computing. My recent research focuses on UWB and LoRa based sensing, including human vital sign sensing and soil moisture sensing. 
+I am interested in wireless sensing and mobile computing. My recent research focuses on UWB and LoRa based sensing, including human sensing and soil moisture sensing. 
 
 Publications
 ======
