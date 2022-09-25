@@ -22,13 +22,13 @@ Publications
 ======
 [comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
 
-- <button style="background-color:blue">MobiCom'22</button> [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://zhaoxin-chang.github.io/)\
+- [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://zhaoxin-chang.github.io/)(to appear)\
   Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.\
-  ACM MobiCom 2022 (to appear).
+  ACM MobiCom 2022.
 
-- [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://zhaoxin-chang.github.io/)\
+- [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://zhaoxin-chang.github.io/) (to appear)\
   Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.\
-  ACM MobiCom 2022 (to appear).
+  ACM MobiCom 2022.
 
 - [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
   **Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.\
