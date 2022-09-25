@@ -22,7 +22,7 @@ Publications
 ======
 [comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
 
-- [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://zhaoxin-chang.github.io/)(to appear)\
+- [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://zhaoxin-chang.github.io/) (to appear)\
   Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.\
   ACM MobiCom 2022.
 
