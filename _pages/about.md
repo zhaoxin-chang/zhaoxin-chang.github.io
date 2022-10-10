@@ -22,9 +22,9 @@ Publications
 ======
 [comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
 
-[comment]:<>（- [Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://zhaoxin-chang.github.io/) (to appear)\)
-[comment]:<>（  *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.*\)
-[comment]:<>（  ACM IMWUT Vol. 7/UbiComp 2023.）
+- [Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://zhaoxin-chang.github.io/) (to appear)\
+  *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.*\
+  ACM IMWUT Vol. 7/UbiComp 2023.
 
 - [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://zhaoxin-chang.github.io/) (to appear)\
   *Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.*\
