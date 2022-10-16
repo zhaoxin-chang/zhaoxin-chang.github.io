@@ -26,11 +26,11 @@ Publications
   *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Beihong Jin, Daqing Zhang.*\
   ACM IMWUT Vol. 6/UbiComp 2023.
 
-- [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://zhaoxin-chang.github.io/) (to appear)\
+- [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://dl.acm.org/doi/10.1145/3495243.3560518)\
   *Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.*\
   ACM MobiCom 2022.
 
-- [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://zhaoxin-chang.github.io/) (to appear)\
+- [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://dl.acm.org/doi/10.1145/3495243.3560546)\
   *Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.*\
   ACM MobiCom 2022.
 
