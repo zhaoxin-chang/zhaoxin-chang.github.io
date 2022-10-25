@@ -22,7 +22,7 @@ Publications
 ======
 [comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
 
-- [Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://zhaoxin-chang.github.io/) (to appear)\
+- [Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://zhaoxin-chang.github.io/)\
   *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Beihong Jin, Daqing Zhang.*\
   ACM IMWUT Vol. 6/UbiComp 2023.
 
