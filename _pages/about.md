@@ -46,7 +46,7 @@ Publications
   *Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.*\
   ACM IMWUT Vol. 4/UbiComp 2020. 
   
-Awards
+Awards and Honors
 ======
 
 - **2022** MobiCom 2022, Best Paper Award Runner-up
