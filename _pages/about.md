@@ -58,4 +58,4 @@ Awards
 Teaching Assistant
 ======
 
-- **Fall 2018** Introduction to Computer Systems (CSAPP), Peking University
+- **Fall 2018** Introduction to Computer Systems (Computer Systems: A Programmer's Perspective), Peking University
