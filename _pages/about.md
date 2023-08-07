@@ -11,7 +11,7 @@ redirect_from:
 
 Bio
 ======
-I am a PhD Track student at Telecom SudParis, Institut Polytechnique de Paris, advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. in Computer Science from Peking University in 2020.
+I am a PhD Track student at Telecom SudParis, Institut Polytechnique de Paris, advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. from Peking University in 2020.
 
 
 Research Interests
