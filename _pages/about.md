@@ -22,9 +22,9 @@ Publications
 ======
 [comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
 
-[comment]:<> (- [Quantum Wireless Sensing: Principle, Design and Implementation.](https://zhaoxin-chang.github.io/))
-[comment]:<> (  *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\)
-[comment]:<> (  ACM MobiCom 2023.)
+- [Quantum Wireless Sensing: Principle, Design and Implementation.](https://zhaoxin-chang.github.io/)
+  *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
+  ACM MobiCom 2023.
 
 - [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://zhaoxin-chang.github.io/)\
   *Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.*\
