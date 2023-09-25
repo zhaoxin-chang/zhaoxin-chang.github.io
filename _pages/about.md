@@ -63,6 +63,11 @@ Awards and Honors
 - **2021** - IPIN 2021 Indoor Positioning Competition, First Place
 - **2021** - IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
 
+Professional Service
+======
+
+Reviewer, ACM TIOT 2023
+
 Teaching Assistant
 ======
 
