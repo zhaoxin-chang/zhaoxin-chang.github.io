@@ -66,7 +66,7 @@ Awards and Honors
 Professional Service
 ======
 
-- **** Reviewer, ACM TIOT 2023
+- **Reviewer** ACM TIOT 2023
 
 Teaching Assistant
 ======
