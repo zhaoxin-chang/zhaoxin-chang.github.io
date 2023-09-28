@@ -26,7 +26,7 @@ Publications
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
   ACM MobiCom 2023.
 
-- [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://zhaoxin-chang.github.io/)\
+- [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
   *Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.*\
   ACM IMWUT Vol. 7/UbiComp 2023.
 
