@@ -16,7 +16,16 @@ I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.i
 
 Research Interests
 ======
-I am interested in wireless sensing and mobile computing. My research focuses on sensing theory and applications based on various types of wireless signals, including mmWave, UWB and LoRa.
+I am interested in wireless sensing and mobile computing. My research focuses on investigating wireless sensing theory and building applications based on various types of wireless signals, including mmWave, UWB and LoRa.
+
+Awards and Honors
+======
+
+- **2022** - MobiCom 2022, Best Paper Award Runner-up
+- **2022** - MobiCom 2022, Best Community Paper Award Runner-up
+- **2022** - MobiCom 2022, Student Travel Grant
+- **2021** - IPIN 2021 Indoor Positioning Competition, First Place
+- **2021** - IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
 
 Publications
 ======
@@ -53,15 +62,6 @@ Publications
 - [Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
   *Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.*\
   ACM IMWUT Vol. 4/UbiComp 2020. 
-  
-Awards and Honors
-======
-
-- **2022** - MobiCom 2022, Best Paper Award Runner-up
-- **2022** - MobiCom 2022, Best Community Paper Award Runner-up
-- **2022** - MobiCom 2022, Student Travel Grant
-- **2021** - IPIN 2021 Indoor Positioning Competition, First Place
-- **2021** - IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
 
 Professional Service
 ======
