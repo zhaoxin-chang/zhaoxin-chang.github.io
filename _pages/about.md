@@ -13,10 +13,14 @@ Bio
 ======
 I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and Master's degree from [Institut Polytechnique de Paris](https://www.ip-paris.fr/en) in 2023.
 
-
 Research Interests
 ======
 I am interested in wireless sensing and mobile computing. My research focuses on investigating wireless sensing theory and building applications based on various types of wireless signals, including mmWave, UWB and LoRa.
+
+News
+======
+
+- **November 2023** One paper accepted at MobiCom'24
 
 Awards and Honors
 ======
