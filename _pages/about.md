@@ -20,7 +20,7 @@ I am interested in wireless sensing and mobile computing. My research focuses on
 News
 ======
 
-- **November 2023** One paper accepted at MobiCom'24
+- **November 2023** One paper accepted at MobiCom '24
 
 Awards and Honors
 ======
