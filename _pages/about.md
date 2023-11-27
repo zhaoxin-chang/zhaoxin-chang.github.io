@@ -33,7 +33,10 @@ Awards and Honors
 
 Publications
 ======
-[comment]:<> ([Full List](https://scholar.google.com/citations?user=zfeJPCgAAAAJ&hl=en))
+
+- [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://zhaoxin-chang.github.io/)\
+  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.*\
+  ACM MobiCom 2024 (conditionally accepted).
 
 - [Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
