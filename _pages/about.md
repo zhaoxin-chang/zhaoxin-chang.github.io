@@ -40,7 +40,7 @@ Publications
 
 - [Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
-  ACM MobiCom 2023. ![]([https://github.com/zhaoxin-chang/zhaoxin-chang.github.io/blob/master/images/pdf24.png)]
+  ACM MobiCom 2023. ![]([https://github.com/zhaoxin-chang/zhaoxin-chang.github.io/blob/master/images/pdf24.png)
 
 
 - [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
