@@ -16,7 +16,7 @@ I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.i
 Research Interests
 ======
 I am interested in wireless sensing and mobile computing. My research focuses on studying fundamental sensing theories to address key challenges in wireless sensing, breakthrough sensing limitations, and developing practical sensing applications.
-- **Long range sensing** : Based on LoRa signals, we expand the limit of sensing distance. We propose the theory of LoRa sensing, and demonstrate the advantages of LoRa signals in long-distance sensing using human sensing and soil moisture sensing as applications. (UbiComp '20, '21 and '22)
+- **Long-range sensing** : Based on LoRa signals, we expand the distance of wireless sensing. We propose the theory of LoRa sensing, and demonstrate its advantages in long-range sensing using human sensing and soil moisture sensing as applications. (UbiComp '20, '21 and '22)
 - **Sensing under motion interference** : We propose signal processing-based methods to address the effect of irrelevant device and(or) body motions on fine-grained sensing. (MobiCom '22 and '24)
 - **Practical sensing based on commercial devices** : We explore practical sensing based on commercial smartphones equipped with UWB. For the first time, we demonstrate that contactless sensing is possible with iPhone/Apple watch even with only high-level UWB readings for localization. (UbiComp '23)
 - **Novel sensing modality** : We propose the first quantum wireless sensing system based on Rydberg atoms. We show the superior performance of
