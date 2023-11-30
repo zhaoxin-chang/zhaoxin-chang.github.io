@@ -15,7 +15,13 @@ I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.i
 
 Research Interests
 ======
-I am interested in wireless sensing and mobile computing. My research focuses on investigating wireless sensing theory and building applications based on various types of wireless signals, including mmWave, UWB and LoRa.
+I am interested in wireless sensing and mobile computing. My research focuses on studying fundamental sensing theories to address key challenges in wireless sensing, breakthrough sensing limitations, and developing practical sensing applications.
+- **Long range sensing** : Based on LoRa signals, we expand the limit of sensing distance. We propose the theory of LoRa sensing, and demonstrate the advantages of LoRa signals in long-distance sensing using human sensing and soil moisture sensing as applications. (UbiComp '20, '21 and '22)
+- **Sensing under motion interference** : We propose signal processing-based methods to address the effect of irrelevant device and(or) body motions on fine-grained sensing. (MobiCom '22 and '24)
+- **Practical sensing based on commercial devices** : We explore practical sensing based on commercial smartphones equipped with UWB. For the first time, we demonstrate that contactless sensing is possible with iPhone/Apple watch even with only high-level UWB readings for localization. (UbiComp '23)
+- **Novel sensing modality** : We propose the first quantum wireless sensing system based on Rydberg atoms. We show the superior performance of
+quantum wireless sensing compared to conventional RF sensing, improving the sensing granularity by an order of magnitude. (MobiCom '23)
+
 
 News
 ======
@@ -41,7 +47,6 @@ Publications
 - [Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
   ACM MobiCom 2023.
-
 
 - [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
   *Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.*\
