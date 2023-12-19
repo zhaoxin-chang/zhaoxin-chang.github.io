@@ -11,14 +11,14 @@ redirect_from:
 
 Bio
 ======
-I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and Master's degree from [Institut Polytechnique de Paris](https://www.ip-paris.fr/en) in 2023.
+I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and my M.S. degree from [Institut Polytechnique de Paris](https://www.ip-paris.fr/en) in 2023.
 
 Research Interests
 ======
 I am interested in wireless sensing and mobile computing. My research focuses on studying fundamental sensing theories to address key challenges in wireless sensing, breakthrough sensing limitations, and developing practical sensing applications.
 - **Long-range sensing** : Based on LoRa signals, we expand the distance of wireless sensing. We propose the theory of LoRa sensing, and demonstrate its advantages in long-range sensing using human sensing and soil moisture sensing as applications. (UbiComp '20, '21 and '22)
 - **Sensing under motion interference** : We propose signal processing-based methods to address the effect of irrelevant device and(or) body motions on fine-grained sensing. (MobiCom '22 and '24)
-- **Practical sensing based on commercial devices** : We explore practical sensing based on commercial smartphones equipped with UWB. For the first time, we demonstrate that contactless sensing is possible with iPhone/Apple watch even with only high-level UWB readings for localization. (UbiComp '23)
+- **Sensing based on commercial devices** : We explore practical sensing based on commercial smartphones equipped with UWB. For the first time, we demonstrate that contactless sensing is possible with iPhone/Apple watch even with only high-level UWB readings for localization. (UbiComp '23)
 - **Novel sensing modality** : We propose the first quantum wireless sensing system based on Rydberg atoms. We show the superior performance of
 quantum wireless sensing compared to conventional RF sensing, improving the sensing granularity by an order of magnitude. (MobiCom '23)
 
