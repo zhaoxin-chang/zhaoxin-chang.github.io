@@ -34,7 +34,7 @@ Awards and Honors
 - **2022** - MobiCom 2022, Best Paper Award Runner-up
 - **2022** - MobiCom 2022, Best Community Paper Award Runner-up
 - **2022** - MobiCom 2022, Student Travel Grant
-- **2021** - IPIN 2021 Indoor Positioning Competition, First Place
+- **2021** - IPIN 2021 Indoor Positioning Competition, Winner
 - **2021** - IMWUT Vol. 4 (UbiComp 2020), Distinguished Paper Award
 
 Publications
