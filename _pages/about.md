@@ -79,8 +79,9 @@ Publications
 Professional Service
 ======
 
+- **Reviewer** IEEE JSAC 2024
+- **Reviewer** ACM CHI 2024
 - **Reviewer** ACM IMWUT 2023
-- **Reviewer** IEEE JSAC 2023
 - **Reviewer** ACM TIOT 2023
 
 Teaching Assistant
