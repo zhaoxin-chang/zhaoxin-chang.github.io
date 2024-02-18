@@ -74,7 +74,7 @@ Publications
 Professional Service
 ======
 
-- **Artifact Evaluation Committee** ACM MobiCom 2024
+- **Artifacts Evaluation Committee** ACM MobiCom 2024
 - **Reviewer** IEEE JSAC 2024
 - **Reviewer** ACM CHI 2024
 - **Reviewer** ACM IMWUT 2023
