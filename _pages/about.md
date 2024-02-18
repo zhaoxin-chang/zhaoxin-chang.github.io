@@ -20,7 +20,7 @@ I am interested in wireless sensing and mobile computing. My research focuses on
 News
 ======
 
-- **Feb 2024** Serve on MobiCom 2024 Artifact Evaluation Committee
+- **Feb 2024** Serve on MobiCom 2024 Artifacts Evaluation Committee
 - **Nov 2023** One paper conditionally accepted at MobiCom 2024 (acceptance rate: 48/207 = 23.2%)
 
 Awards and Honors
