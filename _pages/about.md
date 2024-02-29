@@ -35,7 +35,7 @@ Awards and Honors
 Publications
 ======
 
-- [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://zhaoxin-chang.github.io/)\
+- [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://github.com/zhaoxin-chang/zhaoxin-chang.github.io/blob/master/files/MobiCom24-MSense.pdf)\
   ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.*\
   ACM MobiCom 2024.
 
