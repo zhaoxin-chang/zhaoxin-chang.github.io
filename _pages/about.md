@@ -75,8 +75,13 @@ Publications
 Professional Service
 ======
 
-- **Reviewer** IEEE TMC 2024, IEEE JSAC 2024, ACM CHI 2024, ACM IMWUT 2023, ACM TIOT 2023
-- **Artifacts Evaluation Committee** ACM MobiSys 2024, ACM MobiCom 2024
+- **Reviewer** IEEE TMC 2024
+- **Artifacts Evaluation Committee** ACM MobiSys 2024
+- **Artifacts Evaluation Committee** ACM MobiCom 2024
+- **Reviewer** IEEE JSAC 2024
+- **Reviewer** ACM CHI 2024
+- **Reviewer** ACM IMWUT 2023
+- **Reviewer** ACM TIOT 2023
 
 Teaching Assistant
 ======
