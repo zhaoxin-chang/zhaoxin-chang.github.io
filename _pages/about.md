@@ -15,7 +15,7 @@ I am a first-year PhD student at [Institut Polytechnique de Paris](https://www.i
 
 Research Interests
 ======
-I am interested in wireless sensing and mobile computing. My research focuses on studying fundamental sensing theories to address key challenges in wireless sensing, breakthrough sensing limitations, and developing practical sensing applications.
+I am interested in wireless sensing based health monitoring and mobile computing. My research focuses on addressing key challenges in wireless sensing, breakthrough sensing limits, and developing practical systems.
 
 News
 ======
