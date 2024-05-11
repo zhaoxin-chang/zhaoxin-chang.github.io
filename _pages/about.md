@@ -17,6 +17,8 @@ Research Interests
 ======
 I am interested in wireless sensing based health monitoring and mobile computing. My research focuses on addressing key challenges in wireless sensing, breakthrough sensing limits, and developing practical systems.
 
+![avatar](/files/fig.png)
+
 News
 ======
 
