@@ -24,7 +24,7 @@ News
 
 - **Mar 2024** Serve on MobiSys 2024 Artifacts Evaluation Committee
 - **Feb 2024** Serve on MobiCom 2024 Artifacts Evaluation Committee
-- **Nov 2023** One paper conditionally accepted at MobiCom 2024 (acceptance rate: 48/207 = 23.2%)
+- **Nov 2023** One paper conditionally accepted at MobiCom 2024
 
 Awards and Honors
 ======
@@ -40,7 +40,7 @@ Publications
 
 - [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
   ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.*\
-  ACM MobiCom 2024 (Acceptance rate: 48/207 = 23.2%).
+  ACM MobiCom 2024 (Acceptance rate: 103/494 = 20.9%).
 
 - [Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
