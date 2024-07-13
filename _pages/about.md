@@ -40,7 +40,7 @@ Publications
 ======
 
 - [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](zhaoxin-chang.github.io)\
-  *Shuguang Xiao*, **Zhaoxin Chang***, Jiacheng Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (*Equal contribution)*\
+  *Shuguang Xiao/*, **Zhaoxin Chang***, Jiacheng Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (/*Equal contribution)*\
   IEEE Antennas and Wireless Propagation Letters 2024.
 
 - [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
