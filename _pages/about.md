@@ -22,6 +22,7 @@ I am interested in wireless sensing based health monitoring and mobile computing
 News
 ======
 
+- **Jul 2024** One paper accepted at IEEE AWPL
 - **Mar 2024** Serve on MobiSys 2024 Artifacts Evaluation Committee
 - **Feb 2024** Serve on MobiCom 2024 Artifacts Evaluation Committee
 - **Nov 2023** One paper conditionally accepted at MobiCom 2024
@@ -37,6 +38,10 @@ Awards and Honors
 
 Publications
 ======
+
+- [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](zhaoxin-chang.github.io)\
+  *Shuguang Xiao*, **Zhaoxin Chang***, Jiacheng Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (*Equal contribution)*\
+  IEEE Antennas and Wireless Propagation Letters 2024.
 
 - [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
   ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.*\
