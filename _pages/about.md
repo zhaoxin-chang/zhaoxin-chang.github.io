@@ -22,6 +22,7 @@ I am interested in wireless sensing based health monitoring and mobile computing
 News
 ======
 
+- **Aug 2024** Serve on UIC 2024 TPC
 - **Jul 2024** One paper accepted at IEEE AWPL
 - **Mar 2024** Serve on MobiSys 2024 Artifacts Evaluation Committee
 - **Feb 2024** Serve on MobiCom 2024 Artifacts Evaluation Committee
@@ -86,6 +87,7 @@ Publications
 Professional Service
 ======
 
+- **Technical Program Committee** IEEE UIC 2024
 - **Reviewer** ACM IMWUT 2023, 2024
 - **Reviewer** IEEE TMC 2024
 - **Artifacts Evaluation Committee** ACM MobiSys 2024
