@@ -40,10 +40,6 @@ Awards and Honors
 Publications
 ======
 
-- [Exploring Quantum Sensing for Fine-grained Liquid Recognition.](https://arxiv.org/abs/2407.19656)\
-  *Yuechun Jiao, Jinlian Hu, Zitong Lan, Fusang Zhang, Jie Xiong, Jingxu Bai, **Zhaoxin Chang**, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia.*\
-  ArXiv preprint.
-
 - [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](https://ieeexplore.ieee.org/abstract/document/10602751)\
   *Shuguang Xiao\*, **Zhaoxin Chang**\*, Jiachen Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (\*Equal contribution)*\
   IEEE Antennas and Wireless Propagation Letters 2024.
