@@ -47,6 +47,10 @@ Publications
     <summary>Abstract</summary>
     This paper proposes a frequency-diverse multi-target wireless sensing system for integrated sensing and communication (ISAC) applications. A coupled-patch antenna (CPA) with frequency-dependent beam scanning capability is employed as the key component for multi-target localization and respiration detection. Owing to the high scanning rate of 25.8° per 1% bandwidth, the designed CPA is able to continuously scan an angle range of 93° across broadside as frequency varies from 3.26 GHz to 3.38 GHz, which well fits the ISAC application in Sub-6 GHz frequency. Four examples are given to demonstrate the benefit of high-scanning-rate CPA for multi-target localization, respiration detection, and surrounding interference mitigation.
   </details>
+  <details>
+    <summary>Abstract</summary>
+    This paper proposes a frequency-diverse multi-target wireless sensing system for integrated sensing and communication (ISAC) applications. A coupled-patch antenna (CPA) with frequency-dependent beam scanning capability is employed as the key component for multi-target localization and respiration detection. Owing to the high scanning rate of 25.8° per 1% bandwidth, the designed CPA is able to continuously scan an angle range of 93° across broadside as frequency varies from 3.26 GHz to 3.38 GHz, which well fits the ISAC application in Sub-6 GHz frequency. Four examples are given to demonstrate the benefit of high-scanning-rate CPA for multi-target localization, respiration detection, and surrounding interference mitigation.
+  </details>
 
 
 - [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
