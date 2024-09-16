@@ -89,6 +89,9 @@ Publications
   ACM IMWUT Vol. 6/UbiComp 2023.
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/uwb.png" alt="图片描述" height="200px">
+      </p>
     RF sensing has been actively exploited in the past few years to enable novel IoT applications. Among different wireless technologies, WiFi-based sensing is most popular owing to the pervasiveness of WiFi infrastructure. However, one critical issue associated with WiFi sensing is that the information required for sensing can not be obtained from consumer-level devices such as smartphones or smart watches. The commonly-seen WiFi devices in our everyday lives actually can not be utilized for sensing. Instead, dedicated hardware with a specific WiFi card (e.g., Intel 5300) needs to be used for WiFi sensing. This paper involves Ultra-Wideband (UWB) into the ecosystem of RF sensing and makes RF sensing work on consumer-level hardware such as smartphones and smart watches for the first time. We propose a series of methods to realize UWB sensing on consumer-level electronics without any hardware modification. By leveraging fine-grained human respiration monitoring as the application example, we demonstrate that the achieved performance on consumer-level electronics is comparable to that achieved using dedicated UWB hardware. We show that UWB sensing hosted on consumer-level electronics is able to achieve fine granularity, robustness against interference and also multi-target sensing, pushing RF sensing one step towards real-life adoption.
   </details>
 
@@ -97,6 +100,9 @@ Publications
   ACM MobiCom 2022 (Acceptance rate: 56/314=17.8%).
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/Mobi2Sense.png" alt="图片描述" height="200px">
+      </p>
     Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy.
   </details>
 
@@ -105,6 +111,9 @@ Publications
   ACM MobiCom 2022 (Acceptance rate: 56/314=17.8%).
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/wifi.png" alt="图片描述" height="200px">
+      </p>
     While GPS-based outdoor localization has become a norm, very few indoor localization systems have been deployed and used. In this paper, we share our 5-year experience on the design, development and evaluation of a large-scale WiFi indoor localization system. We address practical challenges encountered to bridge the gap between indoor localization research in the laboratory and system deployment in the wild. The system is currently used in 1469 shopping malls, 393 office buildings and 35 hospitals across 35 cities to provide location service to millions of users on a daily basis. We hope the shared experience can benefit the design of real-world indoor localization systems and the practical problems identified can change the focus of indoor localization research. We released our dataset that contains fingerprints collected from 1469 shopping malls and one office building.
   </details>
 
@@ -113,6 +122,9 @@ Publications
   ACM IMWUT Vol. 6/UbiComp 2022.
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/soil.png" alt="图片描述" height="200px">
+      </p>
     Soil moisture sensing is one of the most important components in smart agriculture. It plays a critical role in increasing crop yields and reducing water waste. However, existing commercial soil moisture sensors are either expensive or inaccurate, limiting their real-world deployment. In this paper, we utilize wide-area LoRa signals to sense soil moisture without a need of dedicated soil moisture sensors. Different from traditional usage of LoRa in smart agriculture which is only for sensor data transmission, we leverage LoRa signal itself as a powerful sensing tool. The key insight is that the dielectric permittivity of soil which is closely related to soil moisture can be obtained from phase readings of LoRa signals. Therefore, antennas of a LoRa node can be placed in the soil to capture signal phase readings for soil moisture measurements. Though promising, it is non-trivial to extract accurate phase information due to unsynchronization of LoRa transmitter and receiver. In this work, we propose to include a low-cost switch to equip the LoRa node with two antennas to address the issue. We develop a delicate chirp ratio approach to cancel out the phase offset caused by transceiver unsynchronization to extract accurate phase information. The proposed system design has multiple unique advantages including high accuracy, robustness against motion interference and large sensing range for large-scale deployment in smart agriculture. Experiments with commodity LoRa nodes show that our system can accurately estimate soil moisture at an average error of 3.1%, achieving a performance comparable to high-end commodity soil moisture sensors. Field studies show that the proposed system can accurately sense soil moisture even when the LoRa gateway is 100 m away from the LoRa node, enabling wide-area soil moisture sensing for the first time.
   </details>
   
@@ -121,6 +133,9 @@ Publications
   ACM IMWUT Vol. 5/UbiComp 2021.
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/beamforming.png" alt="图片描述" height="200px">
+      </p>
     Despite extensive research effort in contact-free sensing using RF signals in the last few years, there still exist significant barriers preventing their wide adoptions. One key issue is the inability to sense multiple targets due to the intrinsic nature of relying on reflection signals for sensing: the reflections from multiple targets get mixed at the receiver and it is extremely difficult to separate these signals to sense each individual. This problem becomes even more severe in long-range LoRa sensing because the sensing range is much larger compared to WiFi and acoustic based sensing. In this work, we address the challenging multi-target sensing issue, moving LoRa sensing one big step towards practical adoption. The key idea is to effectively utilize multiple antennas at the LoRa gateway to enable spatial beamforming to support multi-target sensing. While traditional beamforming methods adopted in WiFi and Radar systems rely on accurate channel information or transmitter-receiver synchronization, these requirements can not be satisfied in LoRa systems: the transmitter and receiver are not synchronized and no channel state information can be obtained from the cheap LoRa nodes. Another interesting observation is that while beamforming helps to increase signal strength, the phase/amplitude information which is critical for sensing can get corrupted during the beamforming process, eventually compromising the sensing capability. In this paper, we propose novel signal processing methods to address the issues above to enable long-range multi-target reparation sensing with LoRa. Extensive experiments show that our system can monitor the respiration rates of five human targets simultaneously at an average accuracy of 98.1%.
   </details>
   
@@ -129,6 +144,9 @@ Publications
   ACM IMWUT Vol. 4/UbiComp 2020.
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/lora.png" alt="图片描述" height="200px">
+      </p>
     Wireless signals have been extensively utilized for contactless sensing in the past few years. Due to the intrinsic nature of employing the weak target-reflected signal for sensing, the sensing range is limited. For instance, WiFi and RFID can achieve 3-6 meter sensing range while acoustic-based sensing is limited to less than one meter. In this work, we identify exciting sensing opportunities with LoRa, which is the new long-range communication technology designed for IoT communication. We explore the sensing capability of LoRa, both theoretically and experimentally. We develop the sensing model to characterize the relationship between target movement and signal variation, and propose novel techniques to increase LoRa sensing range to over 25 meters for human respiration sensing. We further build a prototype system which is capable of sensing both coarse-grained and fine-grained human activities. Experimental results show that (1) human respiration can still be sensed when the target is 25 meters away from the LoRa devices, and 15 meters away with a wall in between; and (2) human walking (both displacement and direction) can be tracked accurately even when the target is 30 meters away from the LoRa transceiver pair.
   </details>
 
