@@ -22,6 +22,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
 - **Aug 2024** Serve on UIC 2024 TPC
 - **Jul 2024** One paper accepted at IEEE AWPL
 - **Mar 2024** Serve on MobiSys 2024 Artifacts Evaluation Committee
@@ -39,6 +40,10 @@ Awards and Honors
 
 Publications
 ======
+
+- [mmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://zhaoxin-chang.github.io/)\
+  ***Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
+  ACM IMWUT Vol. 8/UbiComp 2025.
 
 - [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](https://ieeexplore.ieee.org/abstract/document/10602751)\
   *Shuguang Xiao\*, **Zhaoxin Chang**\*, Jiachen Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (\*Equal contribution)*\
