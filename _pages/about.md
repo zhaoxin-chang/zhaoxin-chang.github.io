@@ -41,7 +41,7 @@ Awards and Honors
 Publications
 ======
 
-- [mmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://zhaoxin-chang.github.io/)\
+- [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://zhaoxin-chang.github.io/)\
   ***Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
   ACM IMWUT Vol. 8/UbiComp 2025.
 
