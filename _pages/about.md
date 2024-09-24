@@ -51,7 +51,7 @@ Publications
   <details>
     <summary>Abstract</summary>
       <p align="center">
-        <img src="/files/FSA.png" alt="图片描述" width="400px">
+        <img src="/files/FSA.png" alt="图片描述" width="500px">
       </p>
     This paper proposes a frequency-diverse multi-target wireless sensing system for integrated sensing and communication (ISAC) applications. A coupled-patch antenna (CPA) with frequency-dependent beam scanning capability is employed as the key component for multi-target localization and respiration detection. Owing to the high scanning rate of 25.8° per 1% bandwidth, the designed CPA is able to continuously scan an angle range of 93° across broadside as frequency varies from 3.26 GHz to 3.38 GHz, which well fits the ISAC application in Sub-6 GHz frequency. Four examples are given to demonstrate the benefit of high-scanning-rate CPA for multi-target localization, respiration detection, and surrounding interference mitigation.
   </details>
@@ -62,7 +62,7 @@ Publications
   <details>
     <summary>Abstract</summary>
       <p align="center">
-        <img src="/files/MSense.png" alt="图片描述" width="200px">
+        <img src="/files/MSense.png" alt="图片描述" width="500px">
       </p>
     Wireless signals have been widely utilized for human sensing. However, wireless sensing systems face a fundamental limitation, i.e., the wireless device must keep static during the sensing process. Also, when sensing fine-grained human motions such as respiration, the human target is required to stay stationary. This is because wireless sensing relies on signal variations for sensing. When device is moving or human body is moving, the signal variation caused by the target area (e.g., chest for respiration sensing) is mixed with the signal variation induced by device or other body parts, failing wireless sensing. In this paper, we propose MSense, a general solution to deal with motion interference from wireless device and/or human body, moving wireless sensing one step forward towards real-life adoption. We establish the sensing model by taking both device motion and interfering body motion into consideration. By extracting the effect of body and device motions through pure signal processing, the motion interference can be removed to achieve accurate target sensing. Comprehensive experiments demonstrate the effectiveness of the proposed scheme. The achieved solution is general and can be applied to different sensing tasks involving both periodic and aperiodic motions.
   </details>
@@ -72,7 +72,9 @@ Publications
   ACM MobiCom 2023 (Acceptance rate: 92/377=24.4%).
   <details>
     <summary>Abstract</summary>
-    
+    <p align="center">
+        <img src="/files/quantum.png" alt="图片描述" width="500px">
+    </p>
     Recent years have witnessed a tremendous amount of interest in wireless sensing, i.e., instead of employing traditional sensors, wireless signal is utilized for sensing purposes. Contact-free wireless sensing has been successfully demonstrated using various RF signals such as WiFi, RFID, LoRa, and mmWave, enabling a large range of applications. However, limited by hardware thermal noise, the granularity of RF sensing is still relatively coarse. In this paper, instead of using the macro signal power/phase for sensing, we propose the first quantum wireless sensing system, which uses the micro energy level of atoms for sensing, improving the sensing granularity by an order of magnitude. The proposed quantum wireless sensing system is capable of utilizing a wide spectrum of frequencies (e.g., 2.4 GHz, 5 GHz and 28 GHz) for sensing. We demonstrate the superior performance of quantum wireless sensing with two widely-used signals, i.e., WiFi and 28 GHz millimeter wave. We show that quantum wireless sensing can push the sensing granularity of WiFi from millimeter level to sub-millimeter level and push the sensing granularity of millimeter wave to micrometer level.
   </details>
 
@@ -81,7 +83,9 @@ Publications
   ACM IMWUT Vol. 7/UbiComp 2023.
   <details>
     <summary>Abstract</summary>
-      
+      <p align="center">
+        <img src="/files/multitarget.png" alt="图片描述" width="500px">
+      </p>
     Device-free indoor localization and tracking using commercial millimeter wave radars have attracted much interest lately due to their non-intrusive nature and high spatial resolution. However, it is challenging to achieve high tracking accuracy due to rich multipath reflection and occlusion in indoor environments. Static objects with non-negligible reflectance of mmWave signals interact with moving human subjects and generate time-varying multipath ghosts and shadow ghosts, which can be easily confused as real subjects. To characterize the complex interactions, we first develop a geometric model that estimates the location of multipath ghosts given the locations of humans and static reflectors. Based on this model, the locations of static reflectors that form a reflection map are automatically estimated from received radar signals as a single person traverses the environment along arbitrary trajectories. The reflection map allows for the elimination of multipath and shadow ghost interference as well as the augmentation of weakly reflected human subjects in occluded areas. The proposed environment-aware multi-person tracking system can generate reflection maps with a mean error of 15.5cm and a 90-percentile error of 30.3cm, and achieve multi-person tracking accuracy with a mean error of 8.6cm and a 90-percentile error of 17.5cm, in four representative indoor spaces with diverse subjects using a single mmWave radar.
   </details>
 
