@@ -22,6 +22,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Sep 2024** One paper accepted at UIC 2024
 - **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
 - **Aug 2024** Serve on UIC 2024 TPC
 - **Jul 2024** One paper accepted at IEEE AWPL
@@ -40,6 +41,10 @@ Awards and Honors
 
 Publications
 ======
+
+- [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://zhaoxin-chang.github.io/)\
+  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.*\
+  IEEE UIC 2024.
 
 - [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://zhaoxin-chang.github.io/)\
   ***Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
