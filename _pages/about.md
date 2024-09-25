@@ -48,7 +48,7 @@ Publications
 
 - [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://zhaoxin-chang.github.io/)\
   ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.*\
-  IEEE UIC 2024.
+  IEEE UIC 2024 (Acceptance rate: 20.95%).
 
 - [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](https://ieeexplore.ieee.org/abstract/document/10602751)\
   *Shuguang Xiao\*, **Zhaoxin Chang**\*, Jiachen Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (\*Equal contribution)*\
