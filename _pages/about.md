@@ -42,13 +42,27 @@ Awards and Honors
 Publications
 ======
 
-- [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://zhaoxin-chang.github.io/)\
+- [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
   ***Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
   ACM IMWUT Vol. 8/UbiComp 2025.
+  <details>
+    <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/mmecare.png" alt="图片描述" width="500px">
+      </p>
+    Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations.
+  </details>
 
 - [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://zhaoxin-chang.github.io/)\
   ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.*\
   IEEE UIC 2024 (Acceptance rate: 20.95%).
+  <details>
+    <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/uwbori.png" alt="图片描述" width="500px">
+      </p>
+    The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios.
+  </details>
 
 - [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](https://ieeexplore.ieee.org/abstract/document/10602751)\
   *Shuguang Xiao\*, **Zhaoxin Chang**\*, Jiachen Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (\*Equal contribution)*\
