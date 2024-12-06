@@ -28,7 +28,6 @@ News
 - **Jul 2024** One paper accepted at IEEE AWPL
 - **Mar 2024** Serve on MobiSys 2024 Artifacts Evaluation Committee
 - **Feb 2024** Serve on MobiCom 2024 Artifacts Evaluation Committee
-- **Nov 2023** One paper conditionally accepted at MobiCom 2024
 
 Awards and Honors
 ======
