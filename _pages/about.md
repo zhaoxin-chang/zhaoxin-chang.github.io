@@ -22,7 +22,6 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
-- **Sep 2024** One paper accepted at UIC 2024
 - **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
 - **Aug 2024** Serve on UIC 2024 TPC
 - **Jul 2024** One paper accepted at IEEE AWPL
