@@ -22,6 +22,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Feb 2025** One paper accepted at IEEE TMC
 - **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
 - **Aug 2024** Serve on UIC 2024 TPC
 - **Jul 2024** One paper accepted at IEEE AWPL
@@ -39,6 +40,10 @@ Awards and Honors
 
 Publications
 ======
+
+- [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://zhaoxin-chang.github.io/)\
+  *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
+  IEEE Transactions on Mobile Computing
 
 - [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
   ***Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
