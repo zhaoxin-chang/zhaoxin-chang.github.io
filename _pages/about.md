@@ -41,9 +41,13 @@ Awards and Honors
 Publications
 ======
 
-- [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://zhaoxin-chang.github.io/)\
+- [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://ieeexplore.ieee.org/document/10878446)\
   *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
   IEEE Transactions on Mobile Computing
+  <details>
+    <summary>Abstract</summary>
+    Indoor mmWave-based sensing technologies have garnered substantial interest from both the industrial and academic. Yet, the intrinsic challenge posed by the limited Field-of-View (FOV) of mmWave radars significantly restricts their coverage. This limitation necessitates careful selection of installation positions and orientations to optimize performance, thereby severely curtailing the versatility and widespread adoption of these systems. Traditionally, expanding coverage involved increasing the number of radar units. This paper introduces a novel approach to enhance the FOV by incorporating mobility, achieved by affixing the radar onto a pan-tilt unit capable of rotating along both the horizontal and azimuthal. Nevertheless, the disparity between the pan-tilt and the radar presents significant challenges for accurately rotating the radar's orientation. To mitigate this, we propose an automated calibration algorithm for radar and pan-tilt, ensuring precise calibration. Additionally, we have devised a radar orientation adjustment algorithm intended to automatically align the radar's FOV with the positions of detected objects to facilitate various applications. Through three case studies, we have demonstrated that mmRotation can greatly expand the sensing range, enabling support for multiple applications on a single radar, such as vital signs monitoring and fall detection. Comprehensive experimental results underscore that our system surpasses the current state-of-the-art (SOTA).
+  </details>
 
 - [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
   ***Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
