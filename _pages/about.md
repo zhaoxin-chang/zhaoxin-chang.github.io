@@ -185,7 +185,7 @@ Professional Service
 ======
 
 - **Reviewer** IEEE TMC 2024, 2025
-- **Technical Program Committee** IEEE ICC 2025 Workshop on Positioning and Sensing Over Wireless Networks
+- **Technical Program Committee** IEEE ICC 2025 Workshop - PSoWN
 - **Reviewer** ACM CHI 2024, 2025
 - **Technical Program Committee** IEEE UIC 2024
 - **Reviewer** ACM IMWUT 2023, 2024
