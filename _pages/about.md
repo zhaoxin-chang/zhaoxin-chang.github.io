@@ -184,16 +184,16 @@ Publications
 Professional Service
 ======
 
-
-- **Reviewer** ACM IMWUT 2023, 2024, 2025
-- **Reviewer** IEEE TMC 2024, 2025
-- **Technical Program Committee** IEEE ICC 2025 Workshop - PSoWN
-- **Reviewer** ACM CHI 2024, 2025
-- **Technical Program Committee** IEEE UIC 2024
-- **Artifacts Evaluation Committee** ACM MobiSys 2024
-- **Artifacts Evaluation Committee** ACM MobiCom 2024
-- **Reviewer** IEEE JSAC 2024
-- **Reviewer** ACM TIOT 2023
+- **Reviewer** ACM TOSN, 2025
+- **Reviewer** ACM IMWUT, 2023, 2024, 2025
+- **Reviewer** IEEE TMC, 2024, 2025
+- **Technical Program Committee** IEEE ICC Workshop - PSoWN, 2025
+- **Reviewer** ACM CHI, 2024, 2025
+- **Technical Program Committee** IEEE UIC, 2024
+- **Artifacts Evaluation Committee** ACM MobiSys, 2024
+- **Artifacts Evaluation Committee** ACM MobiCom, 2024
+- **Reviewer** IEEE JSAC, 2024
+- **Reviewer** ACM TIOT, 2023
 
 Teaching Assistant
 ======
