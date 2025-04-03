@@ -22,7 +22,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
-- **Mar 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
+- **Apr 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
 - **Feb 2025** One paper accepted at IEEE TMC
 - **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
 - **Aug 2024** Serve on UIC 2024 TPC
