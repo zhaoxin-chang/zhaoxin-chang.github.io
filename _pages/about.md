@@ -22,12 +22,11 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Mar 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
 - **Feb 2025** One paper accepted at IEEE TMC
 - **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
 - **Aug 2024** Serve on UIC 2024 TPC
 - **Jul 2024** One paper accepted at IEEE AWPL
-- **Mar 2024** Serve on MobiSys 2024 Artifacts Evaluation Committee
-- **Feb 2024** Serve on MobiCom 2024 Artifacts Evaluation Committee
 
 Awards and Honors
 ======
@@ -184,6 +183,7 @@ Publications
 Professional Service
 ======
 
+- **Artifacts Evaluation Committee** ACM MobiCom, 2025,2024
 - **Reviewer** ACM TOSN, 2025
 - **Reviewer** ACM IMWUT, 2023, 2024, 2025
 - **Reviewer** IEEE TMC, 2024, 2025
@@ -191,7 +191,6 @@ Professional Service
 - **Reviewer** ACM CHI, 2024, 2025
 - **Technical Program Committee** IEEE UIC, 2024
 - **Artifacts Evaluation Committee** ACM MobiSys, 2024
-- **Artifacts Evaluation Committee** ACM MobiCom, 2024
 - **Reviewer** IEEE JSAC, 2024
 - **Reviewer** ACM TIOT, 2023
 
