@@ -22,6 +22,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Apr 2025** One paper accepted at IEEE TMC
 - **Apr 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
 - **Feb 2025** One paper accepted at IEEE TMC
 - **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
@@ -40,9 +41,13 @@ Awards and Honors
 Publications
 ======
 
+- [WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://zhaoxin-chang.github.io/)\
+  *Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, **Zhaoxin Chang**, Duo Zhang, Djamal Zeghlache, Daqing Zhang.*\
+  IEEE Transactions on Mobile Computing, 2025
+
 - [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://ieeexplore.ieee.org/document/10878446)\
   *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
-  IEEE Transactions on Mobile Computing
+  IEEE Transactions on Mobile Computing, 2025
   <details>
     <summary>Abstract</summary>
     Indoor mmWave-based sensing technologies have garnered substantial interest from both the industrial and academic. Yet, the intrinsic challenge posed by the limited Field-of-View (FOV) of mmWave radars significantly restricts their coverage. This limitation necessitates careful selection of installation positions and orientations to optimize performance, thereby severely curtailing the versatility and widespread adoption of these systems. Traditionally, expanding coverage involved increasing the number of radar units. This paper introduces a novel approach to enhance the FOV by incorporating mobility, achieved by affixing the radar onto a pan-tilt unit capable of rotating along both the horizontal and azimuthal. Nevertheless, the disparity between the pan-tilt and the radar presents significant challenges for accurately rotating the radar's orientation. To mitigate this, we propose an automated calibration algorithm for radar and pan-tilt, ensuring precise calibration. Additionally, we have devised a radar orientation adjustment algorithm intended to automatically align the radar's FOV with the positions of detected objects to facilitate various applications. Through three case studies, we have demonstrated that mmRotation can greatly expand the sensing range, enabling support for multiple applications on a single radar, such as vital signs monitoring and fall detection. Comprehensive experimental results underscore that our system surpasses the current state-of-the-art (SOTA).
