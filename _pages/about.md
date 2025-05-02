@@ -192,7 +192,7 @@ Publications
 Professional Service
 ======
 
-- **Artifacts Evaluation Committee** ACM MobiCom, 2025,2024
+- **Artifacts Evaluation Committee** ACM MobiCom, 2025, 2024
 - **Reviewer** ACM TOSN, 2025
 - **Reviewer** ACM IMWUT, 2023, 2024, 2025
 - **Reviewer** IEEE TMC, 2024, 2025
