@@ -41,13 +41,17 @@ Awards and Honors
 Publications
 ======
 
-- [WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://zhaoxin-chang.github.io/)\
+- [WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
   *Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, **Zhaoxin Chang**, Duo Zhang, Djamal Zeghlache, Daqing Zhang.*\
-  IEEE Transactions on Mobile Computing, 2025
+  IEEE Transactions on Mobile Computing, 2025 (Early Access)
+  <details>
+    <summary>Abstract</summary>
+    Cardiovascular diseases (CVDs) are a leading cause of mortality worldwide, highlighting the critical need for accurate and continuous heart health monitoring. Electrocardiograms (ECG), considered as the golden standard for diagnosing and monitoring heart-related conditions, offer precise measurements but require direct skin contact, limiting their practicality for long-term and everyday use. On the other hand, existing RF sensing techniques that analyze signals reflected off the skin struggle to distinguish micro cardiac motions of the heart due to weak motion amplitude and respiration interference at the chest wall. To overcome these limitations, we introduce WiCG, a novel contact-less cardiac motion monitoring system that employs 2.4 GHz Wi-Fi signals to penetrate the chest and detect subtle cardiac movements. A mix-medium Wi-Fi Fresnel zone model is developed to explain the enhanced phase sensitivity of in-body Wi-Fi signals, which is crucial for accurately detecting cardiac motions. By strategically positioning antennas near the heart, WiCG captures ventricular motions effectively. A novel cardiac Doppler method is proposed to suppress phase noise and interference from static paths and extract the time interval between the systole and diastole of the ventricular. Extensive experiments demonstrate that the proposed system can robustly estimate the R-R and Q-T intervals of human cardiac cycles across 21 subjects and different environments with an average accuracy of 99.22% and 92.8%, achieving performance comparable to ECG.
+  </details>
 
 - [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://ieeexplore.ieee.org/document/10878446)\
   *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
-  IEEE Transactions on Mobile Computing, 2025
+  IEEE Transactions on Mobile Computing, 2025 (Early Access)
   <details>
     <summary>Abstract</summary>
     Indoor mmWave-based sensing technologies have garnered substantial interest from both the industrial and academic. Yet, the intrinsic challenge posed by the limited Field-of-View (FOV) of mmWave radars significantly restricts their coverage. This limitation necessitates careful selection of installation positions and orientations to optimize performance, thereby severely curtailing the versatility and widespread adoption of these systems. Traditionally, expanding coverage involved increasing the number of radar units. This paper introduces a novel approach to enhance the FOV by incorporating mobility, achieved by affixing the radar onto a pan-tilt unit capable of rotating along both the horizontal and azimuthal. Nevertheless, the disparity between the pan-tilt and the radar presents significant challenges for accurately rotating the radar's orientation. To mitigate this, we propose an automated calibration algorithm for radar and pan-tilt, ensuring precise calibration. Additionally, we have devised a radar orientation adjustment algorithm intended to automatically align the radar's FOV with the positions of detected objects to facilitate various applications. Through three case studies, we have demonstrated that mmRotation can greatly expand the sensing range, enabling support for multiple applications on a single radar, such as vital signs monitoring and fall detection. Comprehensive experimental results underscore that our system surpasses the current state-of-the-art (SOTA).
