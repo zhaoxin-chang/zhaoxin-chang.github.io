@@ -53,7 +53,7 @@ Publications
 
 - [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://ieeexplore.ieee.org/document/10878446)\
   *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
-  IEEE Transactions on Mobile Computing, 2025 (Early Access)
+  **IEEE Transactions on Mobile Computing, 2025** (Early Access)
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
@@ -63,7 +63,7 @@ Publications
 
 - [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
   *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.* \
-  ACM IMWUT Vol. 8/UbiComp 2025
+  **ACM IMWUT Vol. 8/UbiComp 2025**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -75,8 +75,8 @@ Publications
   </details>
 
 - [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
-  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.* \
-  IEEE UIC 2024
+  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.* \
+  **IEEE UIC 2024**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -89,7 +89,7 @@ Publications
 
 - [Demonstration of Multi-Target Wireless Sensing Using High-Scanning-Rate Coupled-Patch Antenna.](https://ieeexplore.ieee.org/abstract/document/10602751)\
   *Shuguang Xiao\*, **Zhaoxin Chang**\*, Jiachen Du, Ge Zhang, Amir K. Rashid, Yi Huang, Chaijie Duan, Daqing Zhang, Qingfeng Zhang. (\*Equal contribution)*\
-  IEEE Antennas and Wireless Propagation Letters, 23(11), 2024
+  **IEEE Antennas and Wireless Propagation Letters, 23(11), 2024**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -101,8 +101,8 @@ Publications
   </details>
 
 - [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
-  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.* \
-  ACM MobiCom 2024 (Acceptance rate: 103/494 = 20.9%)
+  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.* \
+  **ACM MobiCom 2024** (Acceptance rate: 103/494 = 20.9%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -115,7 +115,7 @@ Publications
 
 - [Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
-  ACM MobiCom 2023 (Acceptance rate: 92/377=24.4%)
+  **ACM MobiCom 2023** (Acceptance rate: 92/377=24.4%)
   <details>
     <summary>Abstract</summary>
     <p align="center">
@@ -128,7 +128,7 @@ Publications
 
 - [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
   *Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.*\
-  ACM IMWUT Vol. 7/UbiComp 2023
+  **ACM IMWUT Vol. 7/UbiComp 2023**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -141,7 +141,7 @@ Publications
 
 - [Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://dl.acm.org/doi/10.1145/3569487)\
   *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.*\
-  ACM IMWUT Vol. 6/UbiComp 2023
+  **ACM IMWUT Vol. 6/UbiComp 2023**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -154,7 +154,7 @@ Publications
 
 - [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://dl.acm.org/doi/10.1145/3495243.3560518) <font color=red font-weight=bold>(Best Paper Award Runner-up)</font>\
   *Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.*\
-  ACM MobiCom 2022 (Acceptance rate: 56/314=17.8%)
+  **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -167,7 +167,7 @@ Publications
 
 - [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://dl.acm.org/doi/10.1145/3495243.3560546) <font color=red font-weight=bold>(Best Community Paper Award Runner-up)</font>\
   *Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.*\
-  ACM MobiCom 2022 (Acceptance rate: 56/314=17.8%)
+  **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
   <details>
     <summary>Abstract</summary>
      <p align="center">
@@ -179,8 +179,8 @@ Publications
   </details>
 
 - [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
-  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.* \
-  ACM IMWUT Vol. 6/UbiComp 2022
+  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.* \
+  **ACM IMWUT Vol. 6/UbiComp 2022**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -193,7 +193,7 @@ Publications
   
 - [Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.](https://dl.acm.org/doi/abs/10.1145/3463526)\
   *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.*\
-  ACM IMWUT Vol. 5/UbiComp 2021
+  **ACM IMWUT Vol. 5/UbiComp 2021**
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -206,7 +206,7 @@ Publications
   
 - [Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
   *Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.*\
-  ACM IMWUT Vol. 4/UbiComp 2020
+  **ACM IMWUT Vol. 4/UbiComp 2020**
   <details>
     <summary>Abstract</summary>
      <p align="center">
