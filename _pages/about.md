@@ -62,8 +62,8 @@ Publications
   </details>
 
 - [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
-  **Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.*\
-  **ACM IMWUT Vol. 8/UbiComp 2025**
+  * **Zhaoxin Chang**, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang. *  
+  **ACM IMWUT Vol. 8 / UbiComp 2025**
   <details>
     <summary>Abstract</summary>
       <p align="center">
