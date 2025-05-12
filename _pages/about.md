@@ -75,7 +75,7 @@ Publications
   </details>
 
 - [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
-  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.*\
+  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.* \
   **IEEE UIC 2024**
   <details>
     <summary>Abstract</summary>
@@ -101,7 +101,7 @@ Publications
   </details>
 
 - [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
-  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.*\
+  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.* \
   **ACM MobiCom 2024** (Acceptance rate: 103/494 = 20.9%)
   <details>
     <summary>Abstract</summary>
@@ -179,7 +179,7 @@ Publications
   </details>
 
 - [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
-  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.*\
+  ***Zhaoxin Chang**, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.* \
   **ACM IMWUT Vol. 6/UbiComp 2022**
   <details>
     <summary>Abstract</summary>
