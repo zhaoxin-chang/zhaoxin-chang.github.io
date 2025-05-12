@@ -42,8 +42,8 @@ Publications
 ======
 
 - [WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
-  *Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, **Zhaoxin Chang**, Duo Zhang, Djamal Zeghlache, Daqing Zhang.*\
-  IEEE Transactions on Mobile Computing, 2025 (Early Access)
+  *Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, [Zhaoxin Chang], Duo Zhang, Djamal Zeghlache, Daqing Zhang.*\
+  **IEEE Transactions on Mobile Computing, 2025** (Early Access)
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
