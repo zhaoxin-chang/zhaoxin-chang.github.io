@@ -167,7 +167,7 @@ Publications
 
 - [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://dl.acm.org/doi/10.1145/3495243.3560546) <font color=red font-weight=bold>(Best Community Paper Award Runner-up)</font>\
   *Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.*\
-  ACM MobiCom 2022 (Acceptance rate: 56/314=17.8%).
+  **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
   <details>
     <summary>Abstract</summary>
      <p align="center">
