@@ -52,7 +52,7 @@ Publications
       </div>
   </details>
 
-- [mmRotation: Unlocking Versatility of a Single mmWave Radar via Horizontal Mobility and Azimuthal Rotation.](https://ieeexplore.ieee.org/document/10878446)\
+- [mmRotation: Unlocking Versatility of a Single mmWave Radar via Azimuth Panning and Elevation Tilting.](https://ieeexplore.ieee.org/document/10878446)\
   *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
   **IEEE Transactions on Mobile Computing, 2025** (Early Access)
   <details>
