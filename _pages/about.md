@@ -24,9 +24,7 @@ News
 - **Apr 2025** One paper accepted at IEEE TMC
 - **Apr 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
 - **Feb 2025** One paper accepted at IEEE TMC
-- **Sep 2024** One paper accepted at IMWUT 2024/UbiComp 2025
-- **Aug 2024** Serve on IEEE UIC 2024 TPC
-- **Jul 2024** One paper accepted at IEEE AWPL
+
 
 Awards and Honors
 ======
