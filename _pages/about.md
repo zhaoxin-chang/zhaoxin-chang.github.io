@@ -29,6 +29,7 @@ News
 Awards and Honors
 ======
 
+- **AIoTSys 2025** Best Paper Award
 - **MobiCom 2022** Best Paper Award Runner-up
 - **MobiCom 2022** Best Community Paper Award Runner-up
 - **MobiCom 2022** Student Travel Grant
@@ -219,6 +220,7 @@ Professional Service
 
 - **Technical Program Committee** AIoTSys, 2025
 - **Artifacts Evaluation Committee** ACM MobiCom, 2025, 2024
+- **Reviewer** ICA3PP 2025, 2025
 - **Reviewer** ACM TOSN, 2025
 - **Reviewer** ACM IMWUT, 2025, 2024, 2023
 - **Reviewer** IEEE TMC, 2025, 2024
