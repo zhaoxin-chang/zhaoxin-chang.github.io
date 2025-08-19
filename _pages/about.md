@@ -36,7 +36,7 @@ Awards and Honors
 - **IPIN 2021** Indoor Positioning Competition, Winner
 - **IMWUT Vol. 4 (UbiComp 2020)** Distinguished Paper Award
 
-Publications
+Selected Publications
 ======
 
 - [WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
