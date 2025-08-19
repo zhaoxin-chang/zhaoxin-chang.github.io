@@ -20,7 +20,6 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
-- **May 2025** Serve on AIoTSys 2025 TPC
 - **Apr 2025** One paper accepted at IEEE TMC
 - **Apr 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
 - **Feb 2025** One paper accepted at IEEE TMC
