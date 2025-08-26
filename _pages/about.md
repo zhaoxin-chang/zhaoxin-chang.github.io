@@ -72,7 +72,7 @@ Selected Publications
   </details>
 
 - [Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals.](https://zhaoxin-chang.github.io/) <font color=red font-weight=bold>(Best Paper Award)</font>\
-  *Xinyu Xue, <strong>Zhaoxin Chang</strong>, Pei Wang, Xujun Ma, Fusang Zhang, Badii Jouaber, Daqing Zhang.* \
+  *Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang.* \
   **AIoTSys 2025**
   <details>
     <summary>Abstract</summary>
