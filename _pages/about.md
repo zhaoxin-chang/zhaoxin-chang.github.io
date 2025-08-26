@@ -71,6 +71,16 @@ Selected Publications
       </div>
   </details>
 
+- [Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals.](https://zhaoxin-chang.github.io/) <font color=red font-weight=bold>(Best Paper Award)</font>\
+  *Xinyu Xue, <strong>Zhaoxin Chang</strong>, Pei Wang, Xujun Ma, Fusang Zhang, Badii Jouaber, Daqing Zhang.* \
+  **AIoTSys 2025**
+  <details>
+    <summary>Abstract</summary>
+    <div style="font-size: smaller;">
+    With the increased need for intelligent functions in smart buildings, the ability to sense the states of human subjects becomes essential. In recent years, wireless signals have demonstrated strong capability for contactless sensing. However, most wireless sensing systems currently focus on room-level scenarios. The deployment challenges and solutions in large-scale scenarios have not been sufficiently investigated. In this paper, we take the first step to explore the feasibility of utilizing LoRa signals for large-scale sensing, leveraging their advantages in wide-area sensing capabilities. However, given the fixed deployment in buildings, the sensing coverage of each device is likely to mismatch with the desired sensing area of interest (AoI). To address this challenge, we first investigate the factors affecting sensing coverage. Then, we propose to control the sensing coverage by adjusting hardware parameters, enabling human presence detection within the desired area. The effectiveness of the proposed method is validated through benchmark experiments and two case studies in real-world environments.
+      </div>
+  </details>
+
 - [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
   *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.* \
   **IEEE UIC 2024**
