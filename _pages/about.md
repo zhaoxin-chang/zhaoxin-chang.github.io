@@ -20,6 +20,9 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
+- **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
+- **Aug 2025** Serve on the TPC for ICA3PP 2025
 - **Apr 2025** One paper accepted at IEEE TMC
 - **Apr 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
 - **Feb 2025** One paper accepted at IEEE TMC
@@ -227,13 +230,14 @@ Selected Publications
 Professional Service
 ======
 
+- **Technical Program Committee** IEEE ICPADS, 2025
+- **Technical Program Committee** ICA3PP, 2025
 - **Technical Program Committee** AIoTSys, 2025
 - **Artifacts Evaluation Committee** ACM MobiCom, 2025, 2024
-- **Reviewer** ICA3PP 2025, 2025
 - **Reviewer** ACM TOSN, 2025
 - **Reviewer** ACM IMWUT, 2025, 2024, 2023
 - **Reviewer** IEEE TMC, 2025, 2024
-- **Technical Program Committee** IEEE ICC Workshop - PSoWN, 2025
+- **Technical Program Committee** IEEE ICC PSoWN Workshop, 2025
 - **Reviewer** ACM CHI, 2025, 2024
 - **Technical Program Committee** IEEE UIC, 2024
 - **Artifacts Evaluation Committee** ACM MobiSys, 2024
