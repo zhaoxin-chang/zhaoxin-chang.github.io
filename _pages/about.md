@@ -20,7 +20,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
-- **Sep 2025** One paper conditionally accepted at ACM Sensys 2026
+- **Sep 2025** One paper conditionally accepted at ACM/IEEE Sensys 2026
 - **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
 - **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
 - **Aug 2025** Serve on the TPC for ICA3PP 2025
