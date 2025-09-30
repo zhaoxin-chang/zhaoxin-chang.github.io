@@ -36,6 +36,7 @@ Awards and Honors
 - **MobiCom 2022** Best Paper Award Runner-up
 - **MobiCom 2022** Best Community Paper Award Runner-up
 - **MobiCom 2022** Student Travel Grant
+- **IP Paris 2022** PhD Track Scholarship
 - **IPIN 2021** Indoor Positioning Competition, Winner
 - **IMWUT Vol. 4 (UbiComp 2020)** Distinguished Paper Award
 
