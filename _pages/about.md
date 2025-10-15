@@ -20,6 +20,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
+- **Oct 2025** I'm very honored to be awarded as a runner-up of Gaetano Borriello Outstanding Student Award at UbiComp 2025
 - **Sep 2025** One paper conditionally accepted at ACM/IEEE Sensys 2026
 - **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
 - **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
@@ -32,6 +33,7 @@ News
 Awards and Honors
 ======
 
+- **UbiComp 2025** Gaetano Borriello Outstanding Student Award Runner-up
 - **AIoTSys 2025** Best Paper Award
 - **MobiCom 2022** Best Paper Award Runner-up
 - **MobiCom 2022** Best Community Paper Award Runner-up
