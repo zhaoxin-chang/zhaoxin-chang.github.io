@@ -50,6 +50,9 @@ Selected Publications
   **IEEE Transactions on Mobile Computing, 2025** (Early Access)
   <details>
     <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/wicg.jpg" alt="图片描述" width="700px">
+      </p>
     <div style="font-size: smaller;">
     Cardiovascular diseases (CVDs) are a leading cause of mortality worldwide, highlighting the critical need for accurate and continuous heart health monitoring. Electrocardiograms (ECG), considered as the golden standard for diagnosing and monitoring heart-related conditions, offer precise measurements but require direct skin contact, limiting their practicality for long-term and everyday use. On the other hand, existing RF sensing techniques that analyze signals reflected off the skin struggle to distinguish micro cardiac motions of the heart due to weak motion amplitude and respiration interference at the chest wall. To overcome these limitations, we introduce WiCG, a novel contact-less cardiac motion monitoring system that employs 2.4 GHz Wi-Fi signals to penetrate the chest and detect subtle cardiac movements. A mix-medium Wi-Fi Fresnel zone model is developed to explain the enhanced phase sensitivity of in-body Wi-Fi signals, which is crucial for accurately detecting cardiac motions. By strategically positioning antennas near the heart, WiCG captures ventricular motions effectively. A novel cardiac Doppler method is proposed to suppress phase noise and interference from static paths and extract the time interval between the systole and diastole of the ventricular. Extensive experiments demonstrate that the proposed system can robustly estimate the R-R and Q-T intervals of human cardiac cycles across 21 subjects and different environments with an average accuracy of 99.22% and 92.8%, achieving performance comparable to ECG.
       </div>
