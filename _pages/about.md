@@ -51,7 +51,7 @@ Selected Publications
   <details>
     <summary>Abstract</summary>
       <p align="center">
-        <img src="/files/wirainbow.png" alt="图片描述" width="500px">
+        <img src="/files/wirainbow.png" alt="图片描述" width="200px">
       </p>
     <div style="font-size: smaller;">
     Recently, Wi-Fi signals have emerged as a powerful tool for contactless sensing. During the sensing process, obtaining target direction information can provide valuable contextual insights for various applications. Existing direction estimation methods typically rely on antenna arrays, which are costly and complex to deploy in real-world scenarios. In this paper, we present WiRainbow, a novel approach that enables single-antenna-based direction estimation for Wi-Fi sensing by leveraging the dispersion effect of frequency-scanning antennas (FSAs), which can naturally steer Wi-Fi subcarriers toward distinct angles during signal transmission. To address key challenges in antenna design and signal processing, we propose a coupled-resonator-based antenna architecture that significantly expands the narrow Field-of-View inherent in conventional FSAs, improving sensing coverage. Additionally, we develop a sensing signal-to-noise-ratio based signal processing framework that reliably estimates target direction in multipath-rich environments. We prototype WiRainbow and evaluate its performance through benchmark experiments and real-world case studies, demonstrating its ability to achieve accurate, robust, and cost-effective direction estimation for diverse Wi-Fi sensing applications.
