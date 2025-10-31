@@ -47,7 +47,7 @@ Selected Publications
 
 - [WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/)\
   **Zhaoxin Chang**\*, Shuguang Xiao\*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (\*Equal contribution)\
-  **ACM/IEEE SenSys 2026** (Acceptance rate: 49/258 = 19%)
+  **ACM SenSys 2026** (Acceptance rate: 49/258 = 19%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
