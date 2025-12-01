@@ -242,7 +242,7 @@ Preprints
 ======
 
 - [PnPSelect: Plug-and-play IoT Device Selection Using Ultra-wideband Signals.](https://arxiv.org/abs/2511.03534)\
-  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang.*\
+  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang.*
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
@@ -251,7 +251,7 @@ Preprints
   </details>
 
 - [Exploring Quantum Sensing for Fine-grained Liquid Recognition.](https://arxiv.org/abs/2407.19656)\
-  *Yuechun Jiao, Jinlian Hu, Zitong Lan, Fusang Zhang, Jie Xiong, Jingxu Bai, <strong>Zhaoxin Chang</strong>, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia.*\
+  *Yuechun Jiao, Jinlian Hu, Zitong Lan, Fusang Zhang, Jie Xiong, Jingxu Bai, <strong>Zhaoxin Chang</strong>, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia.*
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
