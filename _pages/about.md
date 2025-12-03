@@ -281,4 +281,5 @@ Professional Service
 Teaching Assistant
 ======
 
+- **Fall 2025** Internet of Things and Data Analytics, IP Paris
 - **Fall 2018** Introduction to Computer Systems (Computer Systems: A Programmer's Perspective), Peking University
