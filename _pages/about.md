@@ -20,7 +20,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News
 ======
 
-- **Oct 2025** Our paper "WiRainbow" was accepted by Sensys 2026. See you in Saint-Malo!
+- **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
 - **Oct 2025** I'm very honored to be awarded as a runner-up of the Gaetano Borriello Outstanding Student Award at UbiComp 2025
 - **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
 - **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
@@ -47,7 +47,7 @@ Selected Publications
 
 - [WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
   *<strong>Zhaoxin Chang</strong>\*, Shuguang Xiao\*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (\*Equal contribution)*\
-  **ACM SenSys 2026** (Acceptance rate: 48/257 = 18.7%)
+  **ACM/IEEE SenSys 2026** (Acceptance rate: 48/257 = 18.7%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
