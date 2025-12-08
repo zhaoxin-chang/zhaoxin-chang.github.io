@@ -25,9 +25,7 @@ News
 - **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
 - **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
 - **Aug 2025** Serve on the TPC for ICA3PP 2025
-- **Apr 2025** One paper accepted at IEEE TMC
-- **Apr 2025** Serve on MobiCom 2025 Artifacts Evaluation Committee
-- **Feb 2025** One paper accepted at IEEE TMC
+
 
 
 Awards and Honors
