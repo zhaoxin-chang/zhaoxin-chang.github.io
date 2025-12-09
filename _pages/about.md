@@ -70,10 +70,10 @@ details > summary::-webkit-details-marker {
 }
 
 /* =========================================
-   弹窗核心样式
+   弹窗核心样式 (无背景版)
    ========================================= */
 
-/* 1. 背景遮罩 (已去除模糊，改为轻微变暗以捕捉点击) */
+/* 1. 全屏透明遮罩 (用于点击关闭) */
 details[open] > summary::before {
   content: "";
   position: fixed;
@@ -81,19 +81,23 @@ details[open] > summary::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  /* 这里去掉了 backdrop-filter: blur */
-  background: rgba(0, 0, 0, 0.15); /* 仅用极淡的黑色遮罩，不模糊 */
+  background: transparent; /* 完全透明，不变暗 */
   z-index: 999;
   cursor: default;
 }
 
-/* 2. 弹出的卡片主体 */
+/* 2. 关键修复：弹窗打开时，禁止底部按钮响应鼠标，防止抖动 */
+details[open] > summary {
+  pointer-events: none; 
+}
+
+/* 3. 弹出的卡片主体 */
 details[open] > .paper-content {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1000;
+  z-index: 1000; /* 保证在最上层 */
   
   width: 90%;
   max-width: 800px;
@@ -103,10 +107,10 @@ details[open] > .paper-content {
   background-color: #fff;
   padding: 25px;
   border-radius: 8px;
-  /* 加强阴影，让它在不模糊的背景上也能突显出来 */
-  box-shadow: 0 5px 30px rgba(0,0,0,0.3); 
+  /* 加强阴影，因为背景是透明的，需要很重的阴影来区分层级 */
+  box-shadow: 0 0 40px rgba(0,0,0,0.2); 
   border: 1px solid #ddd;
-  animation: modalPop 0.3s ease-out;
+  animation: modalPop 0.2s ease-out;
 }
 
 @keyframes modalPop {
@@ -123,6 +127,7 @@ details[open] > .paper-content {
   color: #aaa;
   cursor: pointer;
   line-height: 1;
+  z-index: 1001;
 }
 .modal-close:hover { color: #333; }
 
@@ -135,9 +140,10 @@ details[open] > .paper-content {
   font-family: Consolas, monospace;
   font-size: 12px;
   overflow-x: auto;
-  white-space: pre; /* 保持换行 */
+  white-space: pre; 
   color: #333;
   margin-top: 10px;
+  border: 1px solid #eee;
 }
 .copy-btn {
   position: absolute;
@@ -145,10 +151,11 @@ details[open] > .paper-content {
   right: 5px;
   background: #fff;
   border: 1px solid #ddd;
-  padding: 2px 8px;
+  padding: 3px 10px;
   font-size: 12px;
   cursor: pointer;
   border-radius: 4px;
+  font-weight: bold;
 }
   
 .badge {
@@ -417,16 +424,16 @@ Selected Publications📑
         <div class="bibtex-container">
           <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
           <div class="bibtex-code">
-@article{zhang2020exploring,
-  title={Exploring LoRa for long-range through-wall sensing},
-  author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
-  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
-  volume={4},
-  number={2},
-  pages={1--27},
-  year={2020},
-  publisher={ACM New York, NY, USA}
-}
+        @article{zhang2020exploring,
+          title={Exploring LoRa for long-range through-wall sensing},
+          author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
+          journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+          volume={4},
+          number={2},
+          pages={1--27},
+          year={2020},
+          publisher={ACM New York, NY, USA}
+        }
           </div>
         </div>
       </div>
@@ -489,48 +496,75 @@ Teaching Assistant👨‍🏫
 <script>
 // 1. 强力复制 BibTeX 功能
 function copyBibtex(button) {
-  // 找到最近的 .bibtex-container 里的 .bibtex-code
-  const container = button.closest('.bibtex-container');
-  const codeBox = container.querySelector('.bibtex-code');
-  
-  // 使用 innerText 获取可见文本（保留换行，不含HTML标签）
-  const text = codeBox.innerText;
+  // 防止按钮点击过快
+  if(button.innerText === "Copied!") return;
 
-  // 创建一个临时的 textarea 元素来执行复制命令
-  // 这是兼容性最好的方法
-  const tempInput = document.createElement("textarea");
-  tempInput.value = text;
-  document.body.appendChild(tempInput);
-  tempInput.select();
-  document.execCommand("copy"); // 执行复制
-  document.body.removeChild(tempInput);
-
-  // 按钮反馈
-  const originalText = button.innerText;
-  button.innerText = "Copied!";
-  button.style.color = "#28a745"; // 变绿
-  button.style.borderColor = "#28a745";
+  // 1. 找到对应的代码块
+  // 逻辑：找到按钮的父容器 -> 找到里面的 .bibtex-code 类
+  var container = button.parentNode;
+  var codeBlock = container.querySelector('.bibtex-code');
   
-  setTimeout(() => {
-    button.innerText = originalText;
-    button.style.color = "";
-    button.style.borderColor = "";
-  }, 2000);
+  if (!codeBlock) {
+     console.error("找不到 bibtex-code 元素");
+     return;
+  }
+
+  // 2. 获取文本 (使用 innerText 保证格式，或者 textContent)
+  var textToCopy = codeBlock.innerText;
+
+  // 3. 创建临时 textarea 元素 (最稳妥的办法)
+  var textArea = document.createElement("textarea");
+  textArea.value = textToCopy;
+  
+  // 确保 textarea 不可见但存在于 DOM 中
+  textArea.style.position = "fixed";
+  textArea.style.left = "-9999px";
+  textArea.style.top = "0";
+  document.body.appendChild(textArea);
+  
+  // 4. 选区并复制
+  textArea.focus();
+  textArea.select();
+  
+  try {
+    var successful = document.execCommand('copy');
+    if(successful) {
+        // 成功反馈
+        var originalText = button.innerText;
+        button.innerText = "Copied!";
+        button.style.color = "#28a745";
+        button.style.borderColor = "#28a745";
+        
+        setTimeout(function() {
+          button.innerText = originalText;
+          button.style.color = "";
+          button.style.borderColor = "";
+        }, 2000);
+    } else {
+        alert("Copy failed. Please copy manually.");
+    }
+  } catch (err) {
+    console.error('Copy error', err);
+    alert("Browser blocked copy. Please copy manually.");
+  }
+
+  // 5. 清理
+  document.body.removeChild(textArea);
 }
 
-// 2. 点击遮罩层关闭弹窗
+// 2. 点击透明背景关闭弹窗
 document.addEventListener('click', function(event) {
-  const details = event.target.closest('details');
+  var details = event.target.closest('details');
   if (details && details.hasAttribute('open')) {
     // 如果点击的是内容区域，不处理
     if (event.target.closest('.paper-content')) {
        return;
     }
-    // 如果点击的是 Summary 按钮本身，不处理（原生行为会处理）
+    // 如果点击的是 Summary 按钮本身，也不处理
     if (event.target.closest('summary')) {
         return;
     }
-    // 否则（点击了背景遮罩），关闭它
+    // 否则（点击了透明背景），关闭它
     details.removeAttribute('open');
   }
 });
