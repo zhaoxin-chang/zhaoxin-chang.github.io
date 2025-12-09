@@ -10,101 +10,44 @@ redirect_from:
 ---
 
 <style>
-/* =======================================================
-   1. 基础布局与 Badge (保留你的设置)
-   ======================================================= */
-.archive {
-  width: 83% !important;
-  padding-right: 0 !important;
-  font-size: 0.9em;
-}
-
-.badge {
-  display: inline-block; padding: 4px 6px; font-size: 12px; font-weight: 700;
-  line-height: 1; color: #fff; text-align: center; white-space: nowrap;
-  vertical-align: middle; border-radius: 4px; margin-right: 8px;
-  transform: translateY(-2px);
-}
+/* 1. 基础设置 */
+.archive { width: 83% !important; padding-right: 0 !important; font-size: 0.9em; }
+.badge { display: inline-block; padding: 4px 6px; font-size: 12px; font-weight: 700; line-height: 1; color: #fff; text-align: center; vertical-align: middle; border-radius: 4px; margin-right: 8px; transform: translateY(-2px); }
 .bg-mobicom { background-color: #c0392b; } 
 .bg-sensys  { background-color: #2980b9; } 
 .bg-ubicomp { background-color: #8e44ad; } 
 .bg-tmc     { background-color: #27ae60; } 
 .bg-other   { background-color: #17a2b8; } 
 
-/* =======================================================
-   2. 按钮栏与通用按钮
-   ======================================================= */
-.paper-buttons {
-  margin-top: 8px; margin-bottom: 10px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
-}
-.paper-btn {
-  display: inline-block; padding: 5px 12px; font-size: 13px; font-weight: 600;
-  color: #444; background-color: #f1f3f5; border: 1px solid #d1d5da;
-  border-radius: 4px; cursor: pointer; text-decoration: none !important;
-  transition: all 0.2s ease; line-height: 1.5; user-select: none;
-}
-.paper-btn:hover {
-  background-color: #e9ecef; transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-/* Video 按钮 */
+/* 2. 按钮与布局 */
+.paper-buttons { margin-top: 8px; margin-bottom: 10px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.paper-btn { display: inline-block; padding: 5px 12px; font-size: 13px; font-weight: 600; color: #444; background-color: #f1f3f5; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; text-decoration: none !important; transition: all 0.2s ease; line-height: 1.5; user-select: none; }
+.paper-btn:hover { background-color: #e9ecef; transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
 .btn-video { color: #fff !important; background-color: #d9534f; border-color: #d43f3a; }
 .btn-video:hover { background-color: #c9302c; color: #fff !important; }
 
-/* 隐藏原生箭头 */
+/* 3. 弹窗逻辑 (透明背景+无抖动) */
 details > summary { list-style: none; }
 details > summary::-webkit-details-marker { display: none; }
+details[open] > summary::before { content: ""; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: transparent; z-index: 999; cursor: default; }
+details[open] > summary { pointer-events: none; } /* 打开时冻结按钮 */
 
-/* =======================================================
-   3. 弹窗逻辑 (透明背景 + 无抖动 + 修复点击)
-   ======================================================= */
-/* 透明背景层 */
-details[open] > summary::before {
-  content: ""; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-  background: transparent; z-index: 999; cursor: default;
-}
-
-/* 冻结背景按钮防止抖动 */
-details[open] > summary { pointer-events: none; }
-
-/* 弹窗内容卡片 */
 details[open] > .paper-content {
   position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
   z-index: 1000; width: 90%; max-width: 800px; max-height: 85vh; overflow-y: auto;
   background-color: #fff; padding: 25px; border-radius: 8px;
-  box-shadow: 0 5px 40px rgba(0,0,0,0.2); 
-  border: 1px solid #ddd;
-  animation: modalPop 0.2s ease-out;
-  pointer-events: auto; /* 关键：确保内容可点击 */
+  box-shadow: 0 5px 40px rgba(0,0,0,0.2); border: 1px solid #ddd;
+  animation: modalPop 0.2s ease-out; pointer-events: auto;
 }
+@keyframes modalPop { from { opacity: 0; transform: translate(-50%, -48%) scale(0.95); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
 
-@keyframes modalPop {
-  from { opacity: 0; transform: translate(-50%, -48%) scale(0.95); }
-  to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-}
-
-/* 关闭按钮 */
-.modal-close {
-  position: absolute; top: 10px; right: 15px; font-size: 24px;
-  color: #aaa; cursor: pointer; z-index: 1005; pointer-events: auto;
-}
+.modal-close { position: absolute; top: 10px; right: 15px; font-size: 24px; color: #aaa; cursor: pointer; z-index: 1005; pointer-events: auto; }
 .modal-close:hover { color: #333; }
 
-/* =======================================================
-   4. BibTeX 与 Copy 按钮样式
-   ======================================================= */
+/* 4. BibTeX */
 .bibtex-container { position: relative; }
-.bibtex-code {
-  background: #f6f8fa; padding: 15px; border-radius: 4px;
-  font-family: Consolas, monospace; font-size: 12px; overflow-x: auto;
-  white-space: pre; color: #333; margin-top: 10px; border: 1px solid #eee;
-}
-.copy-btn {
-  position: absolute; top: 5px; right: 5px; background: #fff;
-  border: 1px solid #ddd; padding: 3px 10px; font-size: 12px;
-  cursor: pointer; border-radius: 4px; font-weight: bold; pointer-events: auto;
-  z-index: 1010;
-}
+.bibtex-code { background: #f6f8fa; padding: 15px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px; overflow-x: auto; white-space: pre; color: #333; margin-top: 10px; border: 1px solid #eee; }
+.copy-btn { position: absolute; top: 5px; right: 5px; background: #fff; border: 1px solid #ddd; padding: 3px 10px; font-size: 12px; cursor: pointer; border-radius: 4px; font-weight: bold; pointer-events: auto; z-index: 1010; }
 .copy-btn:hover { background-color: #f0f0f0; }
 </style>
 
@@ -348,7 +291,7 @@ Selected Publications 📑
         <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
         <h3>BibTeX Citation</h3>
         <div class="bibtex-container">
-          <button class="copy-btn" onclick="copyBib(this)">Copy</button>
+          <button class="copy-btn">Copy</button>
           <div class="bibtex-code">
 @article{zhang2020exploring,
   title={Exploring LoRa for long-range through-wall sensing},
@@ -419,57 +362,63 @@ Teaching Assistant 👨‍🏫
 
 {% raw %}
 <script>
-// 1. 定义全局复制函数
-window.copyBib = function(btn) {
-  // 防止重复点击
-  if (btn.innerText === "Copied!") return;
-
-  // 找到对应的 BibTeX 代码
-  var container = btn.closest('.bibtex-container');
-  var codeBlock = container.querySelector('.bibtex-code');
-  
-  if (!codeBlock) return;
-
-  // 创建临时的 textarea 元素 (最稳妥的复制方法)
-  var textArea = document.createElement("textarea");
-  textArea.value = codeBlock.innerText;
-  textArea.style.position = "fixed";
-  textArea.style.left = "-9999px";
-  document.body.appendChild(textArea);
-  textArea.select();
-  
-  try {
-    document.execCommand('copy');
+document.addEventListener('DOMContentLoaded', function() {
+  // 监听全页面点击
+  document.addEventListener('click', function(e) {
     
-    // 成功提示
-    var originalText = btn.innerText;
-    btn.innerText = "Copied!";
-    btn.style.color = "#28a745";
-    btn.style.borderColor = "#28a745";
-    
-    setTimeout(function() {
-      btn.innerText = originalText;
-      btn.style.color = "";
-      btn.style.borderColor = "";
-    }, 2000);
-  } catch (err) {
-    console.error("Copy failed", err);
-  }
-  
-  document.body.removeChild(textArea);
-};
+    // ------------------------------------------------
+    // 逻辑 A: 复制功能 (只要点了 class="copy-btn" 就触发)
+    // ------------------------------------------------
+    if (e.target && e.target.classList.contains('copy-btn')) {
+      var btn = e.target;
+      if (btn.innerText === "Copied!") return; // 防止连点
 
-// 2. 点击透明背景关闭弹窗 (辅助功能)
-document.addEventListener('click', function(e) {
-  var details = e.target.closest('details');
-  if (details && details.hasAttribute('open')) {
-    // 如果点在内容区或者 Summary 按钮上，不关闭
-    if (e.target.closest('.paper-content') || e.target.closest('summary')) {
-      return;
+      // 寻找旁边的 bibtex-code
+      var container = btn.closest('.bibtex-container');
+      if (!container) return;
+      var codeBlock = container.querySelector('.bibtex-code');
+      if (!codeBlock) return;
+
+      // 执行复制
+      var textArea = document.createElement("textarea");
+      textArea.value = codeBlock.innerText;
+      textArea.style.position = "fixed";
+      textArea.style.left = "-9999px";
+      document.body.appendChild(textArea);
+      textArea.select();
+      
+      try {
+        document.execCommand('copy');
+        // 变色反馈
+        var originalText = btn.innerText;
+        btn.innerText = "Copied!";
+        btn.style.color = "#28a745";
+        btn.style.borderColor = "#28a745";
+        setTimeout(function() {
+          btn.innerText = originalText;
+          btn.style.color = "";
+          btn.style.borderColor = "";
+        }, 2000);
+      } catch (err) {
+        console.error("Copy failed", err);
+      }
+      document.body.removeChild(textArea);
     }
-    // 否则关闭
-    details.removeAttribute('open');
-  }
+
+    // ------------------------------------------------
+    // 逻辑 B: 点击透明背景关闭弹窗
+    // ------------------------------------------------
+    var details = e.target.closest('details');
+    if (details && details.hasAttribute('open')) {
+      // 如果点击在内容区，不关闭
+      if (e.target.closest('.paper-content')) return;
+      // 如果点击在 Summary 按钮，不处理(由原生处理)
+      if (e.target.closest('summary')) return;
+
+      // 点击了外部透明背景 -> 关闭
+      details.removeAttribute('open');
+    }
+  });
 });
 </script>
 {% endraw %}
