@@ -399,13 +399,11 @@ Selected Publications📑
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
   
-  <div class="paper-buttons">
-
+<div class="paper-buttons">
     <details>
       <summary class="paper-btn">Abstract</summary>
       <div class="paper-content">
-        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
-        
+        <div class="modal-close">&times;</div>
         <p align="center">
            <img src="/files/lora.png" alt="System Overview" style="max-width: 100%; border-radius: 4px;">
         </p>
@@ -418,22 +416,22 @@ Selected Publications📑
     <details>
       <summary class="paper-btn">BibTeX</summary>
       <div class="paper-content">
-        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
+        <div class="modal-close">&times;</div>
         <h3>BibTeX Citation</h3>
         <div class="bibtex-container">
           <button class="copy-btn">Copy</button>
-        <div class="bibtex-code">
-        @article{zhang2020exploring,
-          title={Exploring LoRa for long-range through-wall sensing},
-          author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
-          journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
-          volume={4},
-          number={2},
-          pages={1--27},
-          year={2020},
-          publisher={ACM New York, NY, USA}
-        }
-        </div>
+          <div class="bibtex-code">
+@article{zhang2020exploring,
+  title={Exploring LoRa for long-range through-wall sensing},
+  author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={4},
+  number={2},
+  pages={1--27},
+  year={2020},
+  publisher={ACM New York, NY, USA}
+}
+          </div>
         </div>
       </div>
     </details>
@@ -441,8 +439,7 @@ Selected Publications📑
     <a href="https://www.youtube.com/watch?v=-q8XIBdc6GE" target="_blank" class="paper-btn btn-video">
        Video Demo
     </a>
-
-  </div>
+</div>
 
 
 Preprints✍️
@@ -492,35 +489,59 @@ Teaching Assistant👨‍🏫
 - **Fall 2018** Introduction to Computer Systems (Computer Systems: A Programmer's Perspective), Peking University
 
 
-{% raw %}
+<style>
+/* --- 布局与按钮样式 --- */
+.paper-buttons { margin-top: 8px; margin-bottom: 10px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.paper-btn { display: inline-block; padding: 5px 12px; font-size: 13px; font-weight: 600; color: #444; background-color: #f1f3f5; border: 1px solid #d1d5da; border-radius: 4px; cursor: pointer; text-decoration: none !important; transition: all 0.2s ease; line-height: 1.5; user-select: none; }
+.paper-btn:hover { background-color: #e9ecef; transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.btn-video { color: #fff !important; background-color: #d9534f; border-color: #d43f3a; }
+.btn-video:hover { background-color: #c9302c; color: #fff !important; }
+
+/* 隐藏原生箭头 */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+
+/* --- 弹窗逻辑 (透明背景 + 无抖动) --- */
+details[open] > summary::before {
+  content: ""; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: transparent; /* 完全透明 */
+  z-index: 999; cursor: default;
+}
+/* 打开时冻结按钮，防止抖动 */
+details[open] > summary { pointer-events: none; }
+
+/* 弹窗内容卡片 */
+details[open] > .paper-content {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  z-index: 1000; width: 90%; max-width: 800px; max-height: 85vh; overflow-y: auto;
+  background-color: #fff; padding: 25px; border-radius: 8px;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.2); border: 1px solid #ddd;
+}
+
+/* 关闭按钮 */
+.modal-close { position: absolute; top: 10px; right: 15px; font-size: 24px; color: #aaa; cursor: pointer; z-index: 1005; pointer-events: auto; }
+.modal-close:hover { color: #333; }
+
+/* BibTeX 代码块 */
+.bibtex-container { position: relative; }
+.bibtex-code { background: #f6f8fa; padding: 15px; border-radius: 4px; font-family: Consolas, monospace; font-size: 12px; overflow-x: auto; white-space: pre; color: #333; margin-top: 10px; border: 1px solid #eee; }
+.copy-btn { position: absolute; top: 5px; right: 5px; background: #fff; border: 1px solid #ddd; padding: 3px 10px; font-size: 12px; cursor: pointer; border-radius: 4px; font-weight: bold; pointer-events: auto; }
+</style>
+
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  console.log("Global event listener initialized.");
+document.addEventListener('click', function(e) {
+  // --- 1. 复制功能 (Event Delegation) ---
+  if (e.target && e.target.classList.contains('copy-btn')) {
+    var btn = e.target;
+    if (btn.innerText === "Copied!") return;
 
-  // 监听整个页面的点击事件
-  document.addEventListener('click', function(e) {
-    
-    // =========================
-    // 功能 1: 复制 BibTeX
-    // =========================
-    // 检查点击的元素是否是 .copy-btn
-    if (e.target && e.target.classList.contains('copy-btn')) {
-      var button = e.target;
-      
-      // 防止重复点击
-      if(button.innerText === "Copied!") return;
+    var container = btn.closest('.bibtex-container');
+    var code = container ? container.querySelector('.bibtex-code') : null;
 
-      // 找到对应的代码块
-      var container = button.closest('.bibtex-container');
-      if (!container) return; // 没找到容器就不管
-      
-      var codeBlock = container.querySelector('.bibtex-code');
-      if (!codeBlock) return; // 没找到代码就不管
-
-      // 执行复制
-      var textToCopy = codeBlock.innerText;
+    if (code) {
+      // 使用 textarea 兼容性大法复制
       var textArea = document.createElement("textarea");
-      textArea.value = textToCopy;
+      textArea.value = code.innerText; // 获取文本
       textArea.style.position = "fixed";
       textArea.style.left = "-9999px";
       document.body.appendChild(textArea);
@@ -528,39 +549,40 @@ document.addEventListener('DOMContentLoaded', function() {
       
       try {
         document.execCommand('copy');
-        // 成功反馈
-        var originalText = button.innerText;
-        button.innerText = "Copied!";
-        button.style.color = "#28a745";
-        button.style.borderColor = "#28a745";
-        
+        // 成功动画
+        var originalText = btn.innerText;
+        btn.innerText = "Copied!";
+        btn.style.color = "#28a745";
+        btn.style.borderColor = "#28a745";
         setTimeout(function() {
-          button.innerText = originalText;
-          button.style.color = "";
-          button.style.borderColor = "";
+          btn.innerText = originalText;
+          btn.style.color = "";
+          btn.style.borderColor = "";
         }, 2000);
       } catch (err) {
-        console.error('Copy failed', err);
+        console.error("Copy failed", err);
       }
-      
       document.body.removeChild(textArea);
     }
+  }
 
-    // =========================
-    // 功能 2: 点击背景关闭弹窗
-    // =========================
-    // 检查是否点击了 open 状态的 details
-    var details = e.target.closest('details');
-    if (details && details.hasAttribute('open')) {
-      // 如果点击的是内容区域(.paper-content) 或者 摘要按钮(summary)，什么都不做
-      if (e.target.closest('.paper-content') || e.target.closest('summary')) {
-         return;
-      }
-      // 否则（点击了透明背景），关闭弹窗
-      details.removeAttribute('open');
+  // --- 2. 关闭弹窗功能 ---
+  // 检查是否点击了 details 相关的区域
+  var details = e.target.closest('details');
+  if (details && details.hasAttribute('open')) {
+    // 如果点击了内容区(.paper-content) 或 复制按钮，不关闭
+    if (e.target.closest('.paper-content')) {
+        // 特例：如果点击的是关闭按钮(.modal-close)，则由HTML自带事件处理或这里处理
+        if (e.target.classList.contains('modal-close')) {
+            details.removeAttribute('open');
+        }
+        return;
     }
+    // 如果点击的是 summary (虽然被pointer-events:none了，但在某些浏览器可能穿透)，忽略
+    if (e.target.closest('summary')) return;
 
-  });
+    // 点击了透明背景 -> 关闭
+    details.removeAttribute('open');
+  }
 });
 </script>
-{% endraw %}
