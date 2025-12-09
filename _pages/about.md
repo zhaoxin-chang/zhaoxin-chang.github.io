@@ -493,16 +493,75 @@ Teaching Assistant👨‍🏫
 - **Fall 2018** Introduction to Computer Systems (Computer Systems: A Programmer's Perspective), Peking University
 
 
+{% raw %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // 自动寻找所有 copy-btn 并绑定事件，不需要 onclick
-    var buttons = document.querySelectorAll('.copy-btn');
+  console.log("Global event listener initialized.");
+
+  // 监听整个页面的点击事件
+  document.addEventListener('click', function(e) {
     
-    buttons.forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            // 这里放上面的复制逻辑 (把 button 换成 this 或 btn)
-            window.copyBibtex(this); 
-        });
-    });
+    // =========================
+    // 功能 1: 复制 BibTeX
+    // =========================
+    // 检查点击的元素是否是 .copy-btn
+    if (e.target && e.target.classList.contains('copy-btn')) {
+      var button = e.target;
+      
+      // 防止重复点击
+      if(button.innerText === "Copied!") return;
+
+      // 找到对应的代码块
+      var container = button.closest('.bibtex-container');
+      if (!container) return; // 没找到容器就不管
+      
+      var codeBlock = container.querySelector('.bibtex-code');
+      if (!codeBlock) return; // 没找到代码就不管
+
+      // 执行复制
+      var textToCopy = codeBlock.innerText;
+      var textArea = document.createElement("textarea");
+      textArea.value = textToCopy;
+      textArea.style.position = "fixed";
+      textArea.style.left = "-9999px";
+      document.body.appendChild(textArea);
+      textArea.select();
+      
+      try {
+        document.execCommand('copy');
+        // 成功反馈
+        var originalText = button.innerText;
+        button.innerText = "Copied!";
+        button.style.color = "#28a745";
+        button.style.borderColor = "#28a745";
+        
+        setTimeout(function() {
+          button.innerText = originalText;
+          button.style.color = "";
+          button.style.borderColor = "";
+        }, 2000);
+      } catch (err) {
+        console.error('Copy failed', err);
+      }
+      
+      document.body.removeChild(textArea);
+    }
+
+    // =========================
+    // 功能 2: 点击背景关闭弹窗
+    // =========================
+    // 检查是否点击了 open 状态的 details
+    var details = e.target.closest('details');
+    if (details && details.hasAttribute('open')) {
+      // 如果点击的是内容区域(.paper-content) 或者 摘要按钮(summary)，什么都不做
+      if (e.target.closest('.paper-content') || e.target.closest('summary')) {
+         return;
+      }
+      // 否则（点击了透明背景），关闭弹窗
+      details.removeAttribute('open');
+    }
+
+  });
 });
 </script>
+{% endraw %}
