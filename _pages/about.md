@@ -1,5 +1,6 @@
 ---
 layout: archive
+wide: true
 permalink: /
 title: ""
 excerpt: ""
