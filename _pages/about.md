@@ -19,7 +19,7 @@ redirect_from:
     float: right; /* 确保它在侧边栏右侧 */
     margin-right: 0 !important; /* 去掉右边不必要的留白 */
     width: 80% !important; /* 这里调整宽度！80% 表示占据右侧剩余空间的比例 */
-    max-width: 1400px !important; /* 允许的最大像素宽度，设大一点防止换行 */
+    max-width: 1200px !important; /* 允许的最大像素宽度，设大一点防止换行 */
   }
 }
 
@@ -27,7 +27,7 @@ redirect_from:
 .archive {
   width: 100% !important;
   padding-right: 0 !important;
-  font-size: 1.05em; /* 可选：稍微调大字体让宽屏看着更舒服 */
+  font-size: 1.00em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
 
 /* --- Badge 样式 (保持不变) --- */
