@@ -422,7 +422,7 @@ Selected Publications📑
         
         <h3>BibTeX Citation</h3>
         <div class="bibtex-container">
-          <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
+          <button class="copy-btn">Copy</button>
           <div class="bibtex-code">
         @article{zhang2020exploring,
           title={Exploring LoRa for long-range through-wall sensing},
@@ -494,77 +494,15 @@ Teaching Assistant👨‍🏫
 
 
 <script>
-console.log("Custom script loaded successfully!"); // 调试信息
-
-// 1. 强制绑定到 window 对象，确保 onclick 能找到
-window.copyBibtex = function(button) {
-  console.log("Copy button clicked!"); // 调试信息
-
-  // 防止点击过快
-  if(button.innerText === "Copied!") return;
-
-  // 找到对应的代码块
-  var container = button.closest('.bibtex-container');
-  if (!container) {
-      console.error("Error: Container not found. Check HTML structure.");
-      return;
-  }
-  
-  var codeBlock = container.querySelector('.bibtex-code');
-  if (!codeBlock) {
-     console.error("Error: Bibtex code block not found.");
-     return;
-  }
-
-  // 获取文本
-  var textToCopy = codeBlock.innerText;
-
-  // 创建临时 textarea
-  var textArea = document.createElement("textarea");
-  textArea.value = textToCopy;
-  
-  // 确保不可见但存在
-  textArea.style.position = "fixed";
-  textArea.style.left = "-9999px";
-  textArea.style.top = "0";
-  document.body.appendChild(textArea);
-  
-  // 复制
-  textArea.focus();
-  textArea.select();
-  
-  try {
-    var successful = document.execCommand('copy');
-    if(successful) {
-        var originalText = button.innerText;
-        button.innerText = "Copied!";
-        button.style.color = "#28a745";
-        button.style.borderColor = "#28a745";
-        
-        setTimeout(function() {
-          button.innerText = originalText;
-          button.style.color = "";
-          button.style.borderColor = "";
-        }, 2000);
-    } else {
-        alert("Copy failed. Please copy manually.");
-    }
-  } catch (err) {
-    console.error('Copy error', err);
-    alert("Browser blocked copy.");
-  }
-
-  document.body.removeChild(textArea);
-};
-
-// 2. 点击透明背景关闭弹窗 (同样防止 ReferenceError)
-document.addEventListener('click', function(event) {
-  var details = event.target.closest('details');
-  if (details && details.hasAttribute('open')) {
-    if (event.target.closest('.paper-content') || event.target.closest('summary')) {
-       return;
-    }
-    details.removeAttribute('open');
-  }
+document.addEventListener('DOMContentLoaded', function() {
+    // 自动寻找所有 copy-btn 并绑定事件，不需要 onclick
+    var buttons = document.querySelectorAll('.copy-btn');
+    
+    buttons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            // 这里放上面的复制逻辑 (把 button 换成 this 或 btn)
+            window.copyBibtex(this); 
+        });
+    });
 });
 </script>
