@@ -24,7 +24,7 @@ redirect_from:
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  align-items: center; /* 关键：防止 Video 按钮在纵向上被拉伸 */
+  align-items: center;
 }
 
 /* --- 按钮通用样式 --- */
@@ -61,7 +61,7 @@ redirect_from:
   color: #fff !important;
 }
 
-/* --- 去掉 details 默认箭头 --- */
+/* --- 隐藏 details 默认箭头 --- */
 details > summary {
   list-style: none;
 }
@@ -70,10 +70,10 @@ details > summary::-webkit-details-marker {
 }
 
 /* =========================================
-   模态框核心样式 (Magic Happens Here) 
+   弹窗核心样式
    ========================================= */
 
-/* 1. 背景遮罩 (Backdrop) */
+/* 1. 背景遮罩 (已去除模糊，改为轻微变暗以捕捉点击) */
 details[open] > summary::before {
   content: "";
   position: fixed;
@@ -81,9 +81,9 @@ details[open] > summary::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5); /* 半透明黑背景 */
-  backdrop-filter: blur(5px);      /* 背景模糊效果 */
-  z-index: 999; /* 保证在最上层 */
+  /* 这里去掉了 backdrop-filter: blur */
+  background: rgba(0, 0, 0, 0.15); /* 仅用极淡的黑色遮罩，不模糊 */
+  z-index: 999;
   cursor: default;
 }
 
@@ -92,29 +92,29 @@ details[open] > .paper-content {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* 居中定位 */
-  z-index: 1000; /* 比背景更高 */
+  transform: translate(-50%, -50%);
+  z-index: 1000;
   
   width: 90%;
-  max-width: 800px;  /* 卡片最大宽度 */
-  max-height: 85vh;  /* 防止太高超出屏幕 */
-  overflow-y: auto;  /* 内容多时可以滚动 */
+  max-width: 800px;
+  max-height: 85vh;
+  overflow-y: auto;
   
   background-color: #fff;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-  border: none;
-  animation: modalPop 0.3s ease-out; /* 弹出动画 */
+  /* 加强阴影，让它在不模糊的背景上也能突显出来 */
+  box-shadow: 0 5px 30px rgba(0,0,0,0.3); 
+  border: 1px solid #ddd;
+  animation: modalPop 0.3s ease-out;
 }
 
-/* 弹出动画定义 */
 @keyframes modalPop {
   from { opacity: 0; transform: translate(-50%, -48%) scale(0.95); }
   to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
 }
 
-/* 关闭按钮 (X) */
+/* 关闭按钮 */
 .modal-close {
   position: absolute;
   top: 10px;
@@ -126,16 +126,16 @@ details[open] > .paper-content {
 }
 .modal-close:hover { color: #333; }
 
-/* BibTeX 代码块样式 */
+/* BibTeX 样式 */
 .bibtex-container { position: relative; }
 .bibtex-code {
   background: #f6f8fa;
   padding: 15px;
   border-radius: 4px;
-  font-family: monospace;
+  font-family: Consolas, monospace;
   font-size: 12px;
   overflow-x: auto;
-  white-space: pre;
+  white-space: pre; /* 保持换行 */
   color: #333;
   margin-top: 10px;
 }
@@ -391,6 +391,7 @@ Selected Publications📑
 - <span class="badge bg-ubicomp">UbiComp '20</span>[Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
+  
   <div class="paper-buttons">
 
     <details>
@@ -435,7 +436,7 @@ Selected Publications📑
        Video Demo
     </a>
 
-</div>
+  </div>
 
 
 Preprints✍️
@@ -486,48 +487,50 @@ Teaching Assistant👨‍🏫
 
 
 <script>
-// 1. 复制 BibTeX 功能 (修复版)
+// 1. 强力复制 BibTeX 功能
 function copyBibtex(button) {
-  // 找到当前按钮父容器下的 .bibtex-code 元素
-  const codeContainer = button.parentElement.querySelector('.bibtex-code');
+  // 找到最近的 .bibtex-container 里的 .bibtex-code
+  const container = button.closest('.bibtex-container');
+  const codeBox = container.querySelector('.bibtex-code');
   
-  // 使用 textContent 获取纯文本，避免复制 HTML 标签
-  const text = codeContainer.textContent.trim();
+  // 使用 innerText 获取可见文本（保留换行，不含HTML标签）
+  const text = codeBox.innerText;
 
-  // 执行复制
-  navigator.clipboard.writeText(text).then(() => {
-    const originalText = button.innerText;
-    button.innerText = "Copied!";
-    button.style.color = "green";
-    
-    setTimeout(() => {
-      button.innerText = originalText;
-      button.style.color = "";
-    }, 2000);
-  }).catch(err => {
-    console.error('Failed to copy:', err);
-    // 降级方案 (如果浏览器不支持 clipboard API)
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textarea);
-  });
+  // 创建一个临时的 textarea 元素来执行复制命令
+  // 这是兼容性最好的方法
+  const tempInput = document.createElement("textarea");
+  tempInput.value = text;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy"); // 执行复制
+  document.body.removeChild(tempInput);
+
+  // 按钮反馈
+  const originalText = button.innerText;
+  button.innerText = "Copied!";
+  button.style.color = "#28a745"; // 变绿
+  button.style.borderColor = "#28a745";
+  
+  setTimeout(() => {
+    button.innerText = originalText;
+    button.style.color = "";
+    button.style.borderColor = "";
+  }, 2000);
 }
 
-// 2. 点击遮罩层关闭模态框 (体验优化)
+// 2. 点击遮罩层关闭弹窗
 document.addEventListener('click', function(event) {
-  // 检查点击的目标是否是 summary 的伪元素 (即背景遮罩)
-  // 由于 JS 很难直接检测伪元素点击，我们检测点击是否在 open 的 details 上
-  // 但不在 .paper-content 上
   const details = event.target.closest('details');
   if (details && details.hasAttribute('open')) {
-    // 如果点击的是 details 内部的内容，不处理
-    if (event.target.closest('.paper-content') || event.target.closest('summary')) {
+    // 如果点击的是内容区域，不处理
+    if (event.target.closest('.paper-content')) {
        return;
     }
-    // 否则，说明点到了背景空白处，关闭它
+    // 如果点击的是 Summary 按钮本身，不处理（原生行为会处理）
+    if (event.target.closest('summary')) {
+        return;
+    }
+    // 否则（点击了背景遮罩），关闭它
     details.removeAttribute('open');
   }
 });
