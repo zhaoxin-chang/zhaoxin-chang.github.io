@@ -22,118 +22,133 @@ redirect_from:
   margin-top: 8px;
   margin-bottom: 10px;
   display: flex;
-  gap: 10px; /* 按钮之间的间距 */
+  gap: 10px;
   flex-wrap: wrap;
+  align-items: center; /* 关键：防止 Video 按钮在纵向上被拉伸 */
 }
 
-/* --- 通用小按钮样式 --- */
+/* --- 按钮通用样式 --- */
 .paper-btn {
   display: inline-block;
-  padding: 4px 10px;
+  padding: 5px 12px;
   font-size: 13px;
   font-weight: 600;
-  color: #555;
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
+  color: #444;
+  background-color: #f1f3f5;
+  border: 1px solid #d1d5da;
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none !important;
   transition: all 0.2s ease;
   line-height: 1.5;
+  user-select: none;
 }
 
 .paper-btn:hover {
-  background-color: #e2e6ea;
-  color: #333;
+  background-color: #e9ecef;
   transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* YouTube 按钮特有样式 */
+/* 视频按钮样式 */
 .btn-video {
   color: #fff !important;
-  background-color: #d9534f; /* YouTube 红 */
+  background-color: #d9534f;
   border-color: #d43f3a;
 }
 .btn-video:hover {
   background-color: #c9302c;
+  color: #fff !important;
 }
 
-/* --- 隐藏 details 默认的三角箭头 --- */
+/* --- 去掉 details 默认箭头 --- */
 details > summary {
-  list-style: none; /* 标准浏览器 */
+  list-style: none;
 }
 details > summary::-webkit-details-marker {
-  display: none; /* Chrome/Safari */
+  display: none;
 }
 
-/* --- 展开后的卡片容器样式 (优化版) --- */
-.paper-content {
-  background-color: #fff; /* 改回白色背景，更干净 */
-  border: 1px solid #e1e4e8;
-  border-left: 5px solid #007bff; /* 左侧蓝线加粗，更有设计感 */
-  padding: 15px 25px; /* 增加内部空间 */
-  border-radius: 6px; /* 圆角稍微大一点 */
-  margin-top: 12px;
-  
-  font-size: 0.95em; /* 字体大小 */
-  line-height: 1.6;  /* 增加行高，阅读不累 */
-  color: #24292e;    /* 字体颜色加深，对比度更好 */
-  text-align: justify; /* 两端对齐，看起来更整齐 */
-  
-  /* --- 关键修改：限制宽度 --- */
-  max-width: 750px; /* 限制最大宽度，不让它横跨整个屏幕！ */
-  width: 100%;      /* 在手机上依然占满屏幕 */
-  
-  /* --- 增加悬浮感 --- */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+/* =========================================
+   模态框核心样式 (Magic Happens Here) 
+   ========================================= */
+
+/* 1. 背景遮罩 (Backdrop) */
+details[open] > summary::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* 半透明黑背景 */
+  backdrop-filter: blur(5px);      /* 背景模糊效果 */
+  z-index: 999; /* 保证在最上层 */
+  cursor: default;
 }
 
-
-/* --- BibTeX 容器 (为了定位复制按钮) --- */
-.bibtex-container {
-  position: relative; /* 关键：让内部的绝对定位按钮以此为基准 */
-  width: 100%;
+/* 2. 弹出的卡片主体 */
+details[open] > .paper-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 居中定位 */
+  z-index: 1000; /* 比背景更高 */
+  
+  width: 90%;
+  max-width: 800px;  /* 卡片最大宽度 */
+  max-height: 85vh;  /* 防止太高超出屏幕 */
+  overflow-y: auto;  /* 内容多时可以滚动 */
+  
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  border: none;
+  animation: modalPop 0.3s ease-out; /* 弹出动画 */
 }
 
-/* --- BibTeX 代码块样式 (微调) --- */
+/* 弹出动画定义 */
+@keyframes modalPop {
+  from { opacity: 0; transform: translate(-50%, -48%) scale(0.95); }
+  to   { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+/* 关闭按钮 (X) */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  color: #aaa;
+  cursor: pointer;
+  line-height: 1;
+}
+.modal-close:hover { color: #333; }
+
+/* BibTeX 代码块样式 */
+.bibtex-container { position: relative; }
 .bibtex-code {
   background: #f6f8fa;
   padding: 15px;
-  padding-right: 60px; /* 右侧留出空间给按钮，防止文字被遮挡 */
-  border: 1px solid #ddd;
   border-radius: 4px;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 11px; /* 稍微改小一点，容纳更多内容 */
+  font-family: monospace;
+  font-size: 12px;
   overflow-x: auto;
   white-space: pre;
-  margin: 0;
   color: #333;
+  margin-top: 10px;
 }
-
-/* --- 复制按钮样式 --- */
 .copy-btn {
   position: absolute;
   top: 5px;
   right: 5px;
-  background-color: #fff;
-  border: 1px solid #d1d5da;
-  color: #24292e;
-  padding: 3px 8px;
-  font-size: 11px;
-  border-radius: 3px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 2px 8px;
+  font-size: 12px;
   cursor: pointer;
-  transition: all 0.2s;
-  font-weight: 600;
-  z-index: 10;
-}
-
-.copy-btn:hover {
-  background-color: #f3f4f6;
-  border-color: #1b1f2326;
-}
-
-.copy-btn:active {
-  transform: translateY(1px);
+  border-radius: 4px;
 }
   
 .badge {
@@ -377,10 +392,12 @@ Selected Publications📑
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
   <div class="paper-buttons">
-    
+
     <details>
       <summary class="paper-btn">Abstract</summary>
       <div class="paper-content">
+        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
+        
         <p align="center">
            <img src="/files/lora.png" alt="System Overview" style="max-width: 100%; border-radius: 4px;">
         </p>
@@ -393,7 +410,9 @@ Selected Publications📑
     <details>
       <summary class="paper-btn">BibTeX</summary>
       <div class="paper-content">
+        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
         
+        <h3>BibTeX Citation</h3>
         <div class="bibtex-container">
           <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
           <div class="bibtex-code">
@@ -409,14 +428,14 @@ Selected Publications📑
 }
           </div>
         </div>
-        </div>
+      </div>
     </details>
 
     <a href="https://www.youtube.com/watch?v=-q8XIBdc6GE" target="_blank" class="paper-btn btn-video">
        Video Demo
     </a>
 
-  </div>
+</div>
 
 
 Preprints✍️
@@ -467,29 +486,49 @@ Teaching Assistant👨‍🏫
 
 
 <script>
+// 1. 复制 BibTeX 功能 (修复版)
 function copyBibtex(button) {
-  // 1. 找到按钮旁边的 code 块
-  var codeBlock = button.nextElementSibling;
-  var text = codeBlock.innerText;
+  // 找到当前按钮父容器下的 .bibtex-code 元素
+  const codeContainer = button.parentElement.querySelector('.bibtex-code');
+  
+  // 使用 textContent 获取纯文本，避免复制 HTML 标签
+  const text = codeContainer.textContent.trim();
 
-  // 2. 创建临时元素进行复制
-  var tempInput = document.createElement("textarea");
-  tempInput.value = text;
-  document.body.appendChild(tempInput);
-  tempInput.select();
-  document.execCommand("copy");
-  document.body.removeChild(tempInput);
-
-  // 3. 按钮反馈 (变为 "Copied!" 然后变回 "Copy")
-  var originalText = button.innerText;
-  button.innerText = "Copied!";
-  button.style.color = "#28a745"; // 变成绿色
-  button.style.borderColor = "#28a745";
-
-  setTimeout(function() {
-    button.innerText = originalText;
-    button.style.color = "#24292e"; // 变回原来的颜色
-    button.style.borderColor = "#d1d5da";
-  }, 2000);
+  // 执行复制
+  navigator.clipboard.writeText(text).then(() => {
+    const originalText = button.innerText;
+    button.innerText = "Copied!";
+    button.style.color = "green";
+    
+    setTimeout(() => {
+      button.innerText = originalText;
+      button.style.color = "";
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy:', err);
+    // 降级方案 (如果浏览器不支持 clipboard API)
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  });
 }
+
+// 2. 点击遮罩层关闭模态框 (体验优化)
+document.addEventListener('click', function(event) {
+  // 检查点击的目标是否是 summary 的伪元素 (即背景遮罩)
+  // 由于 JS 很难直接检测伪元素点击，我们检测点击是否在 open 的 details 上
+  // 但不在 .paper-content 上
+  const details = event.target.closest('details');
+  if (details && details.hasAttribute('open')) {
+    // 如果点击的是 details 内部的内容，不处理
+    if (event.target.closest('.paper-content') || event.target.closest('summary')) {
+       return;
+    }
+    // 否则，说明点到了背景空白处，关闭它
+    details.removeAttribute('open');
+  }
+});
 </script>
