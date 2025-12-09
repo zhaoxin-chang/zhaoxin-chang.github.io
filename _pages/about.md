@@ -66,33 +66,75 @@ details > summary::-webkit-details-marker {
   display: none; /* Chrome/Safari */
 }
 
-/* --- 展开后的卡片容器样式 --- */
+/* --- 展开后的卡片容器样式 (优化版) --- */
 .paper-content {
-  background-color: #f8f9fa; /* 浅灰背景 */
-  border: 1px solid #e9ecef;
-  border-left: 4px solid #007bff; /* 左侧加一条蓝线装饰 */
-  padding: 15px;
-  border-radius: 4px;
-  margin-top: 10px;
-  font-size: 0.9em;
-  color: #444;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* 轻微阴影 */
+  background-color: #fff; /* 改回白色背景，更干净 */
+  border: 1px solid #e1e4e8;
+  border-left: 5px solid #007bff; /* 左侧蓝线加粗，更有设计感 */
+  padding: 15px 25px; /* 增加内部空间 */
+  border-radius: 6px; /* 圆角稍微大一点 */
+  margin-top: 12px;
+  
+  font-size: 0.95em; /* 字体大小 */
+  line-height: 1.6;  /* 增加行高，阅读不累 */
+  color: #24292e;    /* 字体颜色加深，对比度更好 */
+  text-align: justify; /* 两端对齐，看起来更整齐 */
+  
+  /* --- 关键修改：限制宽度 --- */
+  max-width: 750px; /* 限制最大宽度，不让它横跨整个屏幕！ */
+  width: 100%;      /* 在手机上依然占满屏幕 */
+  
+  /* --- 增加悬浮感 --- */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
 }
 
-/* BibTeX 代码块样式 */
+
+/* --- BibTeX 容器 (为了定位复制按钮) --- */
+.bibtex-container {
+  position: relative; /* 关键：让内部的绝对定位按钮以此为基准 */
+  width: 100%;
+}
+
+/* --- BibTeX 代码块样式 (微调) --- */
 .bibtex-code {
-  background: #fff;
-  padding: 10px;
+  background: #f6f8fa;
+  padding: 15px;
+  padding-right: 60px; /* 右侧留出空间给按钮，防止文字被遮挡 */
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-family: monospace;
-  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 11px; /* 稍微改小一点，容纳更多内容 */
   overflow-x: auto;
   white-space: pre;
   margin: 0;
+  color: #333;
 }
 
+/* --- 复制按钮样式 --- */
+.copy-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  color: #24292e;
+  padding: 3px 8px;
+  font-size: 11px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+  z-index: 10;
+}
 
+.copy-btn:hover {
+  background-color: #f3f4f6;
+  border-color: #1b1f2326;
+}
+
+.copy-btn:active {
+  transform: translateY(1px);
+}
   
 .badge {
   display: inline-block;
@@ -114,13 +156,14 @@ details > summary::-webkit-details-marker {
 .bg-tmc     { background-color: #27ae60; } /* 丛林绿 */
 .bg-other   { background-color: #17a2b8; } 
 </style>
-Bio
+
+Bio🧑‍🎓
 ======
 I am a third-year PhD candidate at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) (IEEE Fellow) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and my M.S. degree from [IP Paris](https://www.ip-paris.fr/en) in 2023.
 
 I am interested in wireless sensing and mobile computing for health monitoring and human-computer interaction. My research focuses on addressing key challenges in wireless sensing to bridge the gap between wireless sensing theories and real-world development.
 
-News
+News🔥
 ======
 
 - **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
@@ -131,7 +174,7 @@ News
 
 
 
-Awards and Honors
+Awards and Honors🏆
 ======
 
 - **UbiComp 2025** Gaetano Borriello Outstanding Student Award Runner-up
@@ -143,7 +186,7 @@ Awards and Honors
 - **IPIN 2021** Indoor Positioning Competition, Winner
 - **IMWUT Vol. 4 (UbiComp 2020)** Distinguished Paper Award
 
-Selected Publications
+Selected Publications📑
 ======
 
 - <span class="badge bg-sensys">SenSys '26</span>[WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
@@ -342,7 +385,7 @@ Selected Publications
            <img src="/files/lora.png" alt="System Overview" style="max-width: 100%; border-radius: 4px;">
         </p>
         <p>
-          Wireless signals have been extensively utilized for contactless sensing in the past few years... (这里放你的摘要内容) ...
+          Wireless signals have been extensively utilized for contactless sensing in the past few years. Due to the intrinsic nature of employing the weak target-reflected signal for sensing, the sensing range is limited. For instance, WiFi and RFID can achieve 3-6 meter sensing range while acoustic-based sensing is limited to less than one meter. In this work, we identify exciting sensing opportunities with LoRa, which is the new long-range communication technology designed for IoT communication. We explore the sensing capability of LoRa, both theoretically and experimentally. We develop the sensing model to characterize the relationship between target movement and signal variation, and propose novel techniques to increase LoRa sensing range to over 25 meters for human respiration sensing. We further build a prototype system which is capable of sensing both coarse-grained and fine-grained human activities. Experimental results show that (1) human respiration can still be sensed when the target is 25 meters away from the LoRa devices, and 15 meters away with a wall in between; and (2) human walking (both displacement and direction) can be tracked accurately even when the target is 30 meters away from the LoRa transceiver pair.
         </p>
       </div>
     </details>
@@ -350,7 +393,10 @@ Selected Publications
     <details>
       <summary class="paper-btn">BibTeX</summary>
       <div class="paper-content">
-        <div class="bibtex-code">
+        
+        <div class="bibtex-container">
+          <button class="copy-btn" onclick="copyBibtex(this)">Copy</button>
+          <div class="bibtex-code">
 @article{zhang2020exploring,
   title={Exploring LoRa for long-range through-wall sensing},
   author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
@@ -361,18 +407,19 @@ Selected Publications
   year={2020},
   publisher={ACM New York, NY, USA}
 }
+          </div>
         </div>
-      </div>
+        </div>
     </details>
 
-    <a href="https://www.youtube.com/watch?v=你的视频ID" target="_blank" class="paper-btn btn-video">
+    <a href="https://www.youtube.com/watch?v=-q8XIBdc6GE" target="_blank" class="paper-btn btn-video">
        Video Demo
     </a>
 
   </div>
 
 
-Preprints
+Preprints✍️
 ======
 
 - <span class="badge bg-other">Under review</span>[PnPSelect: Plug-and-play IoT Device Selection Using Ultra-wideband Signals.](https://arxiv.org/abs/2511.03534)\
@@ -395,7 +442,7 @@ Preprints
 
 
 
-Professional Service
+Professional Service🧱
 ======
 
 - **Technical Program Committee** IEEE ICPADS, 2025
@@ -412,8 +459,37 @@ Professional Service
 - **Reviewer** IEEE JSAC, 2024
 - **Reviewer** ACM TIOT, 2023
 
-Teaching Assistant
+Teaching Assistant👨‍🏫
 ======
 
 - **Fall 2025** Internet of Things and Data Analytics, IP Paris
 - **Fall 2018** Introduction to Computer Systems (Computer Systems: A Programmer's Perspective), Peking University
+
+
+<script>
+function copyBibtex(button) {
+  // 1. 找到按钮旁边的 code 块
+  var codeBlock = button.nextElementSibling;
+  var text = codeBlock.innerText;
+
+  // 2. 创建临时元素进行复制
+  var tempInput = document.createElement("textarea");
+  tempInput.value = text;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+
+  // 3. 按钮反馈 (变为 "Copied!" 然后变回 "Copy")
+  var originalText = button.innerText;
+  button.innerText = "Copied!";
+  button.style.color = "#28a745"; // 变成绿色
+  button.style.borderColor = "#28a745";
+
+  setTimeout(function() {
+    button.innerText = originalText;
+    button.style.color = "#24292e"; // 变回原来的颜色
+    button.style.borderColor = "#d1d5da";
+  }, 2000);
+}
+</script>
