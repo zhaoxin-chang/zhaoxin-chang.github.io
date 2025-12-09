@@ -12,7 +12,7 @@ redirect_from:
 <style>
 
 .archive {
-  width: 80% !important;
+  width: 82% !important;
   padding-right: 0 !important;
   font-size: 0.9em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
@@ -41,15 +41,13 @@ Bio
 ======
 I am a third-year PhD candidate at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) (IEEE Fellow) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and my M.S. degree from [IP Paris](https://www.ip-paris.fr/en) in 2023.
 
-Research Interests
-======
 I am interested in wireless sensing and mobile computing for health monitoring and human-computer interaction. My research focuses on addressing key challenges in wireless sensing to bridge the gap between wireless sensing theories and real-world development.
 
 News
 ======
 
 - **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
-- **Oct 2025** I'm very honored to be awarded as a runner-up of the Gaetano Borriello Outstanding Student Award at UbiComp 2025
+- **Oct 2025** I'm honored to be awarded as a runner-up of the Gaetano Borriello Outstanding Student Award at UbiComp 2025
 - **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
 - **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
 - **Aug 2025** Serve on the TPC for ICA3PP 2025
@@ -73,7 +71,8 @@ Selected Publications
 
 - <span class="badge bg-sensys">SenSys '26</span>[WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
   <strong>Zhaoxin Chang</strong>\*, Shuguang Xiao\*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (\*Equal contribution)\
-  *ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems* (Acceptance rate: 48/257 = 18.7%)
+  *ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems*
+  (Acceptance rate: 48/257 = 18.7%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
