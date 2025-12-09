@@ -346,7 +346,7 @@ details[open]>.paper-content{position:fixed;top:50%;left:50%;transform:translate
   background:#f6f8fa;padding:15px;border-radius:4px;
   font-family:Consolas,monospace;font-size:12px;
   overflow-x:auto; 
-  white-space: pre; /* 关键：强制保留换行 */
+  /*white-space: pre;  关键：强制保留换行 */
   color:#333;margin-top:10px;border:1px solid #eee;
 }
 .copy-btn{position:absolute;top:5px;right:5px;background:#fff;border:1px solid #ddd;padding:3px 10px;font-size:12px;cursor:pointer;border-radius:4px;font-weight:700;pointer-events:auto;z-index:1010}.copy-btn:hover{background-color:#f0f0f0}
