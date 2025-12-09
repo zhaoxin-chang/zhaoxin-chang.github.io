@@ -12,7 +12,7 @@ redirect_from:
 <style>
 
 .archive {
-  width: 82% !important;
+  width: 83% !important;
   padding-right: 0 !important;
   font-size: 0.9em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
@@ -35,7 +35,7 @@ redirect_from:
 .bg-sensys  { background-color: #2980b9; } /* 也就是上面的蓝色稍微暗一点 */
 .bg-ubicomp { background-color: #8e44ad; } /* 罗兰紫 */
 .bg-tmc     { background-color: #27ae60; } /* 丛林绿 */
-.bg-other   { background-color: #17a2b8; } /* 铁灰色 */
+.bg-other   { background-color: #17a2b8; } 
 </style>
 Bio
 ======
@@ -84,8 +84,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-tmc">TMC</span>[WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
-  *Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, <strong>Zhaoxin Chang</strong>, Duo Zhang, Djamal Zeghlache, Daqing Zhang.*\
-  **IEEE Transactions on Mobile Computing, Vol. 24, No. 10, 2025**
+  Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, <strong>Zhaoxin Chang</strong>, Duo Zhang, Djamal Zeghlache, Daqing Zhang.\
+  *IEEE Transactions on Mobile Computing, Vol. 24, No. 10, 2025*
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -97,8 +97,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-tmc">TMC</span>[mmRotation: Unlocking Versatility of a Single mmWave Radar via Azimuth Panning and Elevation Tilting.](https://ieeexplore.ieee.org/document/10878446)\
-  *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
-  **IEEE Transactions on Mobile Computing, Vol. 24, No. 7, 2025**
+  Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.\
+  *IEEE Transactions on Mobile Computing, Vol. 24, No. 7, 2025*
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -110,8 +110,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-ubicomp">UbiComp '25</span>[MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
-  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.* \
-  **ACM IMWUT Vol. 8/UbiComp 2025**
+  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.\
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 8, No. 4*
   <details>
     <summary>Abstract</summary>
       <p align="center">
