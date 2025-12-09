@@ -39,3 +39,22 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+/* ---- widen about page ---- */
+
+.page,
+.page__inner-wrap,
+.wrapper,
+.container {
+  max-width: 1400px !important;
+}
+
+@media (min-width: 1200px) {
+  .page,
+  .page__inner-wrap,
+  .wrapper,
+  .container {
+    max-width: 1400px !important;
+  }
+}
