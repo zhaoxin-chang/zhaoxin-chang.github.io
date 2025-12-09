@@ -10,21 +10,27 @@ redirect_from:
 ---
 
 <style>
-/* 调整页面最大宽度 */
-.main-content, .container, .wrapper {
-  max-width: 1200px !important; /* 原来可能是 800px，改为 1200px 或 95% */
-}
+/* --- 页面宽度调整 (针对 Minimal Mistakes 主题) --- */
 
-/* 保证在手机端不会太挤，保持默认边距 */
-@media screen and (max-width: 1200px) {
-  .main-content, .container, .wrapper {
-    max-width: 100% !important;
-    padding: 0 20px;
+/* 1. 解除内容区域的宽度限制 */
+/* 注意：min-width: 64em 是主题默认的大屏断点 */
+@media (min-width: 64em) {
+  .page__inner-wrap {
+    float: right; /* 确保它在侧边栏右侧 */
+    margin-right: 0 !important; /* 去掉右边不必要的留白 */
+    width: 80% !important; /* 这里调整宽度！80% 表示占据右侧剩余空间的比例 */
+    max-width: 1400px !important; /* 允许的最大像素宽度，设大一点防止换行 */
   }
 }
-</style>
 
-<style>
+/* 2. 确保文章列表内容占满容器 */
+.archive {
+  width: 100% !important;
+  padding-right: 0 !important;
+  font-size: 1.05em; /* 可选：稍微调大字体让宽屏看着更舒服 */
+}
+
+/* --- Badge 样式 (保持不变) --- */
 .badge {
   display: inline-block;
   padding: 4px 6px;
@@ -37,13 +43,12 @@ redirect_from:
   vertical-align: middle;
   border-radius: 4px;
   margin-right: 8px;
-  transform: translateY(-2px); /*稍微上移对齐文字*/
+  transform: translateY(-2px);
 }
-.bg-1 { background-color: #007bff; } /* 蓝色 */
-.bg-2 { background-color: #28a745; }    /* 绿色 */
-.bg-3 { background-color: #17a2b8; } /* 青色 */
+.bg-1 { background-color: #007bff; } /* 蓝色 SenSys */
+.bg-2 { background-color: #28a745; } /* 绿色 TMC */
+.bg-3 { background-color: #17a2b8; } /* 青色 其他 */
 </style>
-
 Bio
 ======
 I am a third-year PhD candidate at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) (IEEE Fellow) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and my M.S. degree from [IP Paris](https://www.ip-paris.fr/en) in 2023.
