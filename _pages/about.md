@@ -1,6 +1,5 @@
 ---
 layout: archive
-wide: true
 permalink: /
 title: ""
 excerpt: ""
@@ -9,6 +8,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+<style>
+/* 调整页面最大宽度 */
+.main-content, .container, .wrapper {
+  max-width: 1200px !important; /* 原来可能是 800px，改为 1200px 或 95% */
+}
+
+/* 保证在手机端不会太挤，保持默认边距 */
+@media screen and (max-width: 1200px) {
+  .main-content, .container, .wrapper {
+    max-width: 100% !important;
+    padding: 0 20px;
+  }
+}
+</style>
 
 <style>
 .badge {
