@@ -9,6 +9,26 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.badge {
+  display: inline-block;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: 8px;
+  transform: translateY(-2px); /*稍微上移对齐文字*/
+}
+.bg-sensys { background-color: #007bff; } /* 蓝色 */
+.bg-tmc { background-color: #28a745; }    /* 绿色 */
+.bg-ubicomp { background-color: #17a2b8; } /* 青色 */
+</style>
+
 Bio
 ======
 I am a third-year PhD candidate at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) (IEEE Fellow) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and my M.S. degree from [IP Paris](https://www.ip-paris.fr/en) in 2023.
