@@ -18,8 +18,8 @@ redirect_from:
   .page__inner-wrap {
     float: right; /* 确保它在侧边栏右侧 */
     margin-right: 0 !important; /* 去掉右边不必要的留白 */
-    width: 80% !important; /* 这里调整宽度！80% 表示占据右侧剩余空间的比例 */
-    max-width: 1200px !important; /* 允许的最大像素宽度，设大一点防止换行 */
+    width: 60% !important; /* 这里调整宽度！80% 表示占据右侧剩余空间的比例 */
+    max-width: 1000px !important; /* 允许的最大像素宽度，设大一点防止换行 */
   }
 }
 
