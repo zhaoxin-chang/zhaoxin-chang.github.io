@@ -24,9 +24,9 @@ redirect_from:
   margin-right: 8px;
   transform: translateY(-2px); /*稍微上移对齐文字*/
 }
-.bg-sensys { background-color: #007bff; } /* 蓝色 */
-.bg-tmc { background-color: #28a745; }    /* 绿色 */
-.bg-ubicomp { background-color: #17a2b8; } /* 青色 */
+.bg-1 { background-color: #007bff; } /* 蓝色 */
+.bg-2 { background-color: #28a745; }    /* 绿色 */
+.bg-3 { background-color: #17a2b8; } /* 青色 */
 </style>
 
 Bio
@@ -63,9 +63,9 @@ Awards and Honors
 Selected Publications
 ======
 
-- <span class="badge bg-sensys">SenSys '26</span>[WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
-  *<strong>Zhaoxin Chang</strong>\*, Shuguang Xiao\*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (\*Equal contribution)*\
-  **ACM/IEEE SenSys 2026** (Acceptance rate: 48/257 = 18.7%)
+- <span class="badge bg-1">SenSys '26</span>[WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
+  <strong>Zhaoxin Chang</strong>\*, Shuguang Xiao\*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (\*Equal contribution)\
+  *ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems* (Acceptance rate: 48/257 = 18.7%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -76,7 +76,7 @@ Selected Publications
       </div>
   </details>
 
-- [WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
+- <span class="badge bg-3">TMC</span>[WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
   *Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, <strong>Zhaoxin Chang</strong>, Duo Zhang, Djamal Zeghlache, Daqing Zhang.*\
   **IEEE Transactions on Mobile Computing, Vol. 24, No. 10, 2025**
   <details>
@@ -89,7 +89,7 @@ Selected Publications
       </div>
   </details>
 
-- [mmRotation: Unlocking Versatility of a Single mmWave Radar via Azimuth Panning and Elevation Tilting.](https://ieeexplore.ieee.org/document/10878446)\
+- <span class="badge bg-3">TMC</span>[mmRotation: Unlocking Versatility of a Single mmWave Radar via Azimuth Panning and Elevation Tilting.](https://ieeexplore.ieee.org/document/10878446)\
   *Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.*\
   **IEEE Transactions on Mobile Computing, Vol. 24, No. 7, 2025**
   <details>
@@ -102,7 +102,7 @@ Selected Publications
       </div>
   </details>
 
-- [MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
+- <span class="badge bg-1">UbiComp '25</span>[MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
   *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.* \
   **ACM IMWUT Vol. 8/UbiComp 2025**
   <details>
@@ -115,7 +115,7 @@ Selected Publications
       </div>
   </details>
 
-- [Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals.](https://zhaoxin-chang.github.io/) <font color=red font-weight=bold>(Best Paper Award)</font>\
+- <span class="badge bg-1">AIoTSys '25</span>[Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals.](https://zhaoxin-chang.github.io/) <font color=red font-weight=bold>(Best Paper Award)</font>\
   *Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang.* \
   **AIoTSys 2025**
   <details>
@@ -125,7 +125,7 @@ Selected Publications
       </div>
   </details>
 
-- [UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
+- <span class="badge bg-1">UIC '24</span>[UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
   *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.* \
   **IEEE UIC 2024**
   <details>
@@ -138,7 +138,7 @@ Selected Publications
       </div>
   </details>
 
-- [MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
+- <span class="badge bg-1">MobiCom '24</span>[MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
   *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.* \
   **ACM MobiCom 2024** (Acceptance rate: 103/494 = 20.9%)
   <details>
@@ -151,7 +151,7 @@ Selected Publications
       </div>
   </details>
 
-- [Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
+- <span class="badge bg-1">MobiCom '23</span>[Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
   **ACM MobiCom 2023** (Acceptance rate: 92/377=24.4%)
   <details>
@@ -164,7 +164,7 @@ Selected Publications
       </div>
   </details>
 
-- [Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
+- <span class="badge bg-1">UbiComp '23</span>[Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
   *Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.*\
   **ACM IMWUT Vol. 7/UbiComp 2023**
   <details>
@@ -177,7 +177,7 @@ Selected Publications
       </div>
   </details>
 
-- [Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://dl.acm.org/doi/10.1145/3569487)\
+- <span class="badge bg-1">UbiComp '23</span>[Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://dl.acm.org/doi/10.1145/3569487)\
   *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.*\
   **ACM IMWUT Vol. 6/UbiComp 2023**
   <details>
@@ -190,7 +190,7 @@ Selected Publications
       </div>
   </details>
 
-- [Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://dl.acm.org/doi/10.1145/3495243.3560518) <font color=red font-weight=bold>(Best Paper Award Runner-up)</font>\
+- <span class="badge bg-1">MobiCom '22</span>[Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://dl.acm.org/doi/10.1145/3495243.3560518) <font color=red font-weight=bold>(Best Paper Award Runner-up)</font>\
   *Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.*\
   **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
   <details>
@@ -203,7 +203,7 @@ Selected Publications
     </div>
   </details>
 
-- [Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://dl.acm.org/doi/10.1145/3495243.3560546) <font color=red font-weight=bold>(Best Community Paper Award Runner-up)</font>\
+- <span class="badge bg-1">MobiCom '22</span>[Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://dl.acm.org/doi/10.1145/3495243.3560546) <font color=red font-weight=bold>(Best Community Paper Award Runner-up)</font>\
   *Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.*\
   **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
   <details>
@@ -216,7 +216,7 @@ Selected Publications
       </div>
   </details>
 
-- [Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
+- <span class="badge bg-1">UbiComp '22</span>[Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
   *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.* \
   **ACM IMWUT Vol. 6/UbiComp 2022**
   <details>
@@ -229,7 +229,7 @@ Selected Publications
     </div>
   </details>
   
-- [Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.](https://dl.acm.org/doi/abs/10.1145/3463526)\
+- <span class="badge bg-1">UbiComp '21</span>[Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.](https://dl.acm.org/doi/abs/10.1145/3463526)\
   *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.*\
   **ACM IMWUT Vol. 5/UbiComp 2021**
   <details>
@@ -242,7 +242,7 @@ Selected Publications
     </div>
   </details>
   
-- [Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
+- <span class="badge bg-1">UbiComp '20</span>[Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
   *Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.*\
   **ACM IMWUT Vol. 4/UbiComp 2020**
   <details>
