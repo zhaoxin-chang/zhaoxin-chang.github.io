@@ -12,7 +12,7 @@ redirect_from:
 <style>
 
 .archive {
-  width: 83% !important;
+  width: 84% !important;
   padding-right: 0 !important;
   font-size: 0.9em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
@@ -123,8 +123,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-other">AIoTSys '25</span>[Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals.](https://zhaoxin-chang.github.io/) <font color=red font-weight=bold>(Best Paper Award)</font>\
-  *Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang.* \
-  **AIoTSys 2025**
+  Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang.\
+  *Third International Conference on Artificial Intelligence of Things and Systems*
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
@@ -132,22 +132,10 @@ Selected Publications
       </div>
   </details>
 
-- <span class="badge bg-other">UIC '24</span>[UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
-  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.* \
-  **IEEE UIC 2024**
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/uwbori.png" alt="图片描述" width="700px">
-      </p>
-    <div style="font-size: smaller;">
-    The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios.
-      </div>
-  </details>
-
 - <span class="badge bg-mobicom">MobiCom '24</span>[MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
-  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.* \
-  **ACM MobiCom 2024** (Acceptance rate: 103/494 = 20.9%)
+  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.\
+  *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*\
+  (Acceptance rate: 103/494 = 20.9%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -158,9 +146,23 @@ Selected Publications
       </div>
   </details>
 
+- <span class="badge bg-other">UIC '24</span>[UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
+  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.\
+  *The 21st IEEE International Conference on Ubiquitous Intelligence and Computing*
+  <details>
+    <summary>Abstract</summary>
+      <p align="center">
+        <img src="/files/uwbori.png" alt="图片描述" width="700px">
+      </p>
+    <div style="font-size: smaller;">
+    The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios.
+      </div>
+  </details>
+
 - <span class="badge bg-mobicom">MobiCom '23</span>[Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
-  *Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.*\
-  **ACM MobiCom 2023** (Acceptance rate: 92/377=24.4%)
+  Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.\
+  *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*\
+  (Acceptance rate: 92/377=24.4%)
   <details>
     <summary>Abstract</summary>
     <p align="center">
@@ -199,7 +201,8 @@ Selected Publications
 
 - <span class="badge bg-mobicom">MobiCom '22</span>[Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://dl.acm.org/doi/10.1145/3495243.3560518) <font color=red font-weight=bold>(Best Paper Award Runner-up)</font>\
   *Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.*\
-  **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
+  *Proceedings of the 28th Annual International Conference on Mobile Computing and Networking*\
+  (Acceptance rate: 56/314=17.8%)
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -212,7 +215,8 @@ Selected Publications
 
 - <span class="badge bg-mobicom">MobiCom '22</span>[Experience: Pushing Indoor Localization from Laboratory to the Wild.](https://dl.acm.org/doi/10.1145/3495243.3560546) <font color=red font-weight=bold>(Best Community Paper Award Runner-up)</font>\
   *Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, **Zhaoxin Chang**, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu.*\
-  **ACM MobiCom 2022** (Acceptance rate: 56/314=17.8%)
+  *Proceedings of the 28th Annual International Conference on Mobile Computing and Networking*\
+  (Acceptance rate: 56/314=17.8%)
   <details>
     <summary>Abstract</summary>
      <p align="center">
