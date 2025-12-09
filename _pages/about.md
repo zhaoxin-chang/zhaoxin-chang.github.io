@@ -12,7 +12,7 @@ redirect_from:
 <style>
 
 .archive {
-  width: 84% !important;
+  width: 83% !important;
   padding-right: 0 !important;
   font-size: 0.9em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
@@ -174,8 +174,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-ubicomp">UbiComp '23</span>[Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
-  *Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.*\
-  **ACM IMWUT Vol. 7/UbiComp 2023**
+  Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.\
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 7, No. 3*
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -187,8 +187,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-ubicomp">UbiComp '23</span>[Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://dl.acm.org/doi/10.1145/3569487)\
-  *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.*\
-  **ACM IMWUT Vol. 6/UbiComp 2023**
+  Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.\
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 6, No. 4*
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -228,8 +228,8 @@ Selected Publications
   </details>
 
 - <span class="badge bg-ubicomp">UbiComp '22</span>[Sensor-free Soil Moisture Sensing Using LoRa Signals.](https://dl.acm.org/doi/10.1145/3534608)\
-  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.* \
-  **ACM IMWUT Vol. 6/UbiComp 2022**
+  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Junqi Ma, Beihong Jin, Daqing Zhang.\
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 6, No. 2*
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -241,8 +241,8 @@ Selected Publications
   </details>
   
 - <span class="badge bg-ubicomp">UbiComp '21</span>[Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.](https://dl.acm.org/doi/abs/10.1145/3463526)\
-  *Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.*\
-  **ACM IMWUT Vol. 5/UbiComp 2021**
+  Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.\
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 5, No. 2*
   <details>
     <summary>Abstract</summary>
       <p align="center">
@@ -254,8 +254,8 @@ Selected Publications
   </details>
   
 - <span class="badge bg-ubicomp">UbiComp '20</span>[Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
-  *Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.*\
-  **ACM IMWUT Vol. 4/UbiComp 2020**
+  Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
+  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
   <details>
     <summary>Abstract</summary>
      <p align="center">
@@ -270,8 +270,8 @@ Selected Publications
 Preprints
 ======
 
-- [PnPSelect: Plug-and-play IoT Device Selection Using Ultra-wideband Signals.](https://arxiv.org/abs/2511.03534)\
-  *<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang.*
+- <span class="badge bg-ubicomp">Under review</span>[PnPSelect: Plug-and-play IoT Device Selection Using Ultra-wideband Signals.](https://arxiv.org/abs/2511.03534)\
+  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang.
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
@@ -279,8 +279,8 @@ Preprints
       </div>
   </details>
 
-- [Exploring Quantum Sensing for Fine-grained Liquid Recognition.](https://arxiv.org/abs/2407.19656)\
-  *Yuechun Jiao, Jinlian Hu, Zitong Lan, Fusang Zhang, Jie Xiong, Jingxu Bai, <strong>Zhaoxin Chang</strong>, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia.*
+- <span class="badge bg-ubicomp">Under review</span>[Exploring Quantum Sensing for Fine-grained Liquid Recognition.](https://arxiv.org/abs/2407.19656)\
+  Yuechun Jiao, Jinlian Hu, Zitong Lan, Fusang Zhang, Jie Xiong, Jingxu Bai, <strong>Zhaoxin Chang</strong>, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia.
   <details>
     <summary>Abstract</summary>
     <div style="font-size: smaller;">
