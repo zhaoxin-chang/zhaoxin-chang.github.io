@@ -216,27 +216,60 @@ Selected Publications 📑
 - <span class="badge bg-ubicomp">UbiComp '21</span>[Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing.](https://dl.acm.org/doi/abs/10.1145/3463526)\
   Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Rong Zheng, Junqi Ma, Kai Niu, Beihong Jin, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 5, No. 2*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/beamforming.png" alt="图片描述" width="200px">
-      </p>
-    <div style="font-size: smaller;">
-    Despite extensive research effort in contact-free sensing using RF signals in the last few years, there still exist significant barriers preventing their wide adoptions. One key issue is the inability to sense multiple targets due to the intrinsic nature of relying on reflection signals for sensing: the reflections from multiple targets get mixed at the receiver and it is extremely difficult to separate these signals to sense each individual. This problem becomes even more severe in long-range LoRa sensing because the sensing range is much larger compared to WiFi and acoustic based sensing. In this work, we address the challenging multi-target sensing issue, moving LoRa sensing one big step towards practical adoption. The key idea is to effectively utilize multiple antennas at the LoRa gateway to enable spatial beamforming to support multi-target sensing. While traditional beamforming methods adopted in WiFi and Radar systems rely on accurate channel information or transmitter-receiver synchronization, these requirements can not be satisfied in LoRa systems: the transmitter and receiver are not synchronized and no channel state information can be obtained from the cheap LoRa nodes. Another interesting observation is that while beamforming helps to increase signal strength, the phase/amplitude information which is critical for sensing can get corrupted during the beamforming process, eventually compromising the sensing capability. In this paper, we propose novel signal processing methods to address the issues above to enable long-range multi-target reparation sensing with LoRa. Extensive experiments show that our system can monitor the respiration rates of five human targets simultaneously at an average accuracy of 98.1%.
-    </div>
-  </details>
+    <div class="paper-buttons">
+    <details>
+      <summary class="paper-btn">Abstract</summary>
+      <div class="paper-content">
+        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
+        <p align="center">
+           <img src="/files/beamforming.png" alt="System Overview" style="max-width: 50%; border-radius: 4px;">
+        </p>
+        <p>
+          Despite extensive research effort in contact-free sensing using RF signals in the last few years, there still exist significant barriers preventing their wide adoptions. One key issue is the inability to sense multiple targets due to the intrinsic nature of relying on reflection signals for sensing: the reflections from multiple targets get mixed at the receiver and it is extremely difficult to separate these signals to sense each individual. This problem becomes even more severe in long-range LoRa sensing because the sensing range is much larger compared to WiFi and acoustic based sensing. In this work, we address the challenging multi-target sensing issue, moving LoRa sensing one big step towards practical adoption. The key idea is to effectively utilize multiple antennas at the LoRa gateway to enable spatial beamforming to support multi-target sensing. While traditional beamforming methods adopted in WiFi and Radar systems rely on accurate channel information or transmitter-receiver synchronization, these requirements can not be satisfied in LoRa systems: the transmitter and receiver are not synchronized and no channel state information can be obtained from the cheap LoRa nodes. Another interesting observation is that while beamforming helps to increase signal strength, the phase/amplitude information which is critical for sensing can get corrupted during the beamforming process, eventually compromising the sensing capability. In this paper, we propose novel signal processing methods to address the issues above to enable long-range multi-target reparation sensing with LoRa. Extensive experiments show that our system can monitor the respiration rates of five human targets simultaneously at an average accuracy of 98.1%.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary class="paper-btn">BibTeX</summary>
+      <div class="paper-content">
+        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
+        <h3>BibTeX Citation</h3>
+        <div class="bibtex-container">
+          <button class="copy-btn">Copy</button>
+          <div class="bibtex-code">
+@article{zhang2021unlocking,<br>
+  title={Unlocking the beamforming potential of lora for long-range multi-target respiration sensing},<br>
+  author={Zhang, Fusang and Chang, Zhaoxin and Xiong, Jie and Zheng, Rong and Ma, Junqi and Niu, Kai and Jin, Beihong and Zhang, Daqing},<br>
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},<br>
+  volume={5},<br>
+  number={2},<br>
+  pages={1--25},<br>
+  year={2021},<br>
+  publisher={ACM New York, NY, USA}<br>
+}
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <a href="https://www.youtube.com/watch?v=_4RkDr3ZOyg" target="_blank" class="paper-btn btn-video">
+       Video Demo
+    </a>
+  </div>
+
+
   
 - <span class="badge bg-ubicomp">UbiComp '20</span>[Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
-  
   <div class="paper-buttons">
     <details>
       <summary class="paper-btn">Abstract</summary>
       <div class="paper-content">
         <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
         <p align="center">
-           <img src="/files/lora.png" alt="System Overview" style="max-width: 100%; border-radius: 4px;">
+           <img src="/files/lora.png" alt="System Overview" style="max-width: 50%; border-radius: 4px;">
         </p>
         <p>
           Wireless signals have been extensively utilized for contactless sensing in the past few years. Due to the intrinsic nature of employing the weak target-reflected signal for sensing, the sensing range is limited. For instance, WiFi and RFID can achieve 3-6 meter sensing range while acoustic-based sensing is limited to less than one meter. In this work, we identify exciting sensing opportunities with LoRa, which is the new long-range communication technology designed for IoT communication. We explore the sensing capability of LoRa, both theoretically and experimentally. We develop the sensing model to characterize the relationship between target movement and signal variation, and propose novel techniques to increase LoRa sensing range to over 25 meters for human respiration sensing. We further build a prototype system which is capable of sensing both coarse-grained and fine-grained human activities. Experimental results show that (1) human respiration can still be sensed when the target is 25 meters away from the LoRa devices, and 15 meters away with a wall in between; and (2) human walking (both displacement and direction) can be tracked accurately even when the target is 30 meters away from the LoRa transceiver pair.
