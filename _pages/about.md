@@ -419,11 +419,10 @@ Selected Publications📑
       <summary class="paper-btn">BibTeX</summary>
       <div class="paper-content">
         <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
-        
         <h3>BibTeX Citation</h3>
         <div class="bibtex-container">
           <button class="copy-btn">Copy</button>
-          <div class="bibtex-code">
+        <div class="bibtex-code">
         @article{zhang2020exploring,
           title={Exploring LoRa for long-range through-wall sensing},
           author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
@@ -434,7 +433,7 @@ Selected Publications📑
           year={2020},
           publisher={ACM New York, NY, USA}
         }
-          </div>
+        </div>
         </div>
       </div>
     </details>
