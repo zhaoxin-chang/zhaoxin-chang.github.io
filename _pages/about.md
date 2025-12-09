@@ -252,8 +252,8 @@ Selected Publications 📑
         <div class="bibtex-container">
           <button class="copy-btn">Copy</button>
           <div class="bibtex-code">
-@article{zhang2020exploring,
-  title={Exploring LoRa for long-range through-wall sensing},
+@article{zhang2020exploring,<br>
+  title={Exploring LoRa for long-range through-wall sensing},<br>
   author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
   journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
   volume={4},
