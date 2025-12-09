@@ -14,7 +14,7 @@ redirect_from:
 
 /* 2. 确保文章列表内容占满容器 */
 .archive {
-  width: 85% !important;
+  width: 80% !important;
   padding-right: 0 !important;
   font-size: 0.9em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
