@@ -494,42 +494,48 @@ Teaching Assistant👨‍🏫
 
 
 <script>
-// 1. 强力复制 BibTeX 功能
-function copyBibtex(button) {
-  // 防止按钮点击过快
+console.log("Custom script loaded successfully!"); // 调试信息
+
+// 1. 强制绑定到 window 对象，确保 onclick 能找到
+window.copyBibtex = function(button) {
+  console.log("Copy button clicked!"); // 调试信息
+
+  // 防止点击过快
   if(button.innerText === "Copied!") return;
 
-  // 1. 找到对应的代码块
-  // 逻辑：找到按钮的父容器 -> 找到里面的 .bibtex-code 类
-  var container = button.parentNode;
-  var codeBlock = container.querySelector('.bibtex-code');
+  // 找到对应的代码块
+  var container = button.closest('.bibtex-container');
+  if (!container) {
+      console.error("Error: Container not found. Check HTML structure.");
+      return;
+  }
   
+  var codeBlock = container.querySelector('.bibtex-code');
   if (!codeBlock) {
-     console.error("找不到 bibtex-code 元素");
+     console.error("Error: Bibtex code block not found.");
      return;
   }
 
-  // 2. 获取文本 (使用 innerText 保证格式，或者 textContent)
+  // 获取文本
   var textToCopy = codeBlock.innerText;
 
-  // 3. 创建临时 textarea 元素 (最稳妥的办法)
+  // 创建临时 textarea
   var textArea = document.createElement("textarea");
   textArea.value = textToCopy;
   
-  // 确保 textarea 不可见但存在于 DOM 中
+  // 确保不可见但存在
   textArea.style.position = "fixed";
   textArea.style.left = "-9999px";
   textArea.style.top = "0";
   document.body.appendChild(textArea);
   
-  // 4. 选区并复制
+  // 复制
   textArea.focus();
   textArea.select();
   
   try {
     var successful = document.execCommand('copy');
     if(successful) {
-        // 成功反馈
         var originalText = button.innerText;
         button.innerText = "Copied!";
         button.style.color = "#28a745";
@@ -545,26 +551,19 @@ function copyBibtex(button) {
     }
   } catch (err) {
     console.error('Copy error', err);
-    alert("Browser blocked copy. Please copy manually.");
+    alert("Browser blocked copy.");
   }
 
-  // 5. 清理
   document.body.removeChild(textArea);
-}
+};
 
-// 2. 点击透明背景关闭弹窗
+// 2. 点击透明背景关闭弹窗 (同样防止 ReferenceError)
 document.addEventListener('click', function(event) {
   var details = event.target.closest('details');
   if (details && details.hasAttribute('open')) {
-    // 如果点击的是内容区域，不处理
-    if (event.target.closest('.paper-content')) {
+    if (event.target.closest('.paper-content') || event.target.closest('summary')) {
        return;
     }
-    // 如果点击的是 Summary 按钮本身，也不处理
-    if (event.target.closest('summary')) {
-        return;
-    }
-    // 否则（点击了透明背景），关闭它
     details.removeAttribute('open');
   }
 });
