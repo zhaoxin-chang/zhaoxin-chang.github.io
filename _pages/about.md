@@ -17,6 +17,83 @@ redirect_from:
   font-size: 0.9em; /* 可选：稍微调大字体让宽屏看着更舒服 */
 }
 
+/* --- 按钮栏容器 --- */
+.paper-buttons {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px; /* 按钮之间的间距 */
+  flex-wrap: wrap;
+}
+
+/* --- 通用小按钮样式 --- */
+.paper-btn {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  line-height: 1.5;
+}
+
+.paper-btn:hover {
+  background-color: #e2e6ea;
+  color: #333;
+  transform: translateY(-1px);
+}
+
+/* YouTube 按钮特有样式 */
+.btn-video {
+  color: #fff !important;
+  background-color: #d9534f; /* YouTube 红 */
+  border-color: #d43f3a;
+}
+.btn-video:hover {
+  background-color: #c9302c;
+}
+
+/* --- 隐藏 details 默认的三角箭头 --- */
+details > summary {
+  list-style: none; /* 标准浏览器 */
+}
+details > summary::-webkit-details-marker {
+  display: none; /* Chrome/Safari */
+}
+
+/* --- 展开后的卡片容器样式 --- */
+.paper-content {
+  background-color: #f8f9fa; /* 浅灰背景 */
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #007bff; /* 左侧加一条蓝线装饰 */
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* 轻微阴影 */
+}
+
+/* BibTeX 代码块样式 */
+.bibtex-code {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 12px;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 0;
+}
+
+
+  
 .badge {
   display: inline-block;
   padding: 4px 6px;
@@ -256,15 +333,43 @@ Selected Publications
 - <span class="badge bg-ubicomp">UbiComp '20</span>[Exploring LoRa for Long-range Through-wall Sensing.](https://dl.acm.org/doi/abs/10.1145/3397326) <font color=red font-weight=bold>(Distinguished Paper Award)</font>\
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
-  <details>
-    <summary>Abstract</summary>
-     <p align="center">
-        <img src="/files/lora.png" alt="图片描述" width="500px">
-      </p>
-    <div style="font-size: smaller;">
-    Wireless signals have been extensively utilized for contactless sensing in the past few years. Due to the intrinsic nature of employing the weak target-reflected signal for sensing, the sensing range is limited. For instance, WiFi and RFID can achieve 3-6 meter sensing range while acoustic-based sensing is limited to less than one meter. In this work, we identify exciting sensing opportunities with LoRa, which is the new long-range communication technology designed for IoT communication. We explore the sensing capability of LoRa, both theoretically and experimentally. We develop the sensing model to characterize the relationship between target movement and signal variation, and propose novel techniques to increase LoRa sensing range to over 25 meters for human respiration sensing. We further build a prototype system which is capable of sensing both coarse-grained and fine-grained human activities. Experimental results show that (1) human respiration can still be sensed when the target is 25 meters away from the LoRa devices, and 15 meters away with a wall in between; and (2) human walking (both displacement and direction) can be tracked accurately even when the target is 30 meters away from the LoRa transceiver pair.
-    </div>
-  </details>
+  <div class="paper-buttons">
+    
+    <details>
+      <summary class="paper-btn">Abstract</summary>
+      <div class="paper-content">
+        <p align="center">
+           <img src="/files/lora.png" alt="System Overview" style="max-width: 100%; border-radius: 4px;">
+        </p>
+        <p>
+          Wireless signals have been extensively utilized for contactless sensing in the past few years... (这里放你的摘要内容) ...
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary class="paper-btn">BibTeX</summary>
+      <div class="paper-content">
+        <div class="bibtex-code">
+@article{zhang2020exploring,
+  title={Exploring LoRa for long-range through-wall sensing},
+  author={Zhang, Fusang and Chang, Zhaoxin and Niu, Kai and Xiong, Jie and Jin, Beihong and Lv, Qin and Zhang, Daqing},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={4},
+  number={2},
+  pages={1--27},
+  year={2020},
+  publisher={ACM New York, NY, USA}
+}
+        </div>
+      </div>
+    </details>
+
+    <a href="https://www.youtube.com/watch?v=你的视频ID" target="_blank" class="paper-btn btn-video">
+       Video Demo
+    </a>
+
+  </div>
 
 
 Preprints
