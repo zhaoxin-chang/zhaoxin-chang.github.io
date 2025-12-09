@@ -63,7 +63,7 @@ Awards and Honors
 Selected Publications
 ======
 
-- [WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
+- <span class="badge bg-sensys">SenSys '26</span>[WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect.](https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf)\
   *<strong>Zhaoxin Chang</strong>\*, Shuguang Xiao\*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (\*Equal contribution)*\
   **ACM/IEEE SenSys 2026** (Acceptance rate: 48/257 = 18.7%)
   <details>
