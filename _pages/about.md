@@ -298,7 +298,7 @@ Selected Publications 📑
   Fusang Zhang, **Zhaoxin Chang**, Kai Niu, Jie Xiong, Beihong Jin, Qin Lv, Daqing Zhang.\
   *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 4, No. 2*
   
-<div class="paper-buttons">
+  <div class="paper-buttons">
     <details>
       <summary class="paper-btn">Abstract</summary>
       <div class="paper-content">
@@ -338,7 +338,7 @@ Selected Publications 📑
     <a href="https://www.youtube.com/watch?v=-q8XIBdc6GE" target="_blank" class="paper-btn btn-video">
        Video Demo
     </a>
-</div>
+  </div>
 
 
 Preprints ✍️
