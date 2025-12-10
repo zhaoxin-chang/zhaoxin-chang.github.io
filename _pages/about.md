@@ -191,6 +191,26 @@ Selected Publications 📑
 }"
 %}
 
+{% include paper.html 
+  badge="MobiCom '23"
+  badge_class="bg-mobicom"
+  title="Quantum Wireless Sensing: Principle, Design and Implementation."
+  link="https://dl.acm.org/doi/10.1145/3570361.3613258"
+  authors="Fusang Zhang, Beihong Jin, Zitong Lan, <strong>Zhaoxin Chang</strong>, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong."
+  venue="Proceedings of the 29th Annual International Conference on Mobile Computing and Networking"
+  img="/files/quantum.png"
+  img_width="80%"
+  abstract="Recent years have witnessed a tremendous amount of interest in wireless sensing, i.e., instead of employing traditional sensors, wireless signal is utilized for sensing purposes. Contact-free wireless sensing has been successfully demonstrated using various RF signals such as WiFi, RFID, LoRa, and mmWave, enabling a large range of applications. However, limited by hardware thermal noise, the granularity of RF sensing is still relatively coarse. In this paper, instead of using the macro signal power/phase for sensing, we propose the first quantum wireless sensing system, which uses the micro energy level of atoms for sensing, improving the sensing granularity by an order of magnitude. The proposed quantum wireless sensing system is capable of utilizing a wide spectrum of frequencies (e.g., 2.4 GHz, 5 GHz and 28 GHz) for sensing. We demonstrate the superior performance of quantum wireless sensing with two widely-used signals, i.e., WiFi and 28 GHz millimeter wave. We show that quantum wireless sensing can push the sensing granularity of WiFi from millimeter level to sub-millimeter level and push the sensing granularity of millimeter wave to micrometer level."
+  bibtex=
+  "@inproceedings{zhang2023quantum,<br>
+  title={Quantum wireless sensing: Principle, design and implementation},<br>
+  author={Zhang, Fusang and Jin, Beihong and Lan, Zitong and Chang, Zhaoxin and Zhang, Daqing and Jiao, Yuechun and Shi, Meng and Xiong, Jie},<br>
+  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},<br>
+  pages={1--15},<br>
+  year={2023}<br>
+}"
+%}
+
 
 
 </ul>
