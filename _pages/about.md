@@ -255,6 +255,7 @@ Selected Publications 📑
   year={2023},<br>
   publisher={ACM New York, NY, USA}<br>
 }"
+  video="https://www.youtube.com/watch?v=TAkILSRn-lU"
 %}
 
 </ul>
@@ -262,20 +263,6 @@ Selected Publications 📑
 
 
 
-
-
-- <span class="badge bg-ubicomp">UbiComp '23</span>[Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://dl.acm.org/doi/10.1145/3569487)\
-  Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.\
-  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 6, No. 4*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/uwb.png" alt="图片描述" width="500px">
-      </p>
-    <div style="font-size: smaller;">
-    RF sensing has been actively exploited in the past few years to enable novel IoT applications. Among different wireless technologies, WiFi-based sensing is most popular owing to the pervasiveness of WiFi infrastructure. However, one critical issue associated with WiFi sensing is that the information required for sensing can not be obtained from consumer-level devices such as smartphones or smart watches. The commonly-seen WiFi devices in our everyday lives actually can not be utilized for sensing. Instead, dedicated hardware with a specific WiFi card (e.g., Intel 5300) needs to be used for WiFi sensing. This paper involves Ultra-Wideband (UWB) into the ecosystem of RF sensing and makes RF sensing work on consumer-level hardware such as smartphones and smart watches for the first time. We propose a series of methods to realize UWB sensing on consumer-level electronics without any hardware modification. By leveraging fine-grained human respiration monitoring as the application example, we demonstrate that the achieved performance on consumer-level electronics is comparable to that achieved using dedicated UWB hardware. We show that UWB sensing hosted on consumer-level electronics is able to achieve fine granularity, robustness against interference and also multi-target sensing, pushing RF sensing one step towards real-life adoption.
-      </div>
-  </details>
 
 - <span class="badge bg-mobicom">MobiCom '22</span>[Mobi$^2$Sense: Empowering Wireless Sensing with Mobility.](https://dl.acm.org/doi/10.1145/3495243.3560518) <font color=red font-weight=bold>(Best Paper Award Runner-up)</font>\
   *Fusang Zhang, Jie Xiong, **Zhaoxin Chang**, Junqi Ma, Daqing Zhang.*\
