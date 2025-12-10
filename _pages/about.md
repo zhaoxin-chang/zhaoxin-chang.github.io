@@ -211,7 +211,27 @@ Selected Publications 📑
 }"
 %}
 
-
+{% include paper.html 
+  badge="MobiCom '22"
+  badge_class="bg-mobicom"
+  title="Mobi2Sense: Empowering Wireless Sensing with Mobility."
+  link="https://dl.acm.org/doi/10.1145/3495243.3560518"
+  authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
+  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
+  award="Best Paper Award Runner-up"
+  img="/files/Mobi2Sense.png"
+  img_width="50%"
+  abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy."
+  bibtex=
+  "@inproceedings{zhang2022mobi2sense,<br>
+  title={Mobi2Sense: empowering wireless sensing with mobility},<br>
+  author={Zhang, Fusang and Xiong, Jie and Chang, Zhaoxin and Ma, Junqi and Zhang, Daqing},<br>
+  booktitle={Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},<br>
+  pages={268--281},<br>
+  year={2022}<br>
+}"
+  video="https://www.youtube.com/watch?v=ATOmMkGwIUw"
+%}
 
 </ul>
 
