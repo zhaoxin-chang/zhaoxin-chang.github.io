@@ -11,6 +11,8 @@
 {% assign bibtex = include.bibtex %}
 {% assign video_link = include.video %}
 
+{% assign img_width = include.img_width | default: '50%' %}
+
 <li style="margin-bottom: 20px; line-height: 1.6;">
   
   <span class="badge {{ badge_class }}">{{ badge_text }}</span><a href="{{ link }}">{{ title }}</a>
@@ -39,7 +41,7 @@
         <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
         {% if abstract_img %}
         <p align="center">
-           <img src="{{ abstract_img }}" alt="Overview" style="max-width: 100%; border-radius: 4px;">
+           <img src="{{ abstract_img }}" alt="Overview" style="width: {{ img_width }}; max-width: 100%; border-radius: 4px;">
         </p>
         {% endif %}
         <p>{{ abstract }}</p>
