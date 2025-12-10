@@ -261,12 +261,14 @@ Selected Publications 📑
 {% include paper.html 
   badge="MobiCom '22"
   badge_class="bg-mobicom"
-  title="Mobi2Sense: Empowering Wireless Sensing with Mobility."
+  title="Mobi<sup>2</sup>Sense: Empowering Wireless Sensing with Mobility."
   link="https://dl.acm.org/doi/10.1145/3495243.3560518"
   authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
   venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
   accrate="(Acceptance rate: 56/314=17.8%)"
   award="Best Paper Award Runner-up"
+  img="/files/Mobi2Sense.png"
+  img_width="50%"
   abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to hear music, see human respiration, and recognize multi-target gestures at a high accuracy."
   bibtex=
   "@inproceedings{zhang2022mobi2sense,<br>
@@ -277,6 +279,28 @@ Selected Publications 📑
   year={2022}<br>
 }"
   video="https://www.youtube.com/watch?v=ATOmMkGwIUw"
+%}
+
+{% include paper.html 
+  badge="MobiCom '22"
+  badge_class="bg-mobicom"
+  title="Experience: Pushing Indoor Localization from Laboratory to the Wild."
+  link="https://dl.acm.org/doi/10.1145/3495243.3560546"
+  authors="Jiazhi Ni, Fusang Zhang, Jie Xiong, Qiang Huang, <strong>Zhaoxin Chang</strong>, Junqi Ma, Binbin Xie, Pengsen Wang, Guangyu Bian, Xin Li, Chang Liu."
+  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
+  accrate="(Acceptance rate: 56/314=17.8%)"
+  award="Best Community Paper Award Runner-up"
+  img="/files/wifi.png"
+  img_width="60%"
+  abstract="While GPS-based outdoor localization has become a norm, very few indoor localization systems have been deployed and used. In this paper, we share our 5-year experience on the design, development and evaluation of a large-scale WiFi indoor localization system. We address practical challenges encountered to bridge the gap between indoor localization research in the laboratory and system deployment in the wild. The system is currently used in 1469 shopping malls, 393 office buildings and 35 hospitals across 35 cities to provide location service to millions of users on a daily basis. We hope the shared experience can benefit the design of real-world indoor localization systems and the practical problems identified can change the focus of indoor localization research. We released our dataset that contains fingerprints collected from 1469 shopping malls and one office building."
+  bibtex=
+  "@inproceedings{ni2022experience,<br>
+  title={Experience: Pushing indoor localization from laboratory to the wild},<br>
+  author={Ni, Jiazhi and Zhang, Fusang and Xiong, Jie and Huang, Qiang and Chang, Zhaoxin and Ma, Junqi and Xie, BinBin and Wang, Pengsen and Bian, Guangyu and Li, Xin and others},<br>
+  booktitle={Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},<br>
+  pages={147--157},<br>
+  year={2022}<br>
+}"
 %}
 
 </ul>
