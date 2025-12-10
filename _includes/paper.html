@@ -10,8 +10,9 @@
 {% assign bibtex = include.bibtex %}
 {% assign video_link = include.video %}
 
-<div style="margin-bottom: 20px;">
-  - <span class="badge {{ badge_class }}">{{ badge_text }}</span><a href="{{ link }}">{{ title }}</a>
+<li style="margin-bottom: 20px; line-height: 1.6;">
+  
+  <span class="badge {{ badge_class }}">{{ badge_text }}</span><a href="{{ link }}">{{ title }}</a>
   {% if award %}
     <font color="red" font-weight="bold">({{ award }})</font>
   {% endif %}
@@ -60,4 +61,4 @@
     {% endif %}
     
   </div>
-</div>
+</li>
