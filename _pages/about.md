@@ -216,7 +216,7 @@ Selected Publications 📑
   badge_class="bg-ubicomp"
   title="Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars."
   link="https://dl.acm.org/doi/10.1145/3610902"
-  authors=" Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, <strong>Zhaoxin Chang</strong>, Xujun Ma, Daqing Zhang."
+  authors="Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, <strong>Zhaoxin Chang</strong>, Xujun Ma, Daqing Zhang."
   venue="Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 7, No. 3"
   img="/files/multitarget.png"
   img_width="80%"
@@ -234,23 +234,35 @@ Selected Publications 📑
 }"
 %}
 
+{% include paper.html 
+  badge="UbiComp '23"
+  badge_class="bg-ubicomp"
+  title="Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing."
+  link="https://dl.acm.org/doi/10.1145/3569487"
+  authors="Fusang Zhang, <strong>Zhaoxin Chang</strong>, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang."
+  venue="Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 6, No. 4"
+  img="/files/uwb.png"
+  img_width="50%"
+  abstract="RF sensing has been actively exploited in the past few years to enable novel IoT applications. Among different wireless technologies, WiFi-based sensing is most popular owing to the pervasiveness of WiFi infrastructure. However, one critical issue associated with WiFi sensing is that the information required for sensing can not be obtained from consumer-level devices such as smartphones or smart watches. The commonly-seen WiFi devices in our everyday lives actually can not be utilized for sensing. Instead, dedicated hardware with a specific WiFi card (e.g., Intel 5300) needs to be used for WiFi sensing. This paper involves Ultra-Wideband (UWB) into the ecosystem of RF sensing and makes RF sensing work on consumer-level hardware such as smartphones and smart watches for the first time. We propose a series of methods to realize UWB sensing on consumer-level electronics without any hardware modification. By leveraging fine-grained human respiration monitoring as the application example, we demonstrate that the achieved performance on consumer-level electronics is comparable to that achieved using dedicated UWB hardware. We show that UWB sensing hosted on consumer-level electronics is able to achieve fine granularity, robustness against interference and also multi-target sensing, pushing RF sensing one step towards real-life adoption."
+  bibtex=
+  "@article{zhang2023embracing,<br>
+  title={Embracing consumer-level UWB-equipped devices for fine-grained wireless sensing},<br>
+  author={Zhang, Fusang and Chang, Zhaoxin and Xiong, Jie and Ma, Junqi and Ni, Jiazhi and Zhang, Wenbo and Jin, Beihong and Zhang, Daqing},<br>
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},<br>
+  volume={6},<br>
+  number={4},<br>
+  pages={1--27},<br>
+  year={2023},<br>
+  publisher={ACM New York, NY, USA}<br>
+}"
+%}
+
 </ul>
 
 
 
 
-- <span class="badge bg-ubicomp">UbiComp '23</span>[Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars.](https://dl.acm.org/doi/10.1145/3610902)\
-  Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, **Zhaoxin Chang**, Xujun Ma, Daqing Zhang.\
-  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 7, No. 3*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/multitarget.png" alt="图片描述" width="800px">
-      </p>
-    <div style="font-size: smaller;">
-    Device-free indoor localization and tracking using commercial millimeter wave radars have attracted much interest lately due to their non-intrusive nature and high spatial resolution. However, it is challenging to achieve high tracking accuracy due to rich multipath reflection and occlusion in indoor environments. Static objects with non-negligible reflectance of mmWave signals interact with moving human subjects and generate time-varying multipath ghosts and shadow ghosts, which can be easily confused as real subjects. To characterize the complex interactions, we first develop a geometric model that estimates the location of multipath ghosts given the locations of humans and static reflectors. Based on this model, the locations of static reflectors that form a reflection map are automatically estimated from received radar signals as a single person traverses the environment along arbitrary trajectories. The reflection map allows for the elimination of multipath and shadow ghost interference as well as the augmentation of weakly reflected human subjects in occluded areas. The proposed environment-aware multi-person tracking system can generate reflection maps with a mean error of 15.5cm and a 90-percentile error of 30.3cm, and achieve multi-person tracking accuracy with a mean error of 8.6cm and a 90-percentile error of 17.5cm, in four representative indoor spaces with diverse subjects using a single mmWave radar.
-      </div>
-  </details>
+
 
 - <span class="badge bg-ubicomp">UbiComp '23</span>[Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing.](https://dl.acm.org/doi/10.1145/3569487)\
   Fusang Zhang, **Zhaoxin Chang**, Jie Xiong, Junqi Ma, Jiazhi Ni, Wenbo Zhang, Beihong Jin, Daqing Zhang.\
