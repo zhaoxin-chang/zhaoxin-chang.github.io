@@ -212,25 +212,26 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="MobiCom '22"
-  badge_class="bg-mobicom"
-  title="Mobi2Sense: Empowering Wireless Sensing with Mobility."
-  link="https://dl.acm.org/doi/10.1145/3495243.3560518"
-  authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
-  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
-  award="Best Paper Award Runner-up"
-  img="/files/Mobi2Sense.png"
-  img_width="50%"
-  abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy."
+  badge="UbiComp '23"
+  badge_class="bg-ubicomp"
+  title="Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars."
+  link="https://dl.acm.org/doi/10.1145/3610902"
+  authors=" Weiyan Chen, Hongliu Yang, Xiaoyang Bi, Rong Zheng, Fusang Zhang, Peng Bao, <strong>Zhaoxin Chang</strong>, Xujun Ma, Daqing Zhang."
+  venue="Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 7, No. 3"
+  img="/files/multitarget.png"
+  img_width="80%"
+  abstract="Device-free indoor localization and tracking using commercial millimeter wave radars have attracted much interest lately due to their non-intrusive nature and high spatial resolution. However, it is challenging to achieve high tracking accuracy due to rich multipath reflection and occlusion in indoor environments. Static objects with non-negligible reflectance of mmWave signals interact with moving human subjects and generate time-varying multipath ghosts and shadow ghosts, which can be easily confused as real subjects. To characterize the complex interactions, we first develop a geometric model that estimates the location of multipath ghosts given the locations of humans and static reflectors. Based on this model, the locations of static reflectors that form a reflection map are automatically estimated from received radar signals as a single person traverses the environment along arbitrary trajectories. The reflection map allows for the elimination of multipath and shadow ghost interference as well as the augmentation of weakly reflected human subjects in occluded areas. The proposed environment-aware multi-person tracking system can generate reflection maps with a mean error of 15.5cm and a 90-percentile error of 30.3cm, and achieve multi-person tracking accuracy with a mean error of 8.6cm and a 90-percentile error of 17.5cm, in four representative indoor spaces with diverse subjects using a single mmWave radar."
   bibtex=
-  "@inproceedings{zhang2022mobi2sense,<br>
-  title={Mobi2Sense: empowering wireless sensing with mobility},<br>
-  author={Zhang, Fusang and Xiong, Jie and Chang, Zhaoxin and Ma, Junqi and Zhang, Daqing},<br>
-  booktitle={Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},<br>
-  pages={268--281},<br>
-  year={2022}<br>
+  "@article{chen2023environment,<br>
+  title={Environment-aware multi-person tracking in indoor environments with mmwave radars},<br>
+  author={Chen, Weiyan and Yang, Hongliu and Bi, Xiaoyang and Zheng, Rong and Zhang, Fusang and Bao, Peng and Chang, Zhaoxin and Ma, Xujun and Zhang, Daqing},<br>
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},<br>
+  volume={7},<br>
+  number={3},<br>
+  pages={1--29},<br>
+  year={2023},<br>
+  publisher={ACM New York, NY, USA}<br>
 }"
-  video="https://www.youtube.com/watch?v=ATOmMkGwIUw"
 %}
 
 </ul>
