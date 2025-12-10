@@ -42,10 +42,7 @@ Awards and Honors 🏆
 Selected Publications 📑
 ======
 
-Selected Publications
-======
-
-{% include paper.html 
+-{% include paper.html 
   badge="SenSys '26"
   badge_class="bg-sensys"
   title="WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect."
