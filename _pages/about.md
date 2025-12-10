@@ -157,8 +157,8 @@ Selected Publications 📑
   authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang."
   venue="Proceedings of the 30th Annual International Conference on Mobile Computing and Networking"
   img="/files/MSense.png"
-  img_width="70%"
-  abstract="Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations."
+  img_width="60%"
+  abstract="Wireless signals have been widely utilized for human sensing. However, wireless sensing systems face a fundamental limitation, i.e., the wireless device must keep static during the sensing process. Also, when sensing fine-grained human motions such as respiration, the human target is required to stay stationary. This is because wireless sensing relies on signal variations for sensing. When device is moving or human body is moving, the signal variation caused by the target area (e.g., chest for respiration sensing) is mixed with the signal variation induced by device or other body parts, failing wireless sensing. In this paper, we propose MSense, a general solution to deal with motion interference from wireless device and/or human body, moving wireless sensing one step forward towards real-life adoption. We establish the sensing model by taking both device motion and interfering body motion into consideration. By extracting the effect of body and device motions through pure signal processing, the motion interference can be removed to achieve accurate target sensing. Comprehensive experiments demonstrate the effectiveness of the proposed scheme. The achieved solution is general and can be applied to different sensing tasks involving both periodic and aperiodic motions."
   bibtex=
   "@inproceedings{chang2024msense,<br>
   title={MSense: Boosting wireless sensing capability under motion interference},<br>
@@ -170,37 +170,74 @@ Selected Publications 📑
   video="https://youtu.be/RlY9qDBtH4o"
 %}
 
+{% include paper.html 
+  badge="UIC '24"
+  badge_class="bg-other"
+  title="UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals."
+  link="https://ieeexplore.ieee.org/document/10925144"
+  authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang."
+  venue="The 21st IEEE International Conference on Ubiquitous Intelligence and Computing"
+  img="/files/uwbori.png"
+  img_width="60%"
+  abstract="The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios."
+  bibtex=
+  "@inproceedings{chang2024uwbori,<br>
+  title={Uwbori: Enabling accurate orientation estimation with ultra-wideband signals},<br>
+  author={Chang, Zhaoxin and Zhang, Fusang and Xiong, Jie and Xue, Xinyu and Wang, Zeyu and Jouaber, Badii and Zhang, Daqing},<br>
+  booktitle={2024 IEEE Smart World Congress (SWC)},<br>
+  pages={386--393},<br>
+  year={2024},<br>
+  organization={IEEE}<br>
+}"
+%}
+
+{% include paper.html 
+  badge="MobiCom '23"
+  badge_class="bg-mobicom"
+  title="Quantum Wireless Sensing: Principle, Design and Implementation."
+  link="https://dl.acm.org/doi/10.1145/3570361.3613258"
+  authors="Fusang Zhang, Beihong Jin, Zitong Lan, <strong>Zhaoxin Chang</strong>, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong."
+  venue="Proceedings of the 29th Annual International Conference on Mobile Computing and Networking"
+  img="/files/quantum.png"
+  img_width="80%"
+  abstract="Recent years have witnessed a tremendous amount of interest in wireless sensing, i.e., instead of employing traditional sensors, wireless signal is utilized for sensing purposes. Contact-free wireless sensing has been successfully demonstrated using various RF signals such as WiFi, RFID, LoRa, and mmWave, enabling a large range of applications. However, limited by hardware thermal noise, the granularity of RF sensing is still relatively coarse. In this paper, instead of using the macro signal power/phase for sensing, we propose the first quantum wireless sensing system, which uses the micro energy level of atoms for sensing, improving the sensing granularity by an order of magnitude. The proposed quantum wireless sensing system is capable of utilizing a wide spectrum of frequencies (e.g., 2.4 GHz, 5 GHz and 28 GHz) for sensing. We demonstrate the superior performance of quantum wireless sensing with two widely-used signals, i.e., WiFi and 28 GHz millimeter wave. We show that quantum wireless sensing can push the sensing granularity of WiFi from millimeter level to sub-millimeter level and push the sensing granularity of millimeter wave to micrometer level."
+  bibtex=
+  "@inproceedings{zhang2023quantum,<br>
+  title={Quantum wireless sensing: Principle, design and implementation},<br>
+  author={Zhang, Fusang and Jin, Beihong and Lan, Zitong and Chang, Zhaoxin and Zhang, Daqing and Jiao, Yuechun and Shi, Meng and Xiong, Jie},<br>
+  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},<br>
+  pages={1--15},<br>
+  year={2023}<br>
+}"
+%}
+
+{% include paper.html 
+  badge="MobiCom '22"
+  badge_class="bg-mobicom"
+  title="Mobi$^2$Sense: Empowering Wireless Sensing with Mobility."
+  link="https://dl.acm.org/doi/10.1145/3495243.3560518"
+  authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
+  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
+  img="/files/Mobi2Sense.png"
+  img_width="50%"
+  abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy."
+  bibtex=
+  "@inproceedings{zhang2022mobi2sense,<br>
+  title={Mobi2Sense: empowering wireless sensing with mobility},<br>
+  author={Zhang, Fusang and Xiong, Jie and Chang, Zhaoxin and Ma, Junqi and Zhang, Daqing},<br>
+  booktitle={Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},<br>
+  pages={268--281},<br>
+  year={2022}<br>
+}"
+  video="https://www.youtube.com/watch?v=ATOmMkGwIUw"
+%}
+
 </ul>
 
 
 
 
-- <span class="badge bg-mobicom">MobiCom '24</span>[MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
-  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.\
-  *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*\
-  (Acceptance rate: 103/494 = 20.9%)
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/MSense.png" alt="图片描述" width="500px">
-      </p>
-    <div style="font-size: smaller;">
-    Wireless signals have been widely utilized for human sensing. However, wireless sensing systems face a fundamental limitation, i.e., the wireless device must keep static during the sensing process. Also, when sensing fine-grained human motions such as respiration, the human target is required to stay stationary. This is because wireless sensing relies on signal variations for sensing. When device is moving or human body is moving, the signal variation caused by the target area (e.g., chest for respiration sensing) is mixed with the signal variation induced by device or other body parts, failing wireless sensing. In this paper, we propose MSense, a general solution to deal with motion interference from wireless device and/or human body, moving wireless sensing one step forward towards real-life adoption. We establish the sensing model by taking both device motion and interfering body motion into consideration. By extracting the effect of body and device motions through pure signal processing, the motion interference can be removed to achieve accurate target sensing. Comprehensive experiments demonstrate the effectiveness of the proposed scheme. The achieved solution is general and can be applied to different sensing tasks involving both periodic and aperiodic motions.
-      </div>
-  </details>
 
-- <span class="badge bg-other">UIC '24</span>[UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals.](https://ieeexplore.ieee.org/document/10925144)\
-  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang.\
-  *The 21st IEEE International Conference on Ubiquitous Intelligence and Computing*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/uwbori.png" alt="图片描述" width="700px">
-      </p>
-    <div style="font-size: smaller;">
-    The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios.
-      </div>
-  </details>
 
 - <span class="badge bg-mobicom">MobiCom '23</span>[Quantum Wireless Sensing: Principle, Design and Implementation.](https://dl.acm.org/doi/10.1145/3570361.3613258)\
   Fusang Zhang, Beihong Jin, Zitong Lan, **Zhaoxin Chang**, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong.\
