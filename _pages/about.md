@@ -43,21 +43,21 @@ Selected Publications 📑
 ======
 
 - {% include paper.html 
-  badge="SenSys '26"
-  badge_class="bg-sensys"
-  title="WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect."
-  link="https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf"
-  authors="<strong>Zhaoxin Chang</strong>*, Shuguang Xiao*, Fusang Zhang, et al."
-  venue="ACM/IEEE SenSys 2026 (Acceptance rate: 18.7%)"
-  img="/files/wirainbow.png"
-  abstract="Recently, Wi-Fi signals have emerged as a powerful tool for contactless sensing..."
-  bibtex="@inproceedings{chang2026wirainbow,
-  title={WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing},
-  author={Chang, Zhaoxin and Xiao, Shuguang and others},
-  booktitle={ACM SenSys},
-  year={2026}
-}"
-%}
+    badge="SenSys '26"
+    badge_class="bg-sensys"
+    title="WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect."
+    link="https://zhaoxin-chang.github.io/files/Sensys26-WiRainbow.pdf"
+    authors="<strong>Zhaoxin Chang</strong>*, Shuguang Xiao*, Fusang Zhang, et al."
+    venue="ACM/IEEE SenSys 2026 (Acceptance rate: 18.7%)"
+    img="/files/wirainbow.png"
+    abstract="Recently, Wi-Fi signals have emerged as a powerful tool for contactless sensing..."
+    bibtex="@inproceedings{chang2026wirainbow,
+    title={WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing},
+    author={Chang, Zhaoxin and Xiao, Shuguang and others},
+    booktitle={ACM SenSys},
+    year={2026}
+  }"
+  %}
 
 
 
