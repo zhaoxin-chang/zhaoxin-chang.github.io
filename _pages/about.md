@@ -263,10 +263,12 @@ Selected Publications 📑
   badge_class="bg-mobicom"
   title="Mobi2Sense: Empowering Wireless Sensing with Mobility."
   link="https://dl.acm.org/doi/10.1145/3495243.3560518"
-  authors="Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang."
-  venue="Third International Conference on Artificial Intelligence of Things and Systems"
+  authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
+  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
   award="Best Paper Award Runner-up"
-  abstract="With the increased need for intelligent functions in smart buildings, the ability to sense the states of human subjects becomes essential. In recent years, wireless signals have demonstrated strong capability for contactless sensing. However, most wireless sensing systems currently focus on room-level scenarios. The deployment challenges and solutions in large-scale scenarios have not been sufficiently investigated. In this paper, we take the first step to explore the feasibility of utilizing LoRa signals for large-scale sensing, leveraging their advantages in wide-area sensing capabilities. However, given the fixed deployment in buildings, the sensing coverage of each device is likely to mismatch with the desired sensing area of interest (AoI). To address this challenge, we first investigate the factors affecting sensing coverage. Then, we propose to control the sensing coverage by adjusting hardware parameters, enabling human presence detection within the desired area. The effectiveness of the proposed method is validated through benchmark experiments and two case studies in real-world environments."
+  abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy."
+  img="/files/Mobi2Sense.png"
+  img_width="50%"
   bibtex=
   "@article{xue2025towards,<br>
   title={Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals},<br>
