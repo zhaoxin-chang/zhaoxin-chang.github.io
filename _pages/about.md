@@ -214,7 +214,7 @@ Selected Publications 📑
 {% include paper.html 
   badge="MobiCom '22"
   badge_class="bg-mobicom"
-  title="Mobi<sup>2</sup>Sense: Empowering Wireless Sensing with Mobility."
+  title="Mobi2Sense: Empowering Wireless Sensing with Mobility."
   link="https://dl.acm.org/doi/10.1145/3495243.3560518"
   authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
   venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
