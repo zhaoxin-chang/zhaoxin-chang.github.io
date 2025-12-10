@@ -4,6 +4,7 @@
 {% assign badge_class = include.badge_class %}
 {% assign authors = include.authors %}
 {% assign venue = include.venue %}
+{% assign accrate = include.accrate %}
 {% assign award = include.award %}
 {% assign abstract = include.abstract %}
 {% assign abstract_img = include.img %}
@@ -22,6 +23,11 @@
   <br>
   
   <em>{{ venue }}</em>
+  <br>
+
+  {% if accrate %}
+    {{ accrate }})
+  {% endif %}
 
   <div class="paper-buttons">
     
