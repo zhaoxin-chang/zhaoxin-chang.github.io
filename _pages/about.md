@@ -139,7 +139,7 @@ Selected Publications 📑
   authors="Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang."
   venue="Third International Conference on Artificial Intelligence of Things and Systems"
   award="Best Paper Award"
-  abstract="Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations."
+  abstract="With the increased need for intelligent functions in smart buildings, the ability to sense the states of human subjects becomes essential. In recent years, wireless signals have demonstrated strong capability for contactless sensing. However, most wireless sensing systems currently focus on room-level scenarios. The deployment challenges and solutions in large-scale scenarios have not been sufficiently investigated. In this paper, we take the first step to explore the feasibility of utilizing LoRa signals for large-scale sensing, leveraging their advantages in wide-area sensing capabilities. However, given the fixed deployment in buildings, the sensing coverage of each device is likely to mismatch with the desired sensing area of interest (AoI). To address this challenge, we first investigate the factors affecting sensing coverage. Then, we propose to control the sensing coverage by adjusting hardware parameters, enabling human presence detection within the desired area. The effectiveness of the proposed method is validated through benchmark experiments and two case studies in real-world environments."
   bibtex=
   "@article{xue2025towards,<br>
   title={Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals},<br>
@@ -149,34 +149,31 @@ Selected Publications 📑
 }"
 %}
 
+{% include paper.html 
+  badge="MobiCom '24"
+  badge_class="bg-mobicom"
+  title="MSense: Boosting Wireless Sensing Capability Under Motion Interference."
+  link="https://dl.acm.org/doi/10.1145/3636534.3649350"
+  authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang."
+  venue="Proceedings of the 30th Annual International Conference on Mobile Computing and Networking"
+  img="/files/MSense.png"
+  img_width="70%"
+  abstract="Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations."
+  bibtex=
+  "@inproceedings{chang2024msense,<br>
+  title={MSense: Boosting wireless sensing capability under motion interference},<br>
+  author={Chang, Zhaoxin and Zhang, Fusang and Xiong, Jie and Chen, Weiyan and Zhang, Daqing},<br>
+  booktitle={Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},<br>
+  pages={108--123},<br>
+  year={2024}<br>
+}"
+  video_link="https://youtu.be/RlY9qDBtH4o"
+%}
+
 </ul>
 
 
 
-
-
-- <span class="badge bg-ubicomp">UbiComp '25</span>[MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
-  <strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.\
-  *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 8, No. 4*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/mmecare.png" alt="图片描述" width="700px">
-      </p>
-    <div style="font-size: smaller;">
-    Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations.
-      </div>
-  </details>
-
-- <span class="badge bg-other">AIoTSys '25</span>[Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals.](https://zhaoxin-chang.github.io/) <font color=red font-weight=bold>(Best Paper Award)</font>\
-  Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang.\
-  *Third International Conference on Artificial Intelligence of Things and Systems*
-  <details>
-    <summary>Abstract</summary>
-    <div style="font-size: smaller;">
-    With the increased need for intelligent functions in smart buildings, the ability to sense the states of human subjects becomes essential. In recent years, wireless signals have demonstrated strong capability for contactless sensing. However, most wireless sensing systems currently focus on room-level scenarios. The deployment challenges and solutions in large-scale scenarios have not been sufficiently investigated. In this paper, we take the first step to explore the feasibility of utilizing LoRa signals for large-scale sensing, leveraging their advantages in wide-area sensing capabilities. However, given the fixed deployment in buildings, the sensing coverage of each device is likely to mismatch with the desired sensing area of interest (AoI). To address this challenge, we first investigate the factors affecting sensing coverage. Then, we propose to control the sensing coverage by adjusting hardware parameters, enabling human presence detection within the desired area. The effectiveness of the proposed method is validated through benchmark experiments and two case studies in real-world environments.
-      </div>
-  </details>
 
 - <span class="badge bg-mobicom">MobiCom '24</span>[MSense: Boosting Wireless Sensing Capability Under Motion Interference.](https://dl.acm.org/doi/10.1145/3636534.3649350)\
   <strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Weiyan Chen, Daqing Zhang.\
