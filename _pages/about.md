@@ -178,7 +178,7 @@ Selected Publications 📑
   authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang."
   venue="The 21st IEEE International Conference on Ubiquitous Intelligence and Computing"
   img="/files/uwbori.png"
-  img_width="60%"
+  img_width="80%"
   abstract="The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios."
   bibtex=
   "@inproceedings{chang2024uwbori,<br>
@@ -211,7 +211,27 @@ Selected Publications 📑
 }"
 %}
 
-
+{% include paper.html 
+  badge="MobiCom '22"
+  badge_class="bg-mobicom"
+  title="Mobi<sup>2</sup>Sense: Empowering Wireless Sensing with Mobility."
+  link="https://dl.acm.org/doi/10.1145/3495243.3560518"
+  authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
+  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
+  award="Best Paper Award Runner-up"
+  img="/files/Mobi2Sense.png"
+  img_width="50%"
+  abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy."
+  bibtex=
+  "@inproceedings{zhang2022mobi2sense,<br>
+  title={Mobi2Sense: empowering wireless sensing with mobility},<br>
+  author={Zhang, Fusang and Xiong, Jie and Chang, Zhaoxin and Ma, Junqi and Zhang, Daqing},<br>
+  booktitle={Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},<br>
+  pages={268--281},<br>
+  year={2022}<br>
+}"
+  video="https://www.youtube.com/watch?v=ATOmMkGwIUw"
+%}
 
 </ul>
 
