@@ -191,46 +191,7 @@ Selected Publications 📑
 }"
 %}
 
-{% include paper.html 
-  badge="MobiCom '23"
-  badge_class="bg-mobicom"
-  title="Quantum Wireless Sensing: Principle, Design and Implementation."
-  link="https://dl.acm.org/doi/10.1145/3570361.3613258"
-  authors="Fusang Zhang, Beihong Jin, Zitong Lan, <strong>Zhaoxin Chang</strong>, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong."
-  venue="Proceedings of the 29th Annual International Conference on Mobile Computing and Networking"
-  img="/files/quantum.png"
-  img_width="80%"
-  abstract="Recent years have witnessed a tremendous amount of interest in wireless sensing, i.e., instead of employing traditional sensors, wireless signal is utilized for sensing purposes. Contact-free wireless sensing has been successfully demonstrated using various RF signals such as WiFi, RFID, LoRa, and mmWave, enabling a large range of applications. However, limited by hardware thermal noise, the granularity of RF sensing is still relatively coarse. In this paper, instead of using the macro signal power/phase for sensing, we propose the first quantum wireless sensing system, which uses the micro energy level of atoms for sensing, improving the sensing granularity by an order of magnitude. The proposed quantum wireless sensing system is capable of utilizing a wide spectrum of frequencies (e.g., 2.4 GHz, 5 GHz and 28 GHz) for sensing. We demonstrate the superior performance of quantum wireless sensing with two widely-used signals, i.e., WiFi and 28 GHz millimeter wave. We show that quantum wireless sensing can push the sensing granularity of WiFi from millimeter level to sub-millimeter level and push the sensing granularity of millimeter wave to micrometer level."
-  bibtex=
-  "@inproceedings{zhang2023quantum,<br>
-  title={Quantum wireless sensing: Principle, design and implementation},<br>
-  author={Zhang, Fusang and Jin, Beihong and Lan, Zitong and Chang, Zhaoxin and Zhang, Daqing and Jiao, Yuechun and Shi, Meng and Xiong, Jie},<br>
-  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},<br>
-  pages={1--15},<br>
-  year={2023}<br>
-}"
-%}
 
-{% include paper.html 
-  badge="MobiCom '22"
-  badge_class="bg-mobicom"
-  title="Mobi$^2$Sense: Empowering Wireless Sensing with Mobility."
-  link="https://dl.acm.org/doi/10.1145/3495243.3560518"
-  authors="Fusang Zhang, Jie Xiong, <strong>Zhaoxin Chang</strong>, Junqi Ma, Daqing Zhang."
-  venue="Proceedings of the 28th Annual International Conference on Mobile Computing and Networking"
-  img="/files/Mobi2Sense.png"
-  img_width="50%"
-  abstract="Besides the conventional communication function, wireless signals are actively exploited for sensing purposes recently. However, a missing component of existing wireless sensing is sensing under device motions. This is challenging because device motions can easily overwhelm target motions such as chest displacement used for respiration sensing. This paper takes a first step in the direction of involving device mobility into the ecosystem of wireless sensing. Owning to the miniaturization and low cost of ultra-wideband (UWB) chip in recent years, we propose to integrate the accuracy of UWB sensing with mobility to support truly ubiquitous wireless sensing. We propose Mobi2Sense, a system design to support sensing under device motions. We propose novel signal processing schemes to remove the effect of device motions on sensing and prototype Mobi2Sense using commodity UWB hardware. Real-world applications demonstrate that even in the presence of device motions, fine-grained Mobi2Sense is able to capture subtle target motions to "hear" music, "see" human respiration, and "recognize" multi-target gestures at a high accuracy."
-  bibtex=
-  "@inproceedings{zhang2022mobi2sense,<br>
-  title={Mobi2Sense: empowering wireless sensing with mobility},<br>
-  author={Zhang, Fusang and Xiong, Jie and Chang, Zhaoxin and Ma, Junqi and Zhang, Daqing},<br>
-  booktitle={Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},<br>
-  pages={268--281},<br>
-  year={2022}<br>
-}"
-  video="https://www.youtube.com/watch?v=ATOmMkGwIUw"
-%}
 
 </ul>
 
