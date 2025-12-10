@@ -1,0 +1,63 @@
+{% assign title = include.title %}
+{% assign link = include.link %}
+{% assign badge_text = include.badge %}
+{% assign badge_class = include.badge_class %}
+{% assign authors = include.authors %}
+{% assign venue = include.venue %}
+{% assign award = include.award %}
+{% assign abstract = include.abstract %}
+{% assign abstract_img = include.img %}
+{% assign bibtex = include.bibtex %}
+{% assign video_link = include.video %}
+
+<div style="margin-bottom: 20px;">
+  - <span class="badge {{ badge_class }}">{{ badge_text }}</span><a href="{{ link }}">{{ title }}</a>
+  {% if award %}
+    <font color="red" font-weight="bold">({{ award }})</font>
+  {% endif %}
+  <br>
+  
+  {{ authors }}
+  <br>
+  
+  <em>{{ venue }}</em>
+
+  <div class="paper-buttons">
+    
+    {% if abstract %}
+    <details>
+      <summary class="paper-btn">Abstract</summary>
+      <div class="paper-content">
+        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
+        {% if abstract_img %}
+        <p align="center">
+           <img src="{{ abstract_img }}" alt="Overview" style="max-width: 100%; border-radius: 4px;">
+        </p>
+        {% endif %}
+        <p>{{ abstract }}</p>
+      </div>
+    </details>
+    {% endif %}
+
+    {% if bibtex %}
+    <details>
+      <summary class="paper-btn">BibTeX</summary>
+      <div class="paper-content">
+        <div class="modal-close" onclick="this.closest('details').removeAttribute('open')">&times;</div>
+        <h3>BibTeX Citation</h3>
+        <div class="bibtex-container">
+          <button class="copy-btn">Copy</button>
+          <div class="bibtex-code">{{ bibtex }}</div>
+        </div>
+      </div>
+    </details>
+    {% endif %}
+
+    {% if video_link %}
+    <a href="{{ video_link }}" target="_blank" class="paper-btn btn-video">
+       Video Demo
+    </a>
+    {% endif %}
+    
+  </div>
+</div>
