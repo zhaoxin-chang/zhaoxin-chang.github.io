@@ -71,8 +71,8 @@ Selected Publications 📑
   link="https://ieeexplore.ieee.org/document/10978106"
   authors="Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, <strong>Zhaoxin Chang</strong>, Duo Zhang, Djamal Zeghlache, Daqing Zhang"
   venue="IEEE Transactions on Mobile Computing, Vol. 24, No. 10, 2025"
-  img="/files/wicg.png"
-  img_width="40%"
+  img="/files/wicg.jpg"
+  img_width="60%"
   abstract="Cardiovascular diseases (CVDs) are a leading cause of mortality worldwide, highlighting the critical need for accurate and continuous heart health monitoring. Electrocardiograms (ECG), considered as the golden standard for diagnosing and monitoring heart-related conditions, offer precise measurements but require direct skin contact, limiting their practicality for long-term and everyday use. On the other hand, existing RF sensing techniques that analyze signals reflected off the skin struggle to distinguish micro cardiac motions of the heart due to weak motion amplitude and respiration interference at the chest wall. To overcome these limitations, we introduce WiCG, a novel contact-less cardiac motion monitoring system that employs 2.4 GHz Wi-Fi signals to penetrate the chest and detect subtle cardiac movements. A mix-medium Wi-Fi Fresnel zone model is developed to explain the enhanced phase sensitivity of in-body Wi-Fi signals, which is crucial for accurately detecting cardiac motions. By strategically positioning antennas near the heart, WiCG captures ventricular motions effectively. A novel cardiac Doppler method is proposed to suppress phase noise and interference from static paths and extract the time interval between the systole and diastole of the ventricular. Extensive experiments demonstrate that the proposed system can robustly estimate the R-R and Q-T intervals of human cardiac cycles across 21 subjects and different environments with an average accuracy of 99.22% and 92.8%, achieving performance comparable to ECG."
   bibtex=
   "@article{wang2025wicg,<br>
@@ -93,7 +93,7 @@ Selected Publications 📑
   authors="Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, <strong>Zhaoxin Chang</strong>, Wenwei Li, Daqing Zhang."
   venue="IEEE Transactions on Mobile Computing, Vol. 24, No. 7, 2025"
   img="/files/mmrotation.png"
-  img_width="40%"
+  img_width="70%"
   abstract="Indoor mmWave-based sensing technologies have garnered substantial interest from both the industrial and academic. Yet, the intrinsic challenge posed by the limited Field-of-View (FOV) of mmWave radars significantly restricts their coverage. This limitation necessitates careful selection of installation positions and orientations to optimize performance, thereby severely curtailing the versatility and widespread adoption of these systems. Traditionally, expanding coverage involved increasing the number of radar units. This paper introduces a novel approach to enhance the FOV by incorporating mobility, achieved by affixing the radar onto a pan-tilt unit capable of rotating along both the horizontal and azimuthal. Nevertheless, the disparity between the pan-tilt and the radar presents significant challenges for accurately rotating the radar's orientation. To mitigate this, we propose an automated calibration algorithm for radar and pan-tilt, ensuring precise calibration. Additionally, we have devised a radar orientation adjustment algorithm intended to automatically align the radar's FOV with the positions of detected objects to facilitate various applications. Through three case studies, we have demonstrated that mmRotation can greatly expand the sensing range, enabling support for multiple applications on a single radar, such as vital signs monitoring and fall detection. Comprehensive experimental results underscore that our system surpasses the current state-of-the-art (SOTA)."
   bibtex=
   "@article{zhang2025mmrotation,<br>
@@ -108,35 +108,52 @@ Selected Publications 📑
   }"
 %}
 
+{% include paper.html 
+  badge="UbiComp '25"
+  badge_class="bg-ubicomp"
+  title="MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars."
+  link="https://doi.org/10.1145/3699766"
+  authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang."
+  venue="Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 8, No. 4"
+  img="/files/mmecare.png"
+  img_width="70%"
+  abstract="Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations."
+  bibtex=
+  "@article{chang2024mmecare,<br>
+  title={Mmecare: Enabling fine-grained vital sign monitoring for emergency care with handheld mmwave radars},<br>
+  author={Chang, Zhaoxin and Zhang, Fusang and Ma, Xujun and Wang, Pei and Chen, Weiyan and Zhang, Duo and Jouaber, Badii and Zhang, Daqing},<br>
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},<br>
+  volume={8},<br>
+  number={4},<br>
+  pages={1--24},<br>
+  year={2024},<br>
+  publisher={ACM New York, NY, USA}<br>
+}"
+%}
+
+{% include paper.html 
+  badge="AIoTSys '25"
+  badge_class="bg-other"
+  title="Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals."
+  link="https://zhaoxin-chang.github.io/"
+  authors="Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang."
+  venue="Third International Conference on Artificial Intelligence of Things and Systems"
+  award="Best Paper Award"
+  abstract="Fine-grained vital sign monitoring in emergency care is crucial for accurately assessing patient conditions, predicting disease progression, and formulating effective rescue plans. In non-hospital settings, limited equipment often necessitates manual observation of respiration and heartbeat, which can lead to significant errors. Contactless monitoring using wireless signals offers a promising alternative. Unlike traditional systems that require stationary devices for contactless sensing, handheld devices are more practical for rescuers during emergency care. However, sensing performance can be severely compromised by involuntary hand movements. Previous research has achieved respiration monitoring with handheld devices, but the randomness of hand motion still prevents reliable heartbeat monitoring. In this paper, we first demonstrate that the key to mitigating the effects of device motion lies in accurately estimating the motion direction. We then introduce a novel method that uses two static objects, i.e., corner reflectors, to precisely estimate the random motion direction of the device. These reflectors can be quickly and easily deployed by the rescuer before initiating vital sign monitoring, enabling a more thorough elimination of device motion effects. Comprehensive experiments validate the effectiveness of our solution using mmWave radar. Real-world tests demonstrate that our system can accurately monitor both respiration and heartbeat with handheld devices, significantly enhancing emergency medical response by improving the accuracy and feasibility of vital sign monitoring in urgent situations."
+  bibtex=
+  "@article{xue2025towards,<br>
+  title={Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals},<br>
+  author={Xue, Xinyu and Chang, Zhaoxin and Ma, Xujun and Wang, Pei and Zhang, Fusang and Jouaber, Badii and Zhang, Daqing},<br>
+  journal={Third International Conference on Artificial Intelligence of Things and Systems},<br>
+  year={2025}<br>
+}"
+%}
+
 </ul>
 
 
 
-- <span class="badge bg-tmc">TMC</span>[WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model.](https://ieeexplore.ieee.org/document/10978106)\
-  Pei Wang, Anlan Yu, Xujun Ma, Rong Zheng, Jingfu Dong, <strong>Zhaoxin Chang</strong>, Duo Zhang, Djamal Zeghlache, Daqing Zhang.\
-  *IEEE Transactions on Mobile Computing, Vol. 24, No. 10, 2025*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/wicg.jpg" alt="图片描述" width="400px">
-      </p>
-    <div style="font-size: smaller;">
-    Cardiovascular diseases (CVDs) are a leading cause of mortality worldwide, highlighting the critical need for accurate and continuous heart health monitoring. Electrocardiograms (ECG), considered as the golden standard for diagnosing and monitoring heart-related conditions, offer precise measurements but require direct skin contact, limiting their practicality for long-term and everyday use. On the other hand, existing RF sensing techniques that analyze signals reflected off the skin struggle to distinguish micro cardiac motions of the heart due to weak motion amplitude and respiration interference at the chest wall. To overcome these limitations, we introduce WiCG, a novel contact-less cardiac motion monitoring system that employs 2.4 GHz Wi-Fi signals to penetrate the chest and detect subtle cardiac movements. A mix-medium Wi-Fi Fresnel zone model is developed to explain the enhanced phase sensitivity of in-body Wi-Fi signals, which is crucial for accurately detecting cardiac motions. By strategically positioning antennas near the heart, WiCG captures ventricular motions effectively. A novel cardiac Doppler method is proposed to suppress phase noise and interference from static paths and extract the time interval between the systole and diastole of the ventricular. Extensive experiments demonstrate that the proposed system can robustly estimate the R-R and Q-T intervals of human cardiac cycles across 21 subjects and different environments with an average accuracy of 99.22% and 92.8%, achieving performance comparable to ECG.
-      </div>
-  </details>
 
-- <span class="badge bg-tmc">TMC</span>[mmRotation: Unlocking Versatility of a Single mmWave Radar via Azimuth Panning and Elevation Tilting.](https://ieeexplore.ieee.org/document/10878446)\
-  Duo Zhang, Xusheng Zhang, Zhehui Yin, Yaxiong Xie, Wen He, **Zhaoxin Chang**, Wenwei Li, Daqing Zhang.\
-  *IEEE Transactions on Mobile Computing, Vol. 24, No. 7, 2025*
-  <details>
-    <summary>Abstract</summary>
-      <p align="center">
-        <img src="/files/mmrotation.png" alt="图片描述" width="400px">
-      </p>
-    <div style="font-size: smaller;">
-    Indoor mmWave-based sensing technologies have garnered substantial interest from both the industrial and academic. Yet, the intrinsic challenge posed by the limited Field-of-View (FOV) of mmWave radars significantly restricts their coverage. This limitation necessitates careful selection of installation positions and orientations to optimize performance, thereby severely curtailing the versatility and widespread adoption of these systems. Traditionally, expanding coverage involved increasing the number of radar units. This paper introduces a novel approach to enhance the FOV by incorporating mobility, achieved by affixing the radar onto a pan-tilt unit capable of rotating along both the horizontal and azimuthal. Nevertheless, the disparity between the pan-tilt and the radar presents significant challenges for accurately rotating the radar's orientation. To mitigate this, we propose an automated calibration algorithm for radar and pan-tilt, ensuring precise calibration. Additionally, we have devised a radar orientation adjustment algorithm intended to automatically align the radar's FOV with the positions of detected objects to facilitate various applications. Through three case studies, we have demonstrated that mmRotation can greatly expand the sensing range, enabling support for multiple applications on a single radar, such as vital signs monitoring and fall detection. Comprehensive experimental results underscore that our system surpasses the current state-of-the-art (SOTA).
-      </div>
-  </details>
 
 - <span class="badge bg-ubicomp">UbiComp '25</span>[MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars.](https://doi.org/10.1145/3699766)\
   <strong>Zhaoxin Chang</strong>, Fusang Zhang, Xujun Ma, Pei Wang, Weiyan Chen, Duo Zhang, Badii Jouaber, Daqing Zhang.\
