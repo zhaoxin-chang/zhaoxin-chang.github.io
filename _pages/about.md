@@ -167,7 +167,7 @@ Selected Publications 📑
   pages={108--123},<br>
   year={2024}<br>
 }"
-  video_link="https://youtu.be/RlY9qDBtH4o"
+  video="https://youtu.be/RlY9qDBtH4o"
 %}
 
 </ul>
