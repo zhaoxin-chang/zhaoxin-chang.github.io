@@ -258,6 +258,24 @@ Selected Publications 📑
   video="https://www.youtube.com/watch?v=TAkILSRn-lU"
 %}
 
+{% include paper.html 
+  badge="MobiCom '22"
+  badge_class="bg-mobicom"
+  title="Mobi2Sense: Empowering Wireless Sensing with Mobility."
+  link="https://dl.acm.org/doi/10.1145/3495243.3560518"
+  authors="Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang."
+  venue="Third International Conference on Artificial Intelligence of Things and Systems"
+  award="Best Paper Award Runner-up"
+  abstract="With the increased need for intelligent functions in smart buildings, the ability to sense the states of human subjects becomes essential. In recent years, wireless signals have demonstrated strong capability for contactless sensing. However, most wireless sensing systems currently focus on room-level scenarios. The deployment challenges and solutions in large-scale scenarios have not been sufficiently investigated. In this paper, we take the first step to explore the feasibility of utilizing LoRa signals for large-scale sensing, leveraging their advantages in wide-area sensing capabilities. However, given the fixed deployment in buildings, the sensing coverage of each device is likely to mismatch with the desired sensing area of interest (AoI). To address this challenge, we first investigate the factors affecting sensing coverage. Then, we propose to control the sensing coverage by adjusting hardware parameters, enabling human presence detection within the desired area. The effectiveness of the proposed method is validated through benchmark experiments and two case studies in real-world environments."
+  bibtex=
+  "@article{xue2025towards,<br>
+  title={Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals},<br>
+  author={Xue, Xinyu and Chang, Zhaoxin and Ma, Xujun and Wang, Pei and Zhang, Fusang and Jouaber, Badii and Zhang, Daqing},<br>
+  journal={Third International Conference on Artificial Intelligence of Things and Systems},<br>
+  year={2025}<br>
+}"
+%}
+
 </ul>
 
 
