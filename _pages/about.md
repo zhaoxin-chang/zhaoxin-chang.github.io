@@ -135,7 +135,7 @@ Selected Publications 📑
   badge="AIoTSys '25"
   badge_class="bg-other"
   title="Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals."
-  link="https://zhaoxin-chang.github.io/"
+  link="https://link.springer.com/chapter/10.1007/978-981-95-2581-2_11"
   authors="Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang."
   venue="Third International Conference on Artificial Intelligence of Things and Systems"
   award="Best Paper Award"
