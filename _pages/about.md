@@ -424,12 +424,12 @@ Preprints ✍️
 Professional Service 🧱
 ======
 
+- **Reviewer** ACM IMWUT/UbiComp, 2023, 2024, 2025, 2026
 - **Technical Program Committee** IEEE ICPADS, 2025
 - **Technical Program Committee** ICA3PP, 2025
 - **Technical Program Committee** AIoTSys, 2025
 - **Artifacts Evaluation Committee** ACM MobiCom, 2024, 2025
 - **Reviewer** ACM TOSN, 2025
-- **Reviewer** ACM IMWUT, 2023, 2024, 2025
 - **Reviewer** IEEE TMC, 2024, 2025
 - **Technical Program Committee** IEEE ICC PSoWN Workshop, 2025
 - **Reviewer** ACM CHI, 2024, 2025
