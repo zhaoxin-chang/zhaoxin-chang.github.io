@@ -424,6 +424,7 @@ Preprints ✍️
 Professional Service 🧱
 ======
 
+- **Reviewer** IEEE Signal Processing Letters, 2026
 - **Reviewer** IEEE TMC, 2024, 2025, 2026
 - **Reviewer** ACM IMWUT/UbiComp, 2023, 2024, 2025, 2026
 - **Technical Program Committee** IEEE ICPADS, 2025
