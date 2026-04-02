@@ -65,7 +65,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="TMC"
+  badge="IEEE TMC"
   badge_class="bg-tmc"
   title="WiCG: In-Body Cardiac Motion Sensing Based on a Mix-Medium Wi-Fi Fresnel Zone Model."
   link="https://ieeexplore.ieee.org/document/10978106"
@@ -86,7 +86,7 @@ Selected Publications 📑
 
 
 {% include paper.html 
-  badge="TMC"
+  badge="IEEE TMC"
   badge_class="bg-tmc"
   title="mmRotation: Unlocking Versatility of a Single mmWave Radar via Azimuth Panning and Elevation Tilting."
   link="https://ieeexplore.ieee.org/document/10878446"
@@ -109,7 +109,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="UbiComp '25"
+  badge="IMWUT/UbiComp '25"
   badge_class="bg-ubicomp"
   title="MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars."
   link="https://doi.org/10.1145/3699766"
@@ -214,7 +214,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="UbiComp '23"
+  badge="IMWUT/UbiComp '23"
   badge_class="bg-ubicomp"
   title="Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars."
   link="https://dl.acm.org/doi/10.1145/3610902"
@@ -237,7 +237,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="UbiComp '23"
+  badge="IMWUT/UbiComp '23"
   badge_class="bg-ubicomp"
   title="Embracing Consumer-level UWB-equipped Devices for Fine-grained Wireless Sensing."
   link="https://dl.acm.org/doi/10.1145/3569487"
@@ -306,7 +306,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="UbiComp '22"
+  badge="IMWUT/UbiComp '22"
   badge_class="bg-ubicomp"
   title="Sensor-free Soil Moisture Sensing Using LoRa Signals."
   link="https://dl.acm.org/doi/10.1145/3534608"
@@ -329,7 +329,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="UbiComp '21"
+  badge="IMWUT/UbiComp '21"
   badge_class="bg-ubicomp"
   title="Unlocking the Beamforming Potential of LoRa for Long-range Multi-target Respiration Sensing."
   link="https://dl.acm.org/doi/abs/10.1145/3463526"
@@ -353,7 +353,7 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="UbiComp '20"
+  badge="IMWUT/UbiComp '20"
   badge_class="bg-ubicomp"
   title="Exploring LoRa for Long-range Through-wall Sensing."
   link="https://dl.acm.org/doi/abs/10.1145/3397326"
