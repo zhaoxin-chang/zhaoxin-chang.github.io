@@ -19,7 +19,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News 🔥
 ======
 
-- **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, and IEEE SPL
+- **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, and ACM TIOT
 - **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
 - **Oct 2025** I'm honored to be awarded as a runner-up of the Gaetano Borriello Outstanding Student Award at UbiComp 2025
 - **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
@@ -424,6 +424,7 @@ Preprints ✍️
 Professional Service 🧱
 ======
 
+- **Reviewer** ACM TIOT, 2023, 2026
 - **Reviewer** IEEE Signal Processing Letters, 2026
 - **Reviewer** IEEE TMC, 2024, 2025, 2026
 - **Reviewer** ACM IMWUT/UbiComp, 2023, 2024, 2025, 2026
@@ -437,7 +438,7 @@ Professional Service 🧱
 - **Technical Program Committee** IEEE UIC, 2024
 - **Artifacts Evaluation Committee** ACM MobiSys, 2024
 - **Reviewer** IEEE JSAC, 2024
-- **Reviewer** ACM TIOT, 2023
+
 
 Teaching Assistant 👨‍🏫
 ======
