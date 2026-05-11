@@ -48,7 +48,7 @@ Selected Publications 📑
   badge="SenSys '26"
   badge_class="bg-sensys"
   title="WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect."
-  link="https://arxiv.org/abs/2511.20671"
+  link="https://dl.acm.org/doi/10.1145/3774906.3800474"
   authors="<strong>Zhaoxin Chang</strong>*, Shuguang Xiao*, Fusang Zhang, Xujun Ma, Badii Jouaber, Qingfeng Zhang, Daqing Zhang. (*Equal contribution)"
   venue="ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems"
   accrate="(Acceptance rate: 48/257 = 18.7%)"
