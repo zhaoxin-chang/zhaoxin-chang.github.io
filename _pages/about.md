@@ -22,8 +22,6 @@ News 🔥
 - **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, and ACM TIOT
 - **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
 - **Oct 2025** I'm honored to be awarded as a runner-up of the Gaetano Borriello Outstanding Student Award at UbiComp 2025
-- **Aug 2025** Our paper won the Best Paper Award at AIoTSys 2025
-- **Aug 2025** Serve on the TPC for IEEE ICPADS 2025
 
 
 
