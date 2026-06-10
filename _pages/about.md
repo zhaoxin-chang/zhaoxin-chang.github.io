@@ -29,6 +29,7 @@ News 🔥
 Awards and Honors 🏆
 ======
 
+- **NVIDIA Academic Grant Program 2026** Project Collaborator
 - **UbiComp 2025** Gaetano Borriello Outstanding Student Award Runner-up
 - **AIoTSys 2025** Best Paper Award
 - **MobiCom 2022** Best Paper Award Runner-up
