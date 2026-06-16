@@ -20,7 +20,7 @@ News 🔥
 ======
 
 - **Jun 2026** Our project was selected for the NVIDIA Academic Grant Program. We will receive hardware resources to advance our work on multimodal robot perception and wireless sensing. Thank you, NVIDIA!
-- **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, and ACM TIOT
+- **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, ACM TOSN, and ACM TIOT
 - **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
 - **Oct 2025** I'm honored to be awarded as a runner-up of the Gaetano Borriello Outstanding Student Award at UbiComp 2025
 
