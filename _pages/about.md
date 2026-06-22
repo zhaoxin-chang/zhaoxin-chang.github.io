@@ -132,24 +132,6 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="AIoTSys '25"
-  badge_class="bg-other"
-  title="Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals."
-  link="https://link.springer.com/chapter/10.1007/978-981-95-2581-2_11"
-  authors="Xinyu Xue, <strong>Zhaoxin Chang</strong>, Xujun Ma, Pei Wang, Fusang Zhang, Badii Jouaber, Daqing Zhang."
-  venue="Third International Conference on Artificial Intelligence of Things and Systems"
-  award="Best Paper Award"
-  abstract="With the increased need for intelligent functions in smart buildings, the ability to sense the states of human subjects becomes essential. In recent years, wireless signals have demonstrated strong capability for contactless sensing. However, most wireless sensing systems currently focus on room-level scenarios. The deployment challenges and solutions in large-scale scenarios have not been sufficiently investigated. In this paper, we take the first step to explore the feasibility of utilizing LoRa signals for large-scale sensing, leveraging their advantages in wide-area sensing capabilities. However, given the fixed deployment in buildings, the sensing coverage of each device is likely to mismatch with the desired sensing area of interest (AoI). To address this challenge, we first investigate the factors affecting sensing coverage. Then, we propose to control the sensing coverage by adjusting hardware parameters, enabling human presence detection within the desired area. The effectiveness of the proposed method is validated through benchmark experiments and two case studies in real-world environments."
-  bibtex=
-  "@article{xue2025towards,<br>
-  title={Towards Large-scale Wireless Sensing in Smart Buildings Using LoRa Signals},<br>
-  author={Xue, Xinyu and Chang, Zhaoxin and Ma, Xujun and Wang, Pei and Zhang, Fusang and Jouaber, Badii and Zhang, Daqing},<br>
-  journal={Third International Conference on Artificial Intelligence of Things and Systems},<br>
-  year={2025}<br>
-}"
-%}
-
-{% include paper.html 
   badge="MobiCom '24"
   badge_class="bg-mobicom"
   title="MSense: Boosting Wireless Sensing Capability Under Motion Interference."
@@ -171,26 +153,7 @@ Selected Publications 📑
   video="https://youtu.be/RlY9qDBtH4o"
 %}
 
-{% include paper.html 
-  badge="UIC '24"
-  badge_class="bg-other"
-  title="UWBOri: Enabling Accurate Orientation Estimation with Ultra-wideband Signals."
-  link="https://ieeexplore.ieee.org/document/10925144"
-  authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Xinyu Xue, Zeyu Wang, Badii Jouaber, Daqing Zhang."
-  venue="The 21st IEEE International Conference on Ubiquitous Intelligence and Computing"
-  img="/files/uwbori.png"
-  img_width="80%"
-  abstract="The development of smart devices has highlighted the need for human-device interaction. A key aspect of this interaction lies in the estimation of the physical orientation of the device, which is crucial for various applications. Conventional methods employing Inertial Measurement Units (IMU) encounter limitations such as cumulative errors and magnetic interference. In this paper, we propose UWBOri, a novel method for orientation estimation using Ultra-wideband (UWB) technology. UWB technology, which is increasingly integrated into smart devices, offers superior ranging accuracy owing to its large bandwidth. By leveraging the localization information obtained between a fixed UWB-equipped anchor device and the user device, UWBOri can accurately estimate the orientation of the user device. The efficacy of UWBOri has been validated through extensive laboratory experiments designed to evaluate the accuracy of orientation estimation. Furthermore, we demonstrate the practical applicability of UWBOri in two distinct scenarios: IoT device selection and augmented reality (AR). These applications illustrate the potential of our solution in real-world scenarios."
-  bibtex=
-  "@inproceedings{chang2024uwbori,<br>
-  title={Uwbori: Enabling accurate orientation estimation with ultra-wideband signals},<br>
-  author={Chang, Zhaoxin and Zhang, Fusang and Xiong, Jie and Xue, Xinyu and Wang, Zeyu and Jouaber, Badii and Zhang, Daqing},<br>
-  booktitle={2024 IEEE Smart World Congress (SWC)},<br>
-  pages={386--393},<br>
-  year={2024},<br>
-  organization={IEEE}<br>
-}"
-%}
+
 
 {% include paper.html 
   badge="MobiCom '23"
