@@ -19,6 +19,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News 🔥
 ======
 
+- **Jun 2026** Two papers accepted at IMWUT/UbiComp 2026. 
 - **Jun 2026** Our project was selected for the NVIDIA Academic Grant Program. We will receive hardware resources to advance our work on multimodal robot perception and wireless sensing. Thank you, NVIDIA!
 - **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, ACM TOSN, and ACM TIOT
 - **Oct 2025** Our paper "WiRainbow" was accepted by SenSys 2026. See you in Saint-Malo!
@@ -43,6 +44,19 @@ Selected Publications 📑
 ======
 
 <ul>
+
+
+{% include paper.html 
+  badge="IMWUT/UbiComp '26"
+  badge_class="bg-ubicomp"
+  title="DailyBeat: Reliable Cardiac Sensing under Self-Induced Dynamic Interference Using mmWave Radar."
+  link="https://zhaoxin-chang.github.io/"
+  authors="<strong>Zhaoxin Chang</strong>, Pei Wang, Xujun Ma, Fusang Zhang, Duo Zhang, Luan Chen, Badii Jouaber, Daqing Zhang."
+  venue="Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 10, No. 3"
+  abstract="Reliable cardiac monitoring in daily work environments is essential for applications such as stress assessment and mental workload tracking. Radar sensing provides a promising contactless solution by capturing subtle chest motion without requiring wearables. However, existing methods are primarily designed for quasi-static scenarios like sleep monitoring and fail in office settings due to self-induced dynamic interference, including body motion and a largely overlooked factor, irregular respiration. To address these challenges, we analyze the structural characteristics of cardiac mechanical activity and identify two key properties: short-duration impulsiveness and short-term quasi-periodicity. Guided by these insights, we propose a novel signal processing paradigm that enables reliable cardiac sensing under dynamic interference. We design a bidirectional wavelet transform to extract pulse-like cardiac events from complex radar signals, and an adaptive fusion strategy that selects rhythmically consistent multi-scale components while discarding unreliable ones. We implement this paradigm as a real-time system, DailyBeat, on a commercial mmWave radar. Experiments across diverse real-world conditions show that DailyBeat reliably recovers cardiac waveforms and accurately estimates heart rate, inter-beat intervals, and the surrogates of intra-cycle QT intervals, enabling fine-grained and unobtrusive cardiac monitoring in daily life."
+  video="https://www.youtube.com/watch?v=XUPFPw_T62M"
+%}
+
   
 {% include paper.html 
   badge="SenSys '26"
