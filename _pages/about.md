@@ -19,6 +19,7 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News 🔥
 ======
 
+- **Jul 2026** One paper accepted at ACM Transactions on Sensor Networks.
 - **Jun 2026** Two papers accepted at IMWUT/UbiComp 2026. See you in Shanghai!
 - **Jun 2026** Our project was selected for the NVIDIA Academic Grant Program. We will receive hardware resources to advance our work on multimodal robot perception and wireless sensing. Thank you, NVIDIA!
 - **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, ACM TOSN, and ACM TIOT
@@ -57,6 +58,21 @@ Selected Publications 📑
   video="https://www.youtube.com/watch?v=XUPFPw_T62M"
 %}
 
+{% include paper.html 
+  badge="ACM TOSN"
+  badge_class="bg-other"
+  title="PnPSelect: Plug-and-Play IoT Device Selection Using Ultra-Wideband Signals."
+  link="https://arxiv.org/abs/2511.03534"
+  authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang."
+  abstract="In recent years, the number of Internet of Things (IoT) devices in smart homes has rapidly increased. A key challenge affecting user experience is how to enable users to efficiently and intuitively select the devices they wish to control. This paper proposes PnPSelect, a plug-and-play IoT device selection solution utilizing Ultra-wideband (UWB) technology on commercial devices. Unlike previous works, PnPSelect does not require the installation of dedicated hardware on each IoT device, thereby reducing deployment costs and complexities, and achieving true plug-and-play functionality. To enable intuitive device selection, we introduce a pointing direction estimation method that utilizes UWB readings from a single anchor to infer the user pointing direction. Additionally, we propose a lightweight device localization method that allows users to register new IoT devices by simply pointing at them from two distinct positions, eliminating the need for manual measurements. We implement PnPSelect on commercial smartphones and smartwatches and conduct extensive evaluations in both controlled laboratory settings and real-world environments. Our results demonstrate high accuracy, robustness, and adaptability, making PnPSelect a practical and scalable solution for next-generation smart home interactions."
+  bibtex=
+  "@article{chang2026pnpselect,<br>
+  title={PnPSelect: Plug-and-Play IoT Device Selection Using Ultra-Wideband Signals},<br>
+  author={Chang, Zhaoxin and Zhang, Fusang and Xiong, Jie and Li, Ziyu and Jouaber, Badii and Zhang, Daqing},<br>
+  journal={ACM Transactions on Sensor Networks},<br>
+  year={2026}<br>
+}"
+%}
   
 {% include paper.html 
   badge="SenSys '26"
@@ -357,44 +373,7 @@ Selected Publications 📑
 </ul>
 
 
-Preprints ✍️
-======
 
-<ul>
-
-{% include paper.html 
-  badge="Under review"
-  badge_class="bg-other"
-  title="PnPSelect: Plug-and-play IoT Device Selection Using Ultra-wideband Signals."
-  link="https://arxiv.org/abs/2511.03534"
-  authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang."
-  abstract="In recent years, the number of Internet of Things (IoT) devices in smart homes has rapidly increased. A key challenge affecting user experience is how to enable users to efficiently and intuitively select the devices they wish to control. This paper proposes PnPSelect, a plug-and-play IoT device selection solution utilizing Ultra-wideband (UWB) technology on commercial devices. Unlike previous works, PnPSelect does not require the installation of dedicated hardware on each IoT device, thereby reducing deployment costs and complexities, and achieving true plug-and-play functionality. To enable intuitive device selection, we introduce a pointing direction estimation method that utilizes UWB readings from a single anchor to infer the user pointing direction. Additionally, we propose a lightweight device localization method that allows users to register new IoT devices by simply pointing at them from two distinct positions, eliminating the need for manual measurements. We implement PnPSelect on commercial smartphones and smartwatches and conduct extensive evaluations in both controlled laboratory settings and real-world environments. Our results demonstrate high accuracy, robustness, and adaptability, making PnPSelect a practical and scalable solution for next-generation smart home interactions."
-  bibtex=
-  "@article{chang2025pnpselect,<br>
-  title={PnPSelect: Plug-and-play IoT Device Selection Using Ultra-wideband Signals},<br>
-  author={Chang, Zhaoxin and Zhang, Fusang and Xiong, Jie and Li, Ziyu and Jouaber, Badii and Zhang, Daqing},<br>
-  journal={arXiv preprint arXiv:2511.03534},<br>
-  year={2025}<br>
-}"
-%}
-
-{% include paper.html 
-  badge="Under review"
-  badge_class="bg-other"
-  title="Exploring Quantum Sensing for Fine-grained Liquid Recognition."
-  link="https://arxiv.org/abs/2407.19656"
-  authors="Yuechun Jiao, Jinlian Hu, Zitong Lan, Fusang Zhang, Jie Xiong, Jingxu Bai, <strong>Zhaoxin Chang</strong>, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia."
-  abstract="Recent years have witnessed the use of pervasive wireless signals (e.g., Wi-Fi, RFID, and mmWave) for sensing purposes. Due to its non-intrusive characteristic, wireless sensing plays an important role in various intelligent sensing applications. However, limited by the inherent thermal noise of RF transceivers, the sensing granularity of existing wireless sensing systems are still coarse, limiting their adoption for fine-grained sensing applications. In this paper, we introduce the quantum receiver, which does not contain traditional electronic components such as mixers, amplifiers, and analog-to-digital converters (ADCs) to wireless sensing systems, significantly reducing the source of thermal noise. By taking non-intrusive liquid recognition as an application example, we show the superior performance of quantum wireless sensing. By leveraging the unique property of quantum receiver, we propose a novel double-ratio method to address several well-known challenges in liquid recognition, eliminating the effect of liquid volume, device-target distance and container. We implement the quantum sensing prototype and evaluate the liquid recognition performance comprehensively. The results show that our system is able to recognize 17 commonly seen liquids, including very similar ones~(e.g., Pepsi and Coke) at an accuracy higher than 99.9\%. For milk expiration monitoring, our system is able to achieve an accuracy of 99.0\% for pH value measurements at a granularity of 0.1, which is much finer than that required for expiration monitoring."
-  bibtex=
-  "@article{jiao2024exploring,<br>
-  title={Exploring quantum sensing for fine-grained liquid recognition},<br>
-  author={Jiao, Yuechun and Hu, Jinlian and Lan, Zitong and Zhang, Fusang and Xiong, Jie and Bai, Jingxu and Chang, Zhaoxin and Su, Yuqi and Jin, Beihong and Zhang, Daqing and others},<br>
-  journal={arXiv preprint arXiv:2407.19656},<br>
-  year={2024}<br>
-}"
-%}
-
-</ul>
 
 
 
