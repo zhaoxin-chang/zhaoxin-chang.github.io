@@ -19,7 +19,6 @@ I am interested in wireless sensing and mobile computing for health monitoring a
 News 🔥
 ======
 
-- **Jul 2026** One paper accepted at ACM Transactions on Sensor Networks.
 - **Jun 2026** Two papers accepted at IMWUT/UbiComp 2026. See you in Shanghai!
 - **Jun 2026** Our project was selected for the NVIDIA Academic Grant Program. We will receive hardware resources to advance our work on multimodal robot perception and wireless sensing. Thank you, NVIDIA!
 - **Mar 2026** Invited to review for ACM IMWUT, IEEE TMC, IEEE SPL, ACM TOSN, and ACM TIOT
