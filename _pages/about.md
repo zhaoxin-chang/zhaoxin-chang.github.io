@@ -30,16 +30,16 @@ News 🔥
 Awards and Honors 🏆
 ======
 
-- NVIDIA Academic Grant 2026, Core Project Member
-- 2025-2026 Award for Outstanding Overseas Study Elite
-- UbiComp 2025 Gaetano Borriello Outstanding Student Award Runner-up
-- AIoTSys 2025 Best Paper Award
-- MobiCom 2022 Best Paper Award Runner-up
-- MobiCom 2022 Best Community Paper Award Runner-up
-- MobiCom 2022 Student Travel Grant
-- IP Paris 2022 PhD Track Scholarship
-- IPIN 2021 Indoor Positioning Competition, Winner
-- IMWUT Vol. 4 (UbiComp 2020) Distinguished Paper Award
+- 2026 - **NVIDIA Academic Grant, Core Project Member**
+- 2026 - **Award for Outstanding Overseas Study Elite**
+- 2025 - **UbiComp'25 Gaetano Borriello Outstanding Student Award Runner-up**
+- 2025 - **AIoTSys'25 Best Paper Award**
+- 2022 - **MobiCom'22 Best Paper Award Runner-up**
+- 2022 - **MobiCom'22 Best Community Paper Award Runner-up**
+- 2022 - **MobiCom'22 Student Travel Grant**
+- 2022 - **IP Paris PhD Track Scholarship**
+- 2021 - **IPIN'21 Indoor Positioning Competition, Winner**
+- 2021 - **IMWUT Vol. 4 (UbiComp'20) Distinguished Paper Award**
 
 Selected Publications 📑
 ======
