@@ -14,7 +14,7 @@ Bio 👨‍🎓
 ======
 I am a final-year PhD candidate at [Télécom SudParis,](https://www.telecom-sudparis.eu/) [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/en), advised by Prof. [Daqing Zhang](https://scholar.google.com.hk/citations?hl=en&user=qn8CqEYAAAAJ&view_op=list_works&sortby=pubdate) (IEEE Fellow) and Prof. [Badii Jouaber](https://badiijouaber.wp.imtbs-tsp.eu/en/biography/). I received my B.S. degree from [Peking University](https://english.pku.edu.cn/) in 2020 and my M.S. degree from [IP Paris](https://www.ip-paris.fr/en) in 2023.
 
-I am interested in wireless sensing and mobile computing for health monitoring and human-computer interaction. My research focuses on addressing key challenges in wireless sensing to bridge the gap between wireless sensing theories and real-world development.
+My research lies at the intersection of wireless sensing, mobile computing, and physical AI. I focus on developing robust and generalizable sensing systems for health monitoring, particularly in dynamic real-world environments. More recently, I have been exploring how foundation models can leverage heterogeneous physical sensors to better perceive, understand, and interact with the physical world.
 
 News 🔥
 ======
@@ -56,6 +56,18 @@ Selected Publications 📑
   authors="<strong>Zhaoxin Chang</strong>, Pei Wang, Xujun Ma, Fusang Zhang, Duo Zhang, Luan Chen, Badii Jouaber, Daqing Zhang."
   venue="Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, Vol. 10, No. 3"
   abstract="Reliable cardiac monitoring in daily work environments is essential for applications such as stress assessment and mental workload tracking. Radar sensing provides a promising contactless solution by capturing subtle chest motion without requiring wearables. However, existing methods are primarily designed for quasi-static scenarios like sleep monitoring and fail in office settings due to self-induced dynamic interference, including body motion and a largely overlooked factor, irregular respiration. To address these challenges, we analyze the structural characteristics of cardiac mechanical activity and identify two key properties: short-duration impulsiveness and short-term quasi-periodicity. Guided by these insights, we propose a novel signal processing paradigm that enables reliable cardiac sensing under dynamic interference. We design a bidirectional wavelet transform to extract pulse-like cardiac events from complex radar signals, and an adaptive fusion strategy that selects rhythmically consistent multi-scale components while discarding unreliable ones. We implement this paradigm as a real-time system, DailyBeat, on a commercial mmWave radar. Experiments across diverse real-world conditions show that DailyBeat reliably recovers cardiac waveforms and accurately estimates heart rate, inter-beat intervals, and the surrogates of intra-cycle QT intervals, enabling fine-grained and unobtrusive cardiac monitoring in daily life."
+  bibtex=
+  "@article{chang2026dailybeat,
+  title={DailyBeat: reliable cardiac sensing under self-induced dynamic interference using mmWave radar},
+  author={Chang, Zhaoxin and Wang, Pei and Ma, Xujun and Zhang, Fusang and Zhang, Duo and Chen, Luan and Jouaber, Badii and Zhang, Daqing},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={10},
+  number={3},
+  pages={1--35},
+  year={2026},
+  publisher={ACM, New York, NY, USA}
+}
+}"
   video="https://www.youtube.com/watch?v=XUPFPw_T62M"
 %}
 
