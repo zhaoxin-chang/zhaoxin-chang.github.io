@@ -72,8 +72,25 @@ Selected Publications 📑
 %}
 
 {% include paper.html 
-  badge="ACM TOSN"
+  badge="Arxiv"
   badge_class="bg-other"
+  title="mmTherm: Absolute 3D Human Pose Estimation from Low-Resolution Thermal Images and mmWave Radar."
+  link="https://dl.acm.org/doi/10.1145/3849088"
+  authors="<strong>Zhaoxin Chang</strong>, Badii Jouaber, Daqing Zhang."
+  venue="Arxiv, 2026"
+  abstract="Absolute 3D human pose estimation (HPE) aims to recover both a person's body pose and their global position in 3D space. Privacy-preserving millimeter-wave (mmWave) radar provides distance and direction measurement capabilities, but its sparse point clouds make HPE under-constrained. Low-resolution thermal imaging can provide complementary observations of body direction and structure. However, our evaluation shows that a strong feature-level fusion baseline loses much of its localization and HPE advantage when generalizing to unseen subjects, with radial localization becoming less accurate than a radar-only baseline. Motivated by this finding, we introduce mmTherm, a lightweight framework that explicitly incorporates the complementary geometric properties of thermal imaging and mmWave radar. It combines body structure and joint directions estimated from thermal images with range information from radar to localize the body and reconstruct its 3D pose. Experiments on OctoNet show that mmTherm reduces cross-user absolute joint error by 33% and root localization error by 38% relative to the strongest corresponding baselines, while requiring substantially fewer parameters and less computation at inference."
+  bibtex=
+  "@article{chang2026mmtherm,<br>
+  title={mmTherm: Absolute 3D Human Pose Estimation from Low-Resolution Thermal Images and mmWave Radar},<br>
+  author={Chang, Zhaoxin and Jouaber, Badii and Zhang, Daqing},<br>
+  journal={Arxiv},<br>
+  year={2026}<br>
+}"
+%}
+
+{% include paper.html 
+  badge="ACM TOSN"
+  badge_class="bg-tmc"
   title="PnPSelect: Plug-and-Play IoT Device Selection Using Ultra-Wideband Signals."
   link="https://dl.acm.org/doi/10.1145/3849088"
   authors="<strong>Zhaoxin Chang</strong>, Fusang Zhang, Jie Xiong, Ziyu Li, Badii Jouaber, Daqing Zhang."
